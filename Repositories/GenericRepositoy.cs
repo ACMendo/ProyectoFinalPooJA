@@ -39,6 +39,7 @@ namespace ProyectoFinalPooJA.Repositories
                 _context.Entry(entity).State = EntityState.Modified;
                 entity.Borrado = true;
                 entity.Fecha_Modificacion = DateTime.Now;
+                entity.Estatus = "E";
                 _context.SaveChanges();
                 return new OperationResult { Success = true, Message = "Registro Borrado" };
             }
