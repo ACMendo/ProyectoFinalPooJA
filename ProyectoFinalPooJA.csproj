@@ -99,6 +99,10 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ClienteRepository.cs" />
+    <Compile Include="Repositories\ColorRepository.cs" />
+    <Compile Include="Repositories\EmpleadoRepository.cs" />
+    <Compile Include="Repositories\EntregaRepository.cs" />
     <Compile Include="Repositories\GenericRepositoy.cs" />
     <EmbeddedResource Include="Migrations\202111180119371_initial.resx">
       <DependentUpon>202111180119371_initial.cs</DependentUpon>
