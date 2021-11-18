@@ -24,6 +24,5 @@ namespace ProyectoFinalPooJA.Datos.Entities
         public Tipo_Vehiculo Tipo_Vehiculo { get; set; }
         public List<Incidencia> Incidencias { get; set; }
 
-        //public Color MyProperty { get; set; }
     }
 }

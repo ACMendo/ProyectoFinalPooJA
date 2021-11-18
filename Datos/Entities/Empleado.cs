@@ -10,10 +10,12 @@ namespace ProyectoFinalPooJA.Datos.Entities
     {
         public string Nombre { get; set; }
         public string Cedula { get; set; }
-        public string Cargo { get; set; }
         public string Correo { get; set; }
-        public string Telefono { get; set; }
+        public string Telefono { get; set; }   
         public int Codigo_Empleado { get; set; }
+        public int CargoID { get; set; }
+        public int DepartamentoID { get; set; }
+        
         public DateTime Fecha_Ingreso { get; set; }
         public DateTime Fecha_Nacimiento { get; set; }
         public double Edad
@@ -24,5 +26,8 @@ namespace ProyectoFinalPooJA.Datos.Entities
             }
         }
         public List<Vehiculo> Vehiculos { get; set; }
+        public List<Entrega> Entregas { get; set; }
+        public Cargo Cargo { get; set; }
+        public Departamento Departamento { get; set; }
     }
 }

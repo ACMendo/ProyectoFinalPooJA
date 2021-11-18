@@ -12,7 +12,7 @@ namespace ProyectoFinalPooJA.Datos.Entities
         public DateTime Fecha_Salida { get; set; }
         public DateTime Fecha_Regreso { get; set; }
         public string Descripcion { get; set; }
-        public double Peso { get; set; }
+        public decimal Peso { get; set; }
         public int EmpleadoID { get; set; }
         public int ClienteID { get; set; }
         public int PrioridadID { get; set; }
