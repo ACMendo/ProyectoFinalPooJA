@@ -104,6 +104,13 @@
     <Compile Include="Repositories\EmpleadoRepository.cs" />
     <Compile Include="Repositories\EntregaRepository.cs" />
     <Compile Include="Repositories\GenericRepositoy.cs" />
+    <Compile Include="Repositories\IncidenciaRepository.cs" />
+    <Compile Include="Repositories\MarcaRepository.cs" />
+    <Compile Include="Repositories\ModeloRepository.cs" />
+    <Compile Include="Repositories\PrioridadRepository.cs" />
+    <Compile Include="Repositories\TallerRepository.cs" />
+    <Compile Include="Repositories\Tipo_VehiculoRepository.cs" />
+    <Compile Include="Repositories\VehiculoRepository.cs" />
     <EmbeddedResource Include="Migrations\202111180119371_initial.resx">
       <DependentUpon>202111180119371_initial.cs</DependentUpon>
     </EmbeddedResource>
