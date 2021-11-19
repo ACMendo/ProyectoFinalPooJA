@@ -23,6 +23,11 @@ namespace ProyectoFinalPooJA.Repositories
         public T Crear(T entity)
         {
             _set.Add(entity);
+            //default fechamodificacion no me acepto el nulo 
+            entity.Borrado = false;
+            entity.Estatus = "A";
+            entity.Fecha_Registro = DateTime.Now;
+            entity.Fecha_Modificacion = new DateTime(1999, 1, 1);
             _context.SaveChanges();
             return entity;
         }

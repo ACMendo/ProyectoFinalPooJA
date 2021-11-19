@@ -69,7 +69,8 @@ namespace ProyectoFinalPooJA.Datos.Mapping
                 .HasColumnType("datetime");
 
             this.Property(c => c.Fecha_Modificacion)
-                .HasColumnType("datetime");
+                .HasColumnType("datetime")
+                .IsOptional();
 
         }
 

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinalPooJA", "ProyectoFinalPooJA.csproj", "{31070425-085E-415E-8122-FB70DE581EAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinalPooJATests", "..\ProyectoFinalPooJATests\ProyectoFinalPooJATests.csproj", "{01BF6073-BB61-4ACC-910E-E69E19CEC034}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{31070425-085E-415E-8122-FB70DE581EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31070425-085E-415E-8122-FB70DE581EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31070425-085E-415E-8122-FB70DE581EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BF6073-BB61-4ACC-910E-E69E19CEC034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BF6073-BB61-4ACC-910E-E69E19CEC034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BF6073-BB61-4ACC-910E-E69E19CEC034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BF6073-BB61-4ACC-910E-E69E19CEC034}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
