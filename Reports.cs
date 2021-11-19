@@ -36,13 +36,13 @@ namespace ProyectoFinalPooJA
             {
                 var detailsRow = sheet.CreateRow(rowIndex);
                 detailsRow.CreateCell(0).SetCellValue(item.Destino);
-                detailsRow.CreateCell(0).SetCellValue(item.Fecha_Salida);
-                detailsRow.CreateCell(0).SetCellValue(item.Fecha_Regreso);
-                detailsRow.CreateCell(0).SetCellValue(item.Descripcion);
-                detailsRow.CreateCell(0).SetCellValue(item.Peso.ToString());
-                detailsRow.CreateCell(0).SetCellValue(item.Empleado.Nombre);
-                detailsRow.CreateCell(0).SetCellValue(item.Cliente.Nombre);
-                detailsRow.CreateCell(0).SetCellValue(item.Prioridad.Nombre);
+                detailsRow.CreateCell(1).SetCellValue(item.Fecha_Salida);
+                detailsRow.CreateCell(2).SetCellValue(item.Fecha_Regreso);
+                detailsRow.CreateCell(3).SetCellValue(item.Descripcion);
+                detailsRow.CreateCell(4).SetCellValue(item.Peso.ToString());
+                detailsRow.CreateCell(5).SetCellValue(item.Empleado.Nombre);
+                detailsRow.CreateCell(6).SetCellValue(item.Cliente.Nombre);
+                detailsRow.CreateCell(7).SetCellValue(item.Prioridad.Nombre);
             }
             string FilePath = NombreArchivo;
             using (var fileData = new FileStream(FilePath, FileMode.Create))
