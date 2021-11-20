@@ -26,7 +26,7 @@ namespace ProyectoFinalPooJA
             var header = sheet.CreateRow(0);
             for (int i = 0; i < camps.Count; i++)
             {
-                var Destino = header.CreateCell(0);
+                var Destino = header.CreateCell(i);
                 Destino.SetCellValue(camps[i]);
                 Destino.CellStyle = workbook.CreateCellStyle();
                 Destino.CellStyle.SetFont(fontHeader);

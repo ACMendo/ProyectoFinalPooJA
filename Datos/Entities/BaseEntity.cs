@@ -12,7 +12,7 @@ namespace ProyectoFinalPooJA.Datos.Entities
         public string Estatus { get; set; }
         public bool Borrado { get; set; }
         public DateTime Fecha_Registro { get; set; }
-        public DateTime Fecha_Modificacion { get; set; }
+        public DateTime? Fecha_Modificacion { get; set; }
 
         //Estatus, Borrado, FechaRegistro, FechaModificacion.
     }

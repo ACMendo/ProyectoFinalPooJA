@@ -27,7 +27,7 @@ namespace ProyectoFinalPooJA.Repositories
             entity.Borrado = false;
             entity.Estatus = "A";
             entity.Fecha_Registro = DateTime.Now;
-            entity.Fecha_Modificacion = new DateTime(1999, 1, 1);
+            //entity.Fecha_Modificacion = new DateTime(1999, 1, 1);
             _context.SaveChanges();
             return entity;
         }
