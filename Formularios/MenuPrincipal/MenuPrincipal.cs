@@ -229,5 +229,10 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         {
             Application.Exit();
         }
+
+        private void fntimer_Tick(object sender, EventArgs e)
+        {
+            lblFechaHora.Text = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt");
+        }
     }
 }

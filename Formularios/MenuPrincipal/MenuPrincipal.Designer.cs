@@ -29,6 +29,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelMenuPrincipal = new System.Windows.Forms.Panel();
             this.btnReporte = new FontAwesome.Sharp.IconButton();
             this.btnSalirMenu = new FontAwesome.Sharp.IconButton();
@@ -40,17 +41,22 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnMenu = new FontAwesome.Sharp.IconButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelTituloMenu = new System.Windows.Forms.Panel();
+            this.lblTituloActual = new System.Windows.Forms.Label();
             this.iconFormActual = new FontAwesome.Sharp.IconPictureBox();
             this.btnAmpliar = new FontAwesome.Sharp.IconButton();
             this.btnMinimizar = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.lblTituloActual = new System.Windows.Forms.Label();
+            this.lblFechaHora = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.fntimer = new System.Windows.Forms.Timer(this.components);
             this.panelMenuPrincipal.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTituloMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconFormActual)).BeginInit();
+            this.panelDesktop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenuPrincipal
@@ -67,7 +73,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelMenuPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.panelMenuPrincipal.Name = "panelMenuPrincipal";
-            this.panelMenuPrincipal.Size = new System.Drawing.Size(230, 581);
+            this.panelMenuPrincipal.Size = new System.Drawing.Size(230, 603);
             this.panelMenuPrincipal.TabIndex = 0;
             // 
             // btnReporte
@@ -105,7 +111,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnSalirMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalirMenu.IconSize = 30;
             this.btnSalirMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalirMenu.Location = new System.Drawing.Point(0, 522);
+            this.btnSalirMenu.Location = new System.Drawing.Point(0, 544);
             this.btnSalirMenu.Name = "btnSalirMenu";
             this.btnSalirMenu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnSalirMenu.Size = new System.Drawing.Size(230, 59);
@@ -258,9 +264,20 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelTituloMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTituloMenu.Location = new System.Drawing.Point(230, 0);
             this.panelTituloMenu.Name = "panelTituloMenu";
-            this.panelTituloMenu.Size = new System.Drawing.Size(944, 84);
+            this.panelTituloMenu.Size = new System.Drawing.Size(1031, 84);
             this.panelTituloMenu.TabIndex = 1;
             this.panelTituloMenu.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTituloMenu_MouseDown);
+            // 
+            // lblTituloActual
+            // 
+            this.lblTituloActual.AutoSize = true;
+            this.lblTituloActual.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituloActual.ForeColor = System.Drawing.Color.White;
+            this.lblTituloActual.Location = new System.Drawing.Point(82, 27);
+            this.lblTituloActual.Name = "lblTituloActual";
+            this.lblTituloActual.Size = new System.Drawing.Size(77, 25);
+            this.lblTituloActual.TabIndex = 5;
+            this.lblTituloActual.Text = "Inicio";
             // 
             // iconFormActual
             // 
@@ -286,7 +303,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnAmpliar.IconColor = System.Drawing.Color.White;
             this.btnAmpliar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAmpliar.IconSize = 30;
-            this.btnAmpliar.Location = new System.Drawing.Point(806, 0);
+            this.btnAmpliar.Location = new System.Drawing.Point(893, 0);
             this.btnAmpliar.Name = "btnAmpliar";
             this.btnAmpliar.Size = new System.Drawing.Size(69, 32);
             this.btnAmpliar.TabIndex = 3;
@@ -304,7 +321,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnMinimizar.IconColor = System.Drawing.Color.White;
             this.btnMinimizar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMinimizar.IconSize = 30;
-            this.btnMinimizar.Location = new System.Drawing.Point(740, 0);
+            this.btnMinimizar.Location = new System.Drawing.Point(827, 0);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(66, 32);
             this.btnMinimizar.TabIndex = 2;
@@ -322,7 +339,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(872, 0);
+            this.btnSalir.Location = new System.Drawing.Point(959, 0);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(72, 32);
             this.btnSalir.TabIndex = 1;
@@ -332,28 +349,47 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             // panelDesktop
             // 
             this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
+            this.panelDesktop.Controls.Add(this.lblFechaHora);
+            this.panelDesktop.Controls.Add(this.pictureBox2);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(230, 84);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(944, 497);
+            this.panelDesktop.Size = new System.Drawing.Size(1031, 519);
             this.panelDesktop.TabIndex = 2;
             // 
-            // lblTituloActual
+            // lblFechaHora
             // 
-            this.lblTituloActual.AutoSize = true;
-            this.lblTituloActual.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloActual.ForeColor = System.Drawing.Color.White;
-            this.lblTituloActual.Location = new System.Drawing.Point(82, 27);
-            this.lblTituloActual.Name = "lblTituloActual";
-            this.lblTituloActual.Size = new System.Drawing.Size(77, 25);
-            this.lblTituloActual.TabIndex = 5;
-            this.lblTituloActual.Text = "Inicio";
+            this.lblFechaHora.AutoSize = true;
+            this.lblFechaHora.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lblFechaHora.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechaHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.lblFechaHora.Location = new System.Drawing.Point(867, 0);
+            this.lblFechaHora.Name = "lblFechaHora";
+            this.lblFechaHora.Size = new System.Drawing.Size(164, 29);
+            this.lblFechaHora.TabIndex = 2;
+            this.lblFechaHora.Text = "Fecha Hora";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::ProyectoFinalPooJA.Properties.Resources.Logo_Principal;
+            this.pictureBox2.Location = new System.Drawing.Point(211, 105);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(645, 283);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // fntimer
+            // 
+            this.fntimer.Enabled = true;
+            this.fntimer.Tick += new System.EventHandler(this.fntimer_Tick);
             // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1174, 581);
+            this.ClientSize = new System.Drawing.Size(1261, 603);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTituloMenu);
             this.Controls.Add(this.panelMenuPrincipal);
@@ -367,6 +403,9 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelTituloMenu.ResumeLayout(false);
             this.panelTituloMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconFormActual)).EndInit();
+            this.panelDesktop.ResumeLayout(false);
+            this.panelDesktop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -390,5 +429,8 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         private FontAwesome.Sharp.IconButton btnSalir;
         private FontAwesome.Sharp.IconPictureBox iconFormActual;
         private System.Windows.Forms.Label lblTituloActual;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lblFechaHora;
+        private System.Windows.Forms.Timer fntimer;
     }
 }
