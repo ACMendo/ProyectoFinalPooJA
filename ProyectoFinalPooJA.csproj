@@ -45,6 +45,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.Sharp.5.15.3\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=1.3.2.10, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>packages\SharpZipLib.1.3.2\lib\net45\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
@@ -103,11 +106,11 @@
     <Compile Include="Datos\Mapping\EmpleadoMap.cs" />
     <Compile Include="Datos\Mapping\ColorMap.cs" />
     <Compile Include="Datos\Mapping\ClienteMap.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Formularios\MenuPrincipal\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Formularios\MenuPrincipal\MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Migrations\202111180119371_initial.cs" />
@@ -136,6 +139,9 @@
     <Compile Include="Repositories\TallerRepository.cs" />
     <Compile Include="Repositories\Tipo_VehiculoRepository.cs" />
     <Compile Include="Repositories\VehiculoRepository.cs" />
+    <EmbeddedResource Include="Formularios\MenuPrincipal\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111180119371_initial.resx">
       <DependentUpon>202111180119371_initial.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +156,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -165,7 +172,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\MENOR LOGO.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MM.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MM ROSA.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
