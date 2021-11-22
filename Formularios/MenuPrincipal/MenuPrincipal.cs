@@ -22,6 +22,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         public MenuPrincipal()
         {
             InitializeComponent();
+            customizedDesing();
             CollapseMenu();
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
@@ -33,6 +34,35 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
 
         }
+
+        private void customizedDesing() 
+        {
+            panelSubMenuMantenimiento.Visible = false;
+           // panelSubMenuReporte.Visible = false;
+
+        }
+
+        private void hideSubMenu() 
+        {
+            if (panelSubMenuMantenimiento.Visible == true) 
+                panelSubMenuMantenimiento.Visible = false;
+            //if (panelSubMenuReporte.Visible == true)
+            //    panelSubMenuReporte.Visible = false;
+
+        }
+
+        private void showSubMenu(Panel subMenu) 
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false;
+        }
+
+
 
         //Drap Form
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -47,7 +77,6 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        //Overridden methods
         protected override void WndProc(ref Message m)
         {
             const int WM_NCCALCSIZE = 0x0083;
@@ -109,6 +138,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         {
             if (this.panelMenuPrincipal.Width > 200)
             {
+                
                 panelMenuPrincipal.Width = 100;
                 pictureBox1.Visible = false;
                 btnMenu.Dock = DockStyle.Top;
@@ -116,6 +146,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
                 foreach (Button menuBtn in panelMenuPrincipal.Controls.OfType<Button>())
                 {
                     menuBtn.Text = "";
+                    customizedDesing();
                     menuBtn.ImageAlign = ContentAlignment.MiddleCenter;
                     menuBtn.Padding = new Padding(0);
                 }
@@ -194,6 +225,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         private void iconMantenimiento_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RBColors.color2);
+            showSubMenu(panelSubMenuMantenimiento);
         }
 
         private void btnEntrega_Click(object sender, EventArgs e)
@@ -234,5 +266,24 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         {
             lblFechaHora.Text = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt");
         }
+
+        private void btnEntrega_Click_1(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RBColors.color3);
+
+        }
+
+        private void btnIncidencia_Click_1(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RBColors.color4);
+
+        }
+
+        private void btnReporte_Click_1(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RBColors.color5);
+        }
+
+      
     }
 }

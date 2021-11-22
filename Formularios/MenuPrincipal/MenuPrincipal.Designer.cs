@@ -32,9 +32,19 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.components = new System.ComponentModel.Container();
             this.panelMenuPrincipal = new System.Windows.Forms.Panel();
             this.btnReporte = new FontAwesome.Sharp.IconButton();
-            this.btnSalirMenu = new FontAwesome.Sharp.IconButton();
             this.btnIncidencia = new FontAwesome.Sharp.IconButton();
             this.btnEntrega = new FontAwesome.Sharp.IconButton();
+            this.panelSubMenuMantenimiento = new System.Windows.Forms.Panel();
+            this.btnVehiculo = new FontAwesome.Sharp.IconButton();
+            this.btnTipo_Vehiculo = new FontAwesome.Sharp.IconButton();
+            this.btnTaller = new FontAwesome.Sharp.IconButton();
+            this.btnPrioridad = new FontAwesome.Sharp.IconButton();
+            this.Modelos = new FontAwesome.Sharp.IconButton();
+            this.btnMarca = new FontAwesome.Sharp.IconButton();
+            this.btnEmpleado = new FontAwesome.Sharp.IconButton();
+            this.btnColor = new FontAwesome.Sharp.IconButton();
+            this.btnCliente = new FontAwesome.Sharp.IconButton();
+            this.btnSalirMenu = new FontAwesome.Sharp.IconButton();
             this.iconMantenimiento = new FontAwesome.Sharp.IconButton();
             this.btnInicio = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -51,6 +61,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.fntimer = new System.Windows.Forms.Timer(this.components);
             this.panelMenuPrincipal.SuspendLayout();
+            this.panelSubMenuMantenimiento.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTituloMenu.SuspendLayout();
@@ -61,19 +72,21 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             // 
             // panelMenuPrincipal
             // 
+            this.panelMenuPrincipal.AutoScroll = true;
             this.panelMenuPrincipal.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panelMenuPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.panelMenuPrincipal.Controls.Add(this.btnReporte);
-            this.panelMenuPrincipal.Controls.Add(this.btnSalirMenu);
             this.panelMenuPrincipal.Controls.Add(this.btnIncidencia);
             this.panelMenuPrincipal.Controls.Add(this.btnEntrega);
+            this.panelMenuPrincipal.Controls.Add(this.panelSubMenuMantenimiento);
+            this.panelMenuPrincipal.Controls.Add(this.btnSalirMenu);
             this.panelMenuPrincipal.Controls.Add(this.iconMantenimiento);
             this.panelMenuPrincipal.Controls.Add(this.btnInicio);
             this.panelMenuPrincipal.Controls.Add(this.panel1);
             this.panelMenuPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.panelMenuPrincipal.Name = "panelMenuPrincipal";
-            this.panelMenuPrincipal.Size = new System.Drawing.Size(230, 603);
+            this.panelMenuPrincipal.Size = new System.Drawing.Size(233, 917);
             this.panelMenuPrincipal.TabIndex = 0;
             // 
             // btnReporte
@@ -81,99 +94,324 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnReporte.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnReporte.FlatAppearance.BorderSize = 0;
             this.btnReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReporte.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.btnReporte.ForeColor = System.Drawing.Color.White;
             this.btnReporte.IconChar = FontAwesome.Sharp.IconChar.Poll;
             this.btnReporte.IconColor = System.Drawing.Color.White;
             this.btnReporte.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnReporte.IconSize = 30;
             this.btnReporte.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReporte.Location = new System.Drawing.Point(0, 334);
+            this.btnReporte.Location = new System.Drawing.Point(0, 733);
             this.btnReporte.Name = "btnReporte";
             this.btnReporte.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnReporte.Size = new System.Drawing.Size(230, 59);
-            this.btnReporte.TabIndex = 6;
+            this.btnReporte.Size = new System.Drawing.Size(233, 59);
+            this.btnReporte.TabIndex = 10;
             this.btnReporte.Tag = "Reportes";
-            this.btnReporte.Text = "  iconButton2";
+            this.btnReporte.Text = "Reportes";
             this.btnReporte.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnReporte.UseVisualStyleBackColor = true;
-            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
-            // 
-            // btnSalirMenu
-            // 
-            this.btnSalirMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnSalirMenu.FlatAppearance.BorderSize = 0;
-            this.btnSalirMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalirMenu.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalirMenu.ForeColor = System.Drawing.Color.White;
-            this.btnSalirMenu.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
-            this.btnSalirMenu.IconColor = System.Drawing.Color.White;
-            this.btnSalirMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnSalirMenu.IconSize = 30;
-            this.btnSalirMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalirMenu.Location = new System.Drawing.Point(0, 544);
-            this.btnSalirMenu.Name = "btnSalirMenu";
-            this.btnSalirMenu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnSalirMenu.Size = new System.Drawing.Size(230, 59);
-            this.btnSalirMenu.TabIndex = 5;
-            this.btnSalirMenu.Tag = "Salir";
-            this.btnSalirMenu.Text = "  iconButton2";
-            this.btnSalirMenu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSalirMenu.UseVisualStyleBackColor = true;
-            this.btnSalirMenu.Click += new System.EventHandler(this.btnSalirMenu_Click);
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click_1);
             // 
             // btnIncidencia
             // 
             this.btnIncidencia.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnIncidencia.FlatAppearance.BorderSize = 0;
             this.btnIncidencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIncidencia.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIncidencia.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.btnIncidencia.ForeColor = System.Drawing.Color.White;
             this.btnIncidencia.IconChar = FontAwesome.Sharp.IconChar.CarCrash;
             this.btnIncidencia.IconColor = System.Drawing.Color.White;
             this.btnIncidencia.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnIncidencia.IconSize = 30;
             this.btnIncidencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIncidencia.Location = new System.Drawing.Point(0, 275);
+            this.btnIncidencia.Location = new System.Drawing.Point(0, 674);
             this.btnIncidencia.Name = "btnIncidencia";
             this.btnIncidencia.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnIncidencia.Size = new System.Drawing.Size(230, 59);
-            this.btnIncidencia.TabIndex = 4;
+            this.btnIncidencia.Size = new System.Drawing.Size(233, 59);
+            this.btnIncidencia.TabIndex = 9;
             this.btnIncidencia.Tag = "Incidencias";
-            this.btnIncidencia.Text = "  iconButton2";
+            this.btnIncidencia.Text = "Incidencias";
             this.btnIncidencia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnIncidencia.UseVisualStyleBackColor = true;
-            this.btnIncidencia.Click += new System.EventHandler(this.btnIncidencia_Click);
+            this.btnIncidencia.Click += new System.EventHandler(this.btnIncidencia_Click_1);
             // 
             // btnEntrega
             // 
             this.btnEntrega.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnEntrega.FlatAppearance.BorderSize = 0;
             this.btnEntrega.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEntrega.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrega.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.btnEntrega.ForeColor = System.Drawing.Color.White;
             this.btnEntrega.IconChar = FontAwesome.Sharp.IconChar.Truck;
             this.btnEntrega.IconColor = System.Drawing.Color.White;
             this.btnEntrega.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnEntrega.IconSize = 30;
             this.btnEntrega.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEntrega.Location = new System.Drawing.Point(0, 216);
+            this.btnEntrega.Location = new System.Drawing.Point(0, 615);
             this.btnEntrega.Name = "btnEntrega";
             this.btnEntrega.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnEntrega.Size = new System.Drawing.Size(230, 59);
-            this.btnEntrega.TabIndex = 3;
+            this.btnEntrega.Size = new System.Drawing.Size(233, 59);
+            this.btnEntrega.TabIndex = 8;
             this.btnEntrega.Tag = "Entregas";
-            this.btnEntrega.Text = "  iconButton2";
+            this.btnEntrega.Text = "Entregas";
             this.btnEntrega.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEntrega.UseVisualStyleBackColor = true;
-            this.btnEntrega.Click += new System.EventHandler(this.btnEntrega_Click);
+            this.btnEntrega.Click += new System.EventHandler(this.btnEntrega_Click_1);
+            // 
+            // panelSubMenuMantenimiento
+            // 
+            this.panelSubMenuMantenimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnVehiculo);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnTipo_Vehiculo);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnTaller);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnPrioridad);
+            this.panelSubMenuMantenimiento.Controls.Add(this.Modelos);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnMarca);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnEmpleado);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnColor);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnCliente);
+            this.panelSubMenuMantenimiento.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubMenuMantenimiento.Location = new System.Drawing.Point(0, 216);
+            this.panelSubMenuMantenimiento.Name = "panelSubMenuMantenimiento";
+            this.panelSubMenuMantenimiento.Size = new System.Drawing.Size(233, 399);
+            this.panelSubMenuMantenimiento.TabIndex = 7;
+            // 
+            // btnVehiculo
+            // 
+            this.btnVehiculo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.btnVehiculo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnVehiculo.FlatAppearance.BorderSize = 0;
+            this.btnVehiculo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVehiculo.Font = new System.Drawing.Font("Verdana", 10F);
+            this.btnVehiculo.ForeColor = System.Drawing.Color.White;
+            this.btnVehiculo.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.btnVehiculo.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.btnVehiculo.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnVehiculo.IconSize = 30;
+            this.btnVehiculo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVehiculo.Location = new System.Drawing.Point(0, 352);
+            this.btnVehiculo.Name = "btnVehiculo";
+            this.btnVehiculo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnVehiculo.Size = new System.Drawing.Size(233, 57);
+            this.btnVehiculo.TabIndex = 8;
+            this.btnVehiculo.Text = "Vehículos";
+            this.btnVehiculo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVehiculo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnVehiculo.UseVisualStyleBackColor = false;
+            // 
+            // btnTipo_Vehiculo
+            // 
+            this.btnTipo_Vehiculo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.btnTipo_Vehiculo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTipo_Vehiculo.FlatAppearance.BorderSize = 0;
+            this.btnTipo_Vehiculo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTipo_Vehiculo.Font = new System.Drawing.Font("Verdana", 10F);
+            this.btnTipo_Vehiculo.ForeColor = System.Drawing.Color.White;
+            this.btnTipo_Vehiculo.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.btnTipo_Vehiculo.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.btnTipo_Vehiculo.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnTipo_Vehiculo.IconSize = 30;
+            this.btnTipo_Vehiculo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTipo_Vehiculo.Location = new System.Drawing.Point(0, 308);
+            this.btnTipo_Vehiculo.Name = "btnTipo_Vehiculo";
+            this.btnTipo_Vehiculo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnTipo_Vehiculo.Size = new System.Drawing.Size(233, 44);
+            this.btnTipo_Vehiculo.TabIndex = 7;
+            this.btnTipo_Vehiculo.Text = "Tipos Vehiculos";
+            this.btnTipo_Vehiculo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTipo_Vehiculo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTipo_Vehiculo.UseVisualStyleBackColor = false;
+            // 
+            // btnTaller
+            // 
+            this.btnTaller.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.btnTaller.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTaller.FlatAppearance.BorderSize = 0;
+            this.btnTaller.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTaller.Font = new System.Drawing.Font("Verdana", 10F);
+            this.btnTaller.ForeColor = System.Drawing.Color.White;
+            this.btnTaller.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.btnTaller.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.btnTaller.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnTaller.IconSize = 30;
+            this.btnTaller.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTaller.Location = new System.Drawing.Point(0, 264);
+            this.btnTaller.Name = "btnTaller";
+            this.btnTaller.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnTaller.Size = new System.Drawing.Size(233, 44);
+            this.btnTaller.TabIndex = 6;
+            this.btnTaller.Text = "Talleres";
+            this.btnTaller.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTaller.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTaller.UseVisualStyleBackColor = false;
+            // 
+            // btnPrioridad
+            // 
+            this.btnPrioridad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.btnPrioridad.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPrioridad.FlatAppearance.BorderSize = 0;
+            this.btnPrioridad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrioridad.Font = new System.Drawing.Font("Verdana", 10F);
+            this.btnPrioridad.ForeColor = System.Drawing.Color.White;
+            this.btnPrioridad.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.btnPrioridad.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.btnPrioridad.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPrioridad.IconSize = 30;
+            this.btnPrioridad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPrioridad.Location = new System.Drawing.Point(0, 220);
+            this.btnPrioridad.Name = "btnPrioridad";
+            this.btnPrioridad.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnPrioridad.Size = new System.Drawing.Size(233, 44);
+            this.btnPrioridad.TabIndex = 5;
+            this.btnPrioridad.Text = "Prioridades";
+            this.btnPrioridad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPrioridad.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPrioridad.UseVisualStyleBackColor = false;
+            // 
+            // Modelos
+            // 
+            this.Modelos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.Modelos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Modelos.FlatAppearance.BorderSize = 0;
+            this.Modelos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Modelos.Font = new System.Drawing.Font("Verdana", 10F);
+            this.Modelos.ForeColor = System.Drawing.Color.White;
+            this.Modelos.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.Modelos.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.Modelos.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.Modelos.IconSize = 30;
+            this.Modelos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Modelos.Location = new System.Drawing.Point(0, 176);
+            this.Modelos.Name = "Modelos";
+            this.Modelos.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.Modelos.Size = new System.Drawing.Size(233, 44);
+            this.Modelos.TabIndex = 4;
+            this.Modelos.Text = "Modelos";
+            this.Modelos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Modelos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Modelos.UseVisualStyleBackColor = false;
+            // 
+            // btnMarca
+            // 
+            this.btnMarca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.btnMarca.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMarca.FlatAppearance.BorderSize = 0;
+            this.btnMarca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMarca.Font = new System.Drawing.Font("Verdana", 10F);
+            this.btnMarca.ForeColor = System.Drawing.Color.White;
+            this.btnMarca.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.btnMarca.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.btnMarca.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnMarca.IconSize = 30;
+            this.btnMarca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMarca.Location = new System.Drawing.Point(0, 132);
+            this.btnMarca.Name = "btnMarca";
+            this.btnMarca.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnMarca.Size = new System.Drawing.Size(233, 44);
+            this.btnMarca.TabIndex = 3;
+            this.btnMarca.Text = "Marcas";
+            this.btnMarca.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMarca.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMarca.UseVisualStyleBackColor = false;
+            // 
+            // btnEmpleado
+            // 
+            this.btnEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.btnEmpleado.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEmpleado.FlatAppearance.BorderSize = 0;
+            this.btnEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmpleado.Font = new System.Drawing.Font("Verdana", 10F);
+            this.btnEmpleado.ForeColor = System.Drawing.Color.White;
+            this.btnEmpleado.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.btnEmpleado.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.btnEmpleado.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnEmpleado.IconSize = 30;
+            this.btnEmpleado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmpleado.Location = new System.Drawing.Point(0, 88);
+            this.btnEmpleado.Name = "btnEmpleado";
+            this.btnEmpleado.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnEmpleado.Size = new System.Drawing.Size(233, 44);
+            this.btnEmpleado.TabIndex = 2;
+            this.btnEmpleado.Text = "Empleados";
+            this.btnEmpleado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmpleado.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEmpleado.UseVisualStyleBackColor = false;
+            // 
+            // btnColor
+            // 
+            this.btnColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.btnColor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnColor.FlatAppearance.BorderSize = 0;
+            this.btnColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnColor.Font = new System.Drawing.Font("Verdana", 10F);
+            this.btnColor.ForeColor = System.Drawing.Color.White;
+            this.btnColor.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.btnColor.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.btnColor.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnColor.IconSize = 30;
+            this.btnColor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnColor.Location = new System.Drawing.Point(0, 44);
+            this.btnColor.Name = "btnColor";
+            this.btnColor.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnColor.Size = new System.Drawing.Size(233, 44);
+            this.btnColor.TabIndex = 1;
+            this.btnColor.Text = "Colores";
+            this.btnColor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnColor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnColor.UseVisualStyleBackColor = false;
+            // 
+            // btnCliente
+            // 
+            this.btnCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.btnCliente.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCliente.FlatAppearance.BorderSize = 0;
+            this.btnCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCliente.Font = new System.Drawing.Font("Verdana", 10F);
+            this.btnCliente.ForeColor = System.Drawing.Color.White;
+            this.btnCliente.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.btnCliente.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.btnCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCliente.IconSize = 30;
+            this.btnCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCliente.Location = new System.Drawing.Point(0, 0);
+            this.btnCliente.Name = "btnCliente";
+            this.btnCliente.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnCliente.Size = new System.Drawing.Size(233, 44);
+            this.btnCliente.TabIndex = 0;
+            this.btnCliente.Text = "Clientes";
+            this.btnCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCliente.UseVisualStyleBackColor = false;
+            // 
+            // btnSalirMenu
+            // 
+            this.btnSalirMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnSalirMenu.FlatAppearance.BorderSize = 0;
+            this.btnSalirMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalirMenu.Font = new System.Drawing.Font("Verdana", 10.2F);
+            this.btnSalirMenu.ForeColor = System.Drawing.Color.White;
+            this.btnSalirMenu.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
+            this.btnSalirMenu.IconColor = System.Drawing.Color.White;
+            this.btnSalirMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnSalirMenu.IconSize = 30;
+            this.btnSalirMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalirMenu.Location = new System.Drawing.Point(0, 858);
+            this.btnSalirMenu.Name = "btnSalirMenu";
+            this.btnSalirMenu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnSalirMenu.Size = new System.Drawing.Size(233, 59);
+            this.btnSalirMenu.TabIndex = 5;
+            this.btnSalirMenu.Tag = "Salir";
+            this.btnSalirMenu.Text = "Salir";
+            this.btnSalirMenu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSalirMenu.UseVisualStyleBackColor = true;
+            this.btnSalirMenu.Click += new System.EventHandler(this.btnSalirMenu_Click);
             // 
             // iconMantenimiento
             // 
             this.iconMantenimiento.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconMantenimiento.FlatAppearance.BorderSize = 0;
             this.iconMantenimiento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconMantenimiento.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconMantenimiento.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.iconMantenimiento.ForeColor = System.Drawing.Color.AliceBlue;
             this.iconMantenimiento.IconChar = FontAwesome.Sharp.IconChar.FileSignature;
             this.iconMantenimiento.IconColor = System.Drawing.Color.White;
@@ -183,10 +421,10 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.iconMantenimiento.Location = new System.Drawing.Point(0, 157);
             this.iconMantenimiento.Name = "iconMantenimiento";
             this.iconMantenimiento.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.iconMantenimiento.Size = new System.Drawing.Size(230, 59);
+            this.iconMantenimiento.Size = new System.Drawing.Size(233, 59);
             this.iconMantenimiento.TabIndex = 2;
             this.iconMantenimiento.Tag = "Mantenimientos";
-            this.iconMantenimiento.Text = "  iconButton2";
+            this.iconMantenimiento.Text = "Mantenimientos";
             this.iconMantenimiento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconMantenimiento.UseVisualStyleBackColor = true;
             this.iconMantenimiento.Click += new System.EventHandler(this.iconMantenimiento_Click);
@@ -196,7 +434,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnInicio.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnInicio.FlatAppearance.BorderSize = 0;
             this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInicio.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.btnInicio.ForeColor = System.Drawing.Color.White;
             this.btnInicio.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.btnInicio.IconColor = System.Drawing.Color.White;
@@ -206,10 +444,10 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnInicio.Location = new System.Drawing.Point(0, 98);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnInicio.Size = new System.Drawing.Size(230, 59);
+            this.btnInicio.Size = new System.Drawing.Size(233, 59);
             this.btnInicio.TabIndex = 1;
             this.btnInicio.Tag = "Inicio";
-            this.btnInicio.Text = "  iconButton2";
+            this.btnInicio.Text = "Inicio";
             this.btnInicio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnInicio.UseVisualStyleBackColor = true;
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
@@ -222,7 +460,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(230, 98);
+            this.panel1.Size = new System.Drawing.Size(233, 98);
             this.panel1.TabIndex = 0;
             // 
             // btnMenu
@@ -235,7 +473,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnMenu.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(5)))), ((int)(((byte)(212)))));
             this.btnMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMenu.IconSize = 30;
-            this.btnMenu.Location = new System.Drawing.Point(179, 0);
+            this.btnMenu.Location = new System.Drawing.Point(182, 0);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(51, 84);
             this.btnMenu.TabIndex = 0;
@@ -262,9 +500,9 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelTituloMenu.Controls.Add(this.btnMinimizar);
             this.panelTituloMenu.Controls.Add(this.btnSalir);
             this.panelTituloMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTituloMenu.Location = new System.Drawing.Point(230, 0);
+            this.panelTituloMenu.Location = new System.Drawing.Point(233, 0);
             this.panelTituloMenu.Name = "panelTituloMenu";
-            this.panelTituloMenu.Size = new System.Drawing.Size(1031, 84);
+            this.panelTituloMenu.Size = new System.Drawing.Size(1028, 84);
             this.panelTituloMenu.TabIndex = 1;
             this.panelTituloMenu.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTituloMenu_MouseDown);
             // 
@@ -303,7 +541,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnAmpliar.IconColor = System.Drawing.Color.White;
             this.btnAmpliar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAmpliar.IconSize = 30;
-            this.btnAmpliar.Location = new System.Drawing.Point(893, 0);
+            this.btnAmpliar.Location = new System.Drawing.Point(890, 0);
             this.btnAmpliar.Name = "btnAmpliar";
             this.btnAmpliar.Size = new System.Drawing.Size(69, 32);
             this.btnAmpliar.TabIndex = 3;
@@ -321,7 +559,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnMinimizar.IconColor = System.Drawing.Color.White;
             this.btnMinimizar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMinimizar.IconSize = 30;
-            this.btnMinimizar.Location = new System.Drawing.Point(827, 0);
+            this.btnMinimizar.Location = new System.Drawing.Point(824, 0);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(66, 32);
             this.btnMinimizar.TabIndex = 2;
@@ -339,7 +577,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(959, 0);
+            this.btnSalir.Location = new System.Drawing.Point(956, 0);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(72, 32);
             this.btnSalir.TabIndex = 1;
@@ -352,9 +590,9 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelDesktop.Controls.Add(this.lblFechaHora);
             this.panelDesktop.Controls.Add(this.pictureBox2);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(230, 84);
+            this.panelDesktop.Location = new System.Drawing.Point(233, 84);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1031, 519);
+            this.panelDesktop.Size = new System.Drawing.Size(1028, 833);
             this.panelDesktop.TabIndex = 2;
             // 
             // lblFechaHora
@@ -363,7 +601,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.lblFechaHora.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblFechaHora.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.lblFechaHora.Location = new System.Drawing.Point(867, 0);
+            this.lblFechaHora.Location = new System.Drawing.Point(864, 0);
             this.lblFechaHora.Name = "lblFechaHora";
             this.lblFechaHora.Size = new System.Drawing.Size(164, 29);
             this.lblFechaHora.TabIndex = 2;
@@ -374,7 +612,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::ProyectoFinalPooJA.Properties.Resources.Logo_Principal;
-            this.pictureBox2.Location = new System.Drawing.Point(211, 105);
+            this.pictureBox2.Location = new System.Drawing.Point(210, 262);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(645, 283);
             this.pictureBox2.TabIndex = 1;
@@ -389,7 +627,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1261, 603);
+            this.ClientSize = new System.Drawing.Size(1261, 917);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTituloMenu);
             this.Controls.Add(this.panelMenuPrincipal);
@@ -398,6 +636,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.Text = "MenuPrincipal";
             this.Resize += new System.EventHandler(this.MenuPrincipal_Resize);
             this.panelMenuPrincipal.ResumeLayout(false);
+            this.panelSubMenuMantenimiento.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTituloMenu.ResumeLayout(false);
@@ -419,11 +658,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         private System.Windows.Forms.Panel panelDesktop;
         private FontAwesome.Sharp.IconButton btnMenu;
         private FontAwesome.Sharp.IconButton btnInicio;
-        private FontAwesome.Sharp.IconButton btnSalirMenu;
-        private FontAwesome.Sharp.IconButton btnIncidencia;
-        private FontAwesome.Sharp.IconButton btnEntrega;
         private FontAwesome.Sharp.IconButton iconMantenimiento;
-        private FontAwesome.Sharp.IconButton btnReporte;
         private FontAwesome.Sharp.IconButton btnAmpliar;
         private FontAwesome.Sharp.IconButton btnMinimizar;
         private FontAwesome.Sharp.IconButton btnSalir;
@@ -432,5 +667,19 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblFechaHora;
         private System.Windows.Forms.Timer fntimer;
+        private System.Windows.Forms.Panel panelSubMenuMantenimiento;
+        private FontAwesome.Sharp.IconButton btnTipo_Vehiculo;
+        private FontAwesome.Sharp.IconButton btnTaller;
+        private FontAwesome.Sharp.IconButton btnPrioridad;
+        private FontAwesome.Sharp.IconButton Modelos;
+        private FontAwesome.Sharp.IconButton btnMarca;
+        private FontAwesome.Sharp.IconButton btnEmpleado;
+        private FontAwesome.Sharp.IconButton btnColor;
+        private FontAwesome.Sharp.IconButton btnCliente;
+        private FontAwesome.Sharp.IconButton btnVehiculo;
+        private FontAwesome.Sharp.IconButton btnSalirMenu;
+        private FontAwesome.Sharp.IconButton btnReporte;
+        private FontAwesome.Sharp.IconButton btnIncidencia;
+        private FontAwesome.Sharp.IconButton btnEntrega;
     }
 }
