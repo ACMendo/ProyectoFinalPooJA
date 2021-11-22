@@ -269,19 +269,44 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 
         private void btnEntrega_Click_1(object sender, EventArgs e)
         {
+            
             ActivateButton(sender, RBColors.color3);
-
+            hideSubMenu();
         }
 
         private void btnIncidencia_Click_1(object sender, EventArgs e)
         {
+            
             ActivateButton(sender, RBColors.color4);
+            hideSubMenu();
 
         }
 
         private void btnReporte_Click_1(object sender, EventArgs e)
         {
+            
             ActivateButton(sender, RBColors.color5);
+           // De ultimo siempre
+            hideSubMenu();
+
+        }
+
+        private Form activeForm = null;
+        private void openSubMenuForm(Form formSM) 
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = formSM;
+            formSM.TopLevel = false;
+            formSM.FormBorderStyle = FormBorderStyle.None;
+            formSM.Dock = DockStyle.Fill;
+            panelDesktop.Controls.Add(formSM);
+            panelDesktop.Tag = formSM;
+            formSM.BringToFront();
+            formSM.Show();
+
+
+
         }
 
       
