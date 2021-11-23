@@ -9,17 +9,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
+using ProyectoFinalPooJA.Formularios.CargoUI;
 
 namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 {
-    public partial class MenuPrincipal : Form
+    public partial class MenuPrincipalForm : Form
     {
         private int BorderSize = 2;
         private IconButton currentBtn;
         private Panel leftBorderBtn;
 
 
-        public MenuPrincipal()
+        public MenuPrincipalForm()
         {
             InitializeComponent();
             customizedDesing();
@@ -126,7 +127,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("¿Desea salir del sistema?", "Cerrar Sesión", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.Yes)
+            {
+                Application.Exit();
+
+            }
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
@@ -153,7 +158,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             }
             else
             {
-                panelMenuPrincipal.Width = 230;
+                panelMenuPrincipal.Width = 262;
                 pictureBox1.Visible = true;
                 btnMenu.Dock = DockStyle.None;
 
@@ -259,12 +264,17 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 
         private void btnSalirMenu_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            
+            if (MessageBox.Show("¿Desea salir del sistema?", "Cerrar Sesión", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.Yes) 
+            {
+                Application.Exit();
+
+            }
         }
 
         private void fntimer_Tick(object sender, EventArgs e)
         {
-            lblFechaHora.Text = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt");
+            
         }
 
         private void btnEntrega_Click_1(object sender, EventArgs e)
@@ -292,23 +302,62 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         }
 
         private Form activeForm = null;
-        private void openSubMenuForm(Form formSM) 
+        //private void openSubMenuForm(Form formSM)
+        //{
+        //    if (activeForm != null)
+        //        activeForm.Close();
+        //    if (panelDesktop.Controls.Count > 0) 
+        //    {
+        //        this.panelDesktop.Controls.RemoveAt(0);
+        //        this.pictureDesktop.Visible = false;
+        //        this.lblFechaHora.Visible = false;
+        //    }
+
+        //    else 
+        //    {
+        //        this.panelDesktop.Visible = true;
+        //        this.pictureDesktop.Visible = true;
+        //        this.lblFechaHora.Visible = true;
+        //    }
+
+        //    activeForm = formSM;
+        //    formSM.TopLevel = false;
+        //    formSM.FormBorderStyle = FormBorderStyle.None;
+        //    formSM.Dock = DockStyle.Fill;
+        //    formSM.Location = new Point(262, 84);
+        //    formSM.Anchor = AnchorStyles.Left;
+        //    this.panelDesktop.Controls.Add(formSM);
+        //    this.panelDesktop.Tag = formSM;
+        //    //formSM.BringToFront();
+        //    formSM.Show();
+        //}
+
+        private void openSubMenuForm(object formSM)
         {
-            if (activeForm != null)
-                activeForm.Close();
-            activeForm = formSM;
-            formSM.TopLevel = false;
-            formSM.FormBorderStyle = FormBorderStyle.None;
-            formSM.Dock = DockStyle.Fill;
-            panelDesktop.Controls.Add(formSM);
-            panelDesktop.Tag = formSM;
-            formSM.BringToFront();
-            formSM.Show();
+            if (panelDesktop.Controls.Count > 0)
+                this.pictureDesktop.Visible = false;
 
+            else
+                this.panelDesktop.Visible = true;
 
+            Form childForm = formSM as Form;
+            childForm.TopLevel = false;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktop.Controls.Add(childForm);
+            this.panelDesktop.Tag = childForm;
+            childForm.Show();
 
         }
 
-      
+        private void btnCargo_Click(object sender, EventArgs e)
+        {
+            openSubMenuForm(new CargoViewForm());
+        }
+
+        private void datetimeFn_Tick(object sender, EventArgs e)
+        {
+            lblFechaHora.Text = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt");
+
+        }
     }
 }
