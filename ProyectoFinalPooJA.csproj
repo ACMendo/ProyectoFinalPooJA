@@ -106,6 +106,18 @@
     <Compile Include="Datos\Mapping\EmpleadoMap.cs" />
     <Compile Include="Datos\Mapping\ColorMap.cs" />
     <Compile Include="Datos\Mapping\ClienteMap.cs" />
+    <Compile Include="Formularios\CargoUI\CargoActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CargoUI\CargoActualizarForm.Designer.cs">
+      <DependentUpon>CargoActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CargoUI\CargoCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CargoUI\CargoCrearForm.Designer.cs">
+      <DependentUpon>CargoCrearForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\CargoUI\CargoViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +163,12 @@
     <Compile Include="Repositories\TallerRepository.cs" />
     <Compile Include="Repositories\Tipo_VehiculoRepository.cs" />
     <Compile Include="Repositories\VehiculoRepository.cs" />
+    <EmbeddedResource Include="Formularios\CargoUI\CargoActualizarForm.resx">
+      <DependentUpon>CargoActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CargoUI\CargoCrearForm.resx">
+      <DependentUpon>CargoCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\CargoUI\CargoViewForm.resx">
       <DependentUpon>CargoViewForm.cs</DependentUpon>
     </EmbeddedResource>

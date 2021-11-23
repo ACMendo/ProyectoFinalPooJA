@@ -23,6 +23,17 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
 
         }
 
-        
+        private void btnAñadir_Click(object sender, EventArgs e)
+        {
+            CargoCrearForm form = new CargoCrearForm();
+            form.ShowDialog();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            CargoActualizarForm form = new CargoActualizarForm();
+            form.ShowDialog();
+
+        }
     }
 }

@@ -301,7 +301,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 
         }
 
-        private Form activeForm = null;
+        //private Form activeForm = null;
         //private void openSubMenuForm(Form formSM)
         //{
         //    if (activeForm != null)

@@ -63,7 +63,7 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.gbBusqueda.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbBusqueda.Location = new System.Drawing.Point(34, 140);
             this.gbBusqueda.Name = "gbBusqueda";
-            this.gbBusqueda.Size = new System.Drawing.Size(554, 91);
+            this.gbBusqueda.Size = new System.Drawing.Size(537, 91);
             this.gbBusqueda.TabIndex = 2;
             this.gbBusqueda.TabStop = false;
             this.gbBusqueda.Text = "Búsqueda";
@@ -77,9 +77,9 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.btnBuscar.IconColor = System.Drawing.Color.White;
             this.btnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBuscar.IconSize = 30;
-            this.btnBuscar.Location = new System.Drawing.Point(366, 22);
+            this.btnBuscar.Location = new System.Drawing.Point(365, 23);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(153, 46);
+            this.btnBuscar.Size = new System.Drawing.Size(137, 46);
             this.btnBuscar.TabIndex = 3;
             this.btnBuscar.Text = " Buscar";
             this.btnBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -89,7 +89,7 @@ namespace ProyectoFinalPooJA.Formularios.General
             // 
             this.textBox1.Location = new System.Drawing.Point(31, 32);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(297, 28);
+            this.textBox1.Size = new System.Drawing.Size(297, 24);
             this.textBox1.TabIndex = 2;
             // 
             // btnSalir
@@ -120,9 +120,9 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.groupBox1.Controls.Add(this.btnAñadir);
             this.groupBox1.Controls.Add(this.btnEditar);
             this.groupBox1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(752, 24);
+            this.groupBox1.Location = new System.Drawing.Point(768, 24);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(204, 207);
+            this.groupBox1.Size = new System.Drawing.Size(188, 207);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Acciones";
@@ -138,7 +138,7 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.btnEliminar.IconSize = 30;
             this.btnEliminar.Location = new System.Drawing.Point(26, 144);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(153, 46);
+            this.btnEliminar.Size = new System.Drawing.Size(134, 46);
             this.btnEliminar.TabIndex = 5;
             this.btnEliminar.Text = " Eliminar";
             this.btnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -155,9 +155,9 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.btnAñadir.IconSize = 30;
             this.btnAñadir.Location = new System.Drawing.Point(26, 40);
             this.btnAñadir.Name = "btnAñadir";
-            this.btnAñadir.Size = new System.Drawing.Size(153, 46);
+            this.btnAñadir.Size = new System.Drawing.Size(134, 46);
             this.btnAñadir.TabIndex = 4;
-            this.btnAñadir.Text = " Añadir";
+            this.btnAñadir.Text = " Nuevo";
             this.btnAñadir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAñadir.UseVisualStyleBackColor = false;
             // 
@@ -172,7 +172,7 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.btnEditar.IconSize = 30;
             this.btnEditar.Location = new System.Drawing.Point(26, 92);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(153, 46);
+            this.btnEditar.Size = new System.Drawing.Size(134, 46);
             this.btnEditar.TabIndex = 3;
             this.btnEditar.Text = " Editar";
             this.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;

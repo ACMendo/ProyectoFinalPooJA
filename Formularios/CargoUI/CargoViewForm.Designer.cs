@@ -31,16 +31,23 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
         {
             this.SuspendLayout();
             // 
+            // btnAñadir
+            // 
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
+            // 
             // btnEliminar
             // 
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
+            // btnEditar
+            // 
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
             // CargoViewForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(999, 572);
-            this.Location = new System.Drawing.Point(0, 0);
             this.Name = "CargoViewForm";
             this.Text = "CargoViewForm";
             this.ResumeLayout(false);
