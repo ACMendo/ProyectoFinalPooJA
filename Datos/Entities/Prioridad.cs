@@ -10,6 +10,6 @@ namespace ProyectoFinalPooJA.Datos.Entities
     {
         public string Nombre { get; set; }
         public int Horas { get; set; }
-        public virtual List<Entrega> Entregas { get; set; }
+        public List<Entrega> Entregas { get; set; }
     }
 }

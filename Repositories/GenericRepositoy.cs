@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -37,6 +38,16 @@ namespace ProyectoFinalPooJA.Repositories
             else return _set.Where(x => x.Borrado == false && x.ID == id).ToList();
         }
 
+        public IQueryable<T> ConsultarGenery(int id, params Expression<Func<T, object>>[] propiedades)
+        {
+            var query = _set.AsQueryable();
+            foreach (var prop in propiedades)
+            {
+                query = query.Where(x=>x.Borrado== false).Include(prop);
+            }
+            if (id.Equals(0)) return query.Where(x => x.Borrado == false);
+            else return query.Where(x => x.Borrado == false && x.ID == id);
+        }
         public OperationResult Borrar(T entity)
         {
             try

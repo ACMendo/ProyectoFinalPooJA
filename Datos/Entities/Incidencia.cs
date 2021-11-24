@@ -13,7 +13,7 @@ namespace ProyectoFinalPooJA.Datos.Entities
         public DateTime Fecha_Salida { get; set; }
         public int TallerID { get; set; }
         public int VehiculoID { get; set; }
-        public virtual Vehiculo Vehiculo { get; set; }
-        public virtual Taller Taller { get; set; }
+        public Vehiculo Vehiculo { get; set; }
+        public Taller Taller { get; set; }
     }
 }

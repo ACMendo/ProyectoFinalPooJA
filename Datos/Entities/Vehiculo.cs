@@ -18,11 +18,11 @@ namespace ProyectoFinalPooJA.Datos.Entities
         public int ColorID { get; set; }
         public int EmpleadoID { get; set; }
         public int Tipo_VehiculoID { get; set; }
-        public virtual Modelo Modelo { get; set; }
-        public virtual Color Color { get; set; }
-        public virtual Empleado Empleado { get; set; }
-        public virtual Tipo_Vehiculo Tipo_Vehiculo { get; set; }
-        public virtual List<Incidencia> Incidencias { get; set; }
+        public Modelo Modelo { get; set; }
+        public Color Color { get; set; }
+        public Empleado Empleado { get; set; }
+        public Tipo_Vehiculo Tipo_Vehiculo { get; set; }
+        public List<Incidencia> Incidencias { get; set; }
 
     }
 }

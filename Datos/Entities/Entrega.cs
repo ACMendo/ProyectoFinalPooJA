@@ -16,8 +16,8 @@ namespace ProyectoFinalPooJA.Datos.Entities
         public int EmpleadoID { get; set; }
         public int ClienteID { get; set; }
         public int PrioridadID { get; set; }
-        public virtual Empleado Empleado { get; set; }
-        public virtual Cliente Cliente { get; set; }
-        public virtual Prioridad Prioridad { get; set; }
+        public Empleado Empleado { get; set; }
+        public Cliente Cliente { get; set; }
+        public Prioridad Prioridad { get; set; }
     }
 }

@@ -9,6 +9,6 @@ namespace ProyectoFinalPooJA.Datos.Entities
     public class Departamento: BaseEntity
     {
         public string Nombre { get; set; }
-        public virtual List<Empleado> Empleados { get; set; }
+        public List<Empleado> Empleados { get; set; }
     }
 }
