@@ -14,7 +14,7 @@ namespace ProyectoFinalPooJA.Datos.Entities
         public string Telefono { get; set; }
         public string Identificacion { get; set; }
         public string Tipo_Identificacion { get; set; }
-        public List<Entrega> Entregas { get; set; }
+        public virtual List<Entrega> Entregas { get; set; }
         
     }
 }
