@@ -10,7 +10,7 @@ namespace ProyectoFinalPooJA.Datos.Entities
     {
         public string Nombre { get; set; }
         public int MarcaID { get; set; }
-        public Marca Marca { get; set; }
-        public List<Vehiculo> Vehiculos { get; set; }
+        public virtual Marca Marca { get; set; }
+        public virtual List<Vehiculo> Vehiculos { get; set; }
     }
 }

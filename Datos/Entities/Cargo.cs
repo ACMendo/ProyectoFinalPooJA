@@ -9,7 +9,7 @@ namespace ProyectoFinalPooJA.Datos.Entities
     public class Cargo : BaseEntity
     {
         public string Nombre { get; set; }
-        public List<Empleado> Empleados{ get; set; }
+        public virtual List<Empleado> Empleados{ get; set; }
     }
 
 }

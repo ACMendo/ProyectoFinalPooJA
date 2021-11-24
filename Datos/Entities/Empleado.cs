@@ -25,9 +25,9 @@ namespace ProyectoFinalPooJA.Datos.Entities
                 return DateTime.Now.Subtract(this.Fecha_Nacimiento).TotalDays / 365.25;
             }
         }
-        public List<Vehiculo> Vehiculos { get; set; }
-        public List<Entrega> Entregas { get; set; }
-        public Cargo Cargo { get; set; }
-        public Departamento Departamento { get; set; }
+        public virtual List<Vehiculo> Vehiculos { get; set; }
+        public virtual List<Entrega> Entregas { get; set; }
+        public virtual Cargo Cargo { get; set; }
+        public virtual Departamento Departamento { get; set; }
     }
 }
