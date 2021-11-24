@@ -1,4 +1,5 @@
 ﻿using ProyectoFinalPooJA.Formularios.General;
+using ProyectoFinalPooJA.Repositories;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
 {
     public partial class CargoViewForm : GeneralSearchForm
     {
+        CargoRepository _cargoRepository = new CargoRepository();
         public CargoViewForm()
         {
             InitializeComponent();
@@ -34,6 +36,20 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             CargoActualizarForm form = new CargoActualizarForm();
             form.ShowDialog();
 
+        }
+
+        private void CargoViewForm_Load(object sender, EventArgs e)
+        {
+            //dgvCargo.DataSource = _cargoRepository.BuscarPorNombre();
+            InvisibleColumn();
+
+        }
+        public void InvisibleColumn()
+        {
+            dgvCargo.Columns["Borrado"].Visible = false;
+            dgvCargo.Columns["Estatus"].Visible = false;
+            dgvCargo.Columns["Fecha_Registro"].Visible = false;
+            dgvCargo.Columns["Fecha_Modificacion"].Visible = false;
         }
     }
 }

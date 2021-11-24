@@ -29,6 +29,8 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
         /// </summary>
         private void InitializeComponent()
         {
+            this.dgvCargo = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCargo)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAñadir
@@ -43,17 +45,33 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             // 
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
+            // dgvCargo
+            // 
+            this.dgvCargo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCargo.Location = new System.Drawing.Point(34, 256);
+            this.dgvCargo.Name = "dgvCargo";
+            this.dgvCargo.RowHeadersWidth = 51;
+            this.dgvCargo.RowTemplate.Height = 24;
+            this.dgvCargo.Size = new System.Drawing.Size(922, 289);
+            this.dgvCargo.TabIndex = 6;
+            // 
             // CargoViewForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(999, 572);
+            this.Controls.Add(this.dgvCargo);
             this.Name = "CargoViewForm";
             this.Text = "CargoViewForm";
+            this.Load += new System.EventHandler(this.CargoViewForm_Load);
+            this.Controls.SetChildIndex(this.dgvCargo, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCargo)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dgvCargo;
     }
 }

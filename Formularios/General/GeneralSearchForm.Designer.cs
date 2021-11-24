@@ -29,7 +29,6 @@ namespace ProyectoFinalPooJA.Formularios.General
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGrid = new System.Windows.Forms.DataGridView();
             this.gbBusqueda = new System.Windows.Forms.GroupBox();
             this.btnBuscar = new FontAwesome.Sharp.IconButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -38,23 +37,9 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.btnEliminar = new FontAwesome.Sharp.IconButton();
             this.btnAñadir = new FontAwesome.Sharp.IconButton();
             this.btnEditar = new FontAwesome.Sharp.IconButton();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.gbBusqueda.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // dataGrid
-            // 
-            this.dataGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGrid.Location = new System.Drawing.Point(34, 247);
-            this.dataGrid.Name = "dataGrid";
-            this.dataGrid.RowHeadersWidth = 51;
-            this.dataGrid.RowTemplate.Height = 24;
-            this.dataGrid.Size = new System.Drawing.Size(922, 294);
-            this.dataGrid.TabIndex = 0;
             // 
             // gbBusqueda
             // 
@@ -89,7 +74,7 @@ namespace ProyectoFinalPooJA.Formularios.General
             // 
             this.textBox1.Location = new System.Drawing.Point(31, 32);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(297, 24);
+            this.textBox1.Size = new System.Drawing.Size(297, 28);
             this.textBox1.TabIndex = 2;
             // 
             // btnSalir
@@ -186,13 +171,11 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.gbBusqueda);
-            this.Controls.Add(this.dataGrid);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GeneralSearchForm";
             this.Padding = new System.Windows.Forms.Padding(3);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario Búsqueda General";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).EndInit();
             this.gbBusqueda.ResumeLayout(false);
             this.gbBusqueda.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -208,7 +191,6 @@ namespace ProyectoFinalPooJA.Formularios.General
         public FontAwesome.Sharp.IconButton btnEliminar;
         public FontAwesome.Sharp.IconButton btnEditar;
         public System.Windows.Forms.TextBox textBox1;
-        public System.Windows.Forms.DataGridView dataGrid;
         private FontAwesome.Sharp.IconButton btnSalir;
     }
 }
