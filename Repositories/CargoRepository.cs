@@ -15,7 +15,7 @@ namespace ProyectoFinalPooJA.Repositories
         {
             using (_context = new AppDBContext())
             {
-                return _context.Cargos.Where(x => x.Nombre == nombre).ToList();
+                return _context.Cargos.Where(x => x.Nombre.Contains(nombre)).ToList();
             }
         }
     }

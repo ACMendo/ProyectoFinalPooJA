@@ -332,7 +332,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         //    formSM.Show();
         //}
 
-        private void openSubMenuForm(object formSM)
+        public void openSubMenuForm(object formSM)
         {
             if (panelDesktop.Controls.Count > 0)
                 this.pictureDesktop.Visible = false;

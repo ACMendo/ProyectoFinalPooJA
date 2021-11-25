@@ -37,15 +37,12 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
                 {
                     _cargoRepository.Crear(cargo);
                     MessageBox.Show("¡Cargo creado exitosamente!");
-                    ClearTxtBox();
+                    this.Close();
                 }
                 else
                 {
                     MessageBox.Show("¡Ya existe ese cargo, favor de crear uno nuevo!");
                 }
-
-
-
             }
         }
         public void ClearTxtBox()

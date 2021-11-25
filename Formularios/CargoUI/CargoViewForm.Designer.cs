@@ -37,6 +37,10 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             // 
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
             // btnEliminar
             // 
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -54,6 +58,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.dgvCargo.RowTemplate.Height = 24;
             this.dgvCargo.Size = new System.Drawing.Size(922, 289);
             this.dgvCargo.TabIndex = 6;
+            this.dgvCargo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCargo_CellClick);
             // 
             // CargoViewForm
             // 

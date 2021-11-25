@@ -31,7 +31,7 @@ namespace ProyectoFinalPooJA.Formularios.General
         {
             this.gbBusqueda = new System.Windows.Forms.GroupBox();
             this.btnBuscar = new FontAwesome.Sharp.IconButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFiltro = new System.Windows.Forms.TextBox();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnEliminar = new FontAwesome.Sharp.IconButton();
@@ -44,7 +44,7 @@ namespace ProyectoFinalPooJA.Formularios.General
             // gbBusqueda
             // 
             this.gbBusqueda.Controls.Add(this.btnBuscar);
-            this.gbBusqueda.Controls.Add(this.textBox1);
+            this.gbBusqueda.Controls.Add(this.txtFiltro);
             this.gbBusqueda.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbBusqueda.Location = new System.Drawing.Point(34, 140);
             this.gbBusqueda.Name = "gbBusqueda";
@@ -70,12 +70,12 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.btnBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBuscar.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtFiltro
             // 
-            this.textBox1.Location = new System.Drawing.Point(31, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(297, 28);
-            this.textBox1.TabIndex = 2;
+            this.txtFiltro.Location = new System.Drawing.Point(31, 32);
+            this.txtFiltro.Name = "txtFiltro";
+            this.txtFiltro.Size = new System.Drawing.Size(297, 28);
+            this.txtFiltro.TabIndex = 2;
             // 
             // btnSalir
             // 
@@ -190,7 +190,7 @@ namespace ProyectoFinalPooJA.Formularios.General
         public FontAwesome.Sharp.IconButton btnBuscar;
         public FontAwesome.Sharp.IconButton btnEliminar;
         public FontAwesome.Sharp.IconButton btnEditar;
-        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox txtFiltro;
         private FontAwesome.Sharp.IconButton btnSalir;
     }
 }

@@ -48,16 +48,17 @@ namespace ProyectoFinalPooJA.Repositories
             if (id.Equals(0)) return query.Where(x => x.Borrado == false);
             else return query.Where(x => x.Borrado == false && x.ID == id);
         }
-        public OperationResult Borrar(T entity)
+        public OperationResult Borrar(int id)
         {
             try
             {
-                _context.Entry(entity).State = EntityState.Modified;
-                entity.Borrado = true;
-                entity.Fecha_Modificacion = DateTime.Now;
-                entity.Estatus = "E";
+                var datos = Consultar(id)[0];
+                _context.Entry(datos).State = EntityState.Modified;
+                datos.Borrado = true;
+                datos.Fecha_Modificacion = DateTime.Now;
+                datos.Estatus = "E";
                 _context.SaveChanges();
-                return new OperationResult { Success = true, Message = "Registro Borrado" };
+                return new OperationResult { Success = true, Message = "!Registro Borrado!" };
             }
             catch (Exception ex)
             {
@@ -71,7 +72,7 @@ namespace ProyectoFinalPooJA.Repositories
                 _context.Entry(entity).State = EntityState.Modified;
                 entity.Fecha_Modificacion = DateTime.Now;
                 _context.SaveChanges();
-                return new OperationResult { Success = true, Message = "Registro Actualizado" };
+                return new OperationResult { Success = true, Message = "!Registro Actualizado!" };
             }
             catch (Exception ex)
             {

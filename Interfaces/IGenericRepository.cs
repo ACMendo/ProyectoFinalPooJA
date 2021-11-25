@@ -14,6 +14,6 @@ namespace ProyectoFinalPooJA.Interfaces
         List<T> Consultar(int id);
         IQueryable<T> ConsultarGenery(int id, params Expression<Func<T,object>>[] propiedades);
         OperationResult Actualizar(T entity);
-        OperationResult Borrar(T entity);
+        OperationResult Borrar(int id);
     }
 }
