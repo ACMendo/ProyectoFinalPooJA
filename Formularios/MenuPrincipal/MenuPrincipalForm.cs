@@ -335,5 +335,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         {
             openSubMenuForm(new ColorUI.ColorViewForm());
         }
+
+        private void btnDepartamento_Click(object sender, EventArgs e)
+        {
+            openSubMenuForm(new DepartamentoUI.DepartamentoViewForm());
+
+        }
     }
 }
