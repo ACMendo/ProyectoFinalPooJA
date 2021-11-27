@@ -34,8 +34,8 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
                 MessageBox.Show(resultado.Message);
                 if (resultado.Success)  this.Close();
             }
-            CargoViewForm cargoViewForm = new CargoViewForm();
-            this.Close();
+            //CargoViewForm cargoViewForm = new CargoViewForm();
+            //this.Close();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
