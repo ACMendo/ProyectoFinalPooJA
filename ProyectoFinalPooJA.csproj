@@ -142,6 +142,24 @@
     <Compile Include="Formularios\ClienteUI\ClienteViewForm.Designer.cs">
       <DependentUpon>ClienteViewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ColorUI\ColorActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ColorUI\ColorActualizarForm.Designer.cs">
+      <DependentUpon>ColorActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ColorUI\ColorCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ColorUI\ColorCrearForm.Designer.cs">
+      <DependentUpon>ColorCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ColorUI\ColorViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ColorUI\ColorViewForm.Designer.cs">
+      <DependentUpon>ColorViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\General\GeneralCrearForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -204,6 +222,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ClienteUI\ClienteViewForm.resx">
       <DependentUpon>ClienteViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ColorUI\ColorActualizarForm.resx">
+      <DependentUpon>ColorActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ColorUI\ColorCrearForm.resx">
+      <DependentUpon>ColorCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ColorUI\ColorViewForm.resx">
+      <DependentUpon>ColorViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\General\GeneralCrearForm.resx">
       <DependentUpon>GeneralCrearForm.cs</DependentUpon>

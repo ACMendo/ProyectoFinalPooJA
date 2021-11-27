@@ -400,6 +400,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnColor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnColor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnColor.UseVisualStyleBackColor = false;
+            this.btnColor.Click += new System.EventHandler(this.btnColor_Click);
             // 
             // btnCliente
             // 

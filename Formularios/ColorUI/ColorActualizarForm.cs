@@ -8,29 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoFinalPooJA.Formularios.ClienteUI
+namespace ProyectoFinalPooJA.Formularios.ColorUI
 {
-    public partial class ClienteCrearForm : Form
+    public partial class ColorActualizarForm : Form
     {
-        public ClienteCrearForm()
+        public ColorActualizarForm()
         {
             InitializeComponent();
         }
 
-
-        private void btnAnadir_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            txtNombre.Clear();
-            txtTelefono.Clear();
-            txtCorreo.Clear();
-            txtTelefono.Clear();
-            txtIdentificacion.Clear();
-            txtDireccion.Clear();
+            txtColor.Clear();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

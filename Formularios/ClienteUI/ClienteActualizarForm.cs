@@ -29,7 +29,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             txtDireccion.Clear();
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
         }
