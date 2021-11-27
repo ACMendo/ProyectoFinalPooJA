@@ -160,6 +160,24 @@
     <Compile Include="Formularios\ColorUI\ColorViewForm.Designer.cs">
       <DependentUpon>ColorViewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\DepartamentoUI\DepartamentoActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\DepartamentoUI\DepartamentoActualizarForm.Designer.cs">
+      <DependentUpon>DepartamentoActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\DepartamentoUI\DepartamentoCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\DepartamentoUI\DepartamentoCrearForm.Designer.cs">
+      <DependentUpon>DepartamentoCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\DepartamentoUI\DepartamentoViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\DepartamentoUI\DepartamentoViewForm.Designer.cs">
+      <DependentUpon>DepartamentoViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\General\GeneralCrearForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -231,6 +249,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ColorUI\ColorViewForm.resx">
       <DependentUpon>ColorViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\DepartamentoUI\DepartamentoActualizarForm.resx">
+      <DependentUpon>DepartamentoActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\DepartamentoUI\DepartamentoCrearForm.resx">
+      <DependentUpon>DepartamentoCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\DepartamentoUI\DepartamentoViewForm.resx">
+      <DependentUpon>DepartamentoViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\General\GeneralCrearForm.resx">
       <DependentUpon>GeneralCrearForm.cs</DependentUpon>
