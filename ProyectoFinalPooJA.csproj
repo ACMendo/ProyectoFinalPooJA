@@ -124,6 +124,30 @@
     <Compile Include="Formularios\CargoUI\CargoViewForm.Designer.cs">
       <DependentUpon>CargoViewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ClienteUI\ClienteActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ClienteUI\ClienteActualizarForm.Designer.cs">
+      <DependentUpon>ClienteActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ClienteUI\ClienteCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ClienteUI\ClienteCrearForm.Designer.cs">
+      <DependentUpon>ClienteCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ClienteUI\ClienteViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ClienteUI\ClienteViewForm.Designer.cs">
+      <DependentUpon>ClienteViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\General\GeneralCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\General\GeneralCrearForm.Designer.cs">
+      <DependentUpon>GeneralCrearForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\General\GeneralSearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +195,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\CargoUI\CargoViewForm.resx">
       <DependentUpon>CargoViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ClienteUI\ClienteActualizarForm.resx">
+      <DependentUpon>ClienteActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ClienteUI\ClienteCrearForm.resx">
+      <DependentUpon>ClienteCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ClienteUI\ClienteViewForm.resx">
+      <DependentUpon>ClienteViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\General\GeneralCrearForm.resx">
+      <DependentUpon>GeneralCrearForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\General\GeneralSearchForm.resx">
       <DependentUpon>GeneralSearchForm.cs</DependentUpon>

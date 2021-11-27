@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
-using ProyectoFinalPooJA.Formularios.CargoUI;
+using ProyectoFinalPooJA.Formularios;
 
 namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 {
@@ -18,8 +18,6 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         private int BorderSize = 2;
         private IconButton currentBtn;
         private Panel leftBorderBtn;
-
-
         public MenuPrincipalForm()
         {
             InitializeComponent();
@@ -300,38 +298,6 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             hideSubMenu();
 
         }
-
-        //private Form activeForm = null;
-        //private void openSubMenuForm(Form formSM)
-        //{
-        //    if (activeForm != null)
-        //        activeForm.Close();
-        //    if (panelDesktop.Controls.Count > 0) 
-        //    {
-        //        this.panelDesktop.Controls.RemoveAt(0);
-        //        this.pictureDesktop.Visible = false;
-        //        this.lblFechaHora.Visible = false;
-        //    }
-
-        //    else 
-        //    {
-        //        this.panelDesktop.Visible = true;
-        //        this.pictureDesktop.Visible = true;
-        //        this.lblFechaHora.Visible = true;
-        //    }
-
-        //    activeForm = formSM;
-        //    formSM.TopLevel = false;
-        //    formSM.FormBorderStyle = FormBorderStyle.None;
-        //    formSM.Dock = DockStyle.Fill;
-        //    formSM.Location = new Point(262, 84);
-        //    formSM.Anchor = AnchorStyles.Left;
-        //    this.panelDesktop.Controls.Add(formSM);
-        //    this.panelDesktop.Tag = formSM;
-        //    //formSM.BringToFront();
-        //    formSM.Show();
-        //}
-
         public void openSubMenuForm(object formSM)
         {
             if (panelDesktop.Controls.Count > 0)
@@ -351,13 +317,18 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 
         private void btnCargo_Click(object sender, EventArgs e)
         {
-            openSubMenuForm(new CargoViewForm());
+            openSubMenuForm(new CargoUI.CargoViewForm());
         }
 
         private void datetimeFn_Tick(object sender, EventArgs e)
         {
             lblFechaHora.Text = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt");
 
+        }
+
+        private void btnCliente_Click(object sender, EventArgs e)
+        {
+            openSubMenuForm(new ClienteUI.ClienteViewForm());
         }
     }
 }

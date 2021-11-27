@@ -37,6 +37,7 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.btnEliminar = new FontAwesome.Sharp.IconButton();
             this.btnAñadir = new FontAwesome.Sharp.IconButton();
             this.btnEditar = new FontAwesome.Sharp.IconButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.gbBusqueda.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -163,11 +164,26 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEditar.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.label1.Location = new System.Drawing.Point(177, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(242, 29);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Mantenimiento - ";
+            // 
             // GeneralSearchForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(999, 572);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.gbBusqueda);
@@ -180,6 +196,7 @@ namespace ProyectoFinalPooJA.Formularios.General
             this.gbBusqueda.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -192,5 +209,6 @@ namespace ProyectoFinalPooJA.Formularios.General
         public FontAwesome.Sharp.IconButton btnEditar;
         public System.Windows.Forms.TextBox txtFiltro;
         private FontAwesome.Sharp.IconButton btnSalir;
+        public System.Windows.Forms.Label label1;
     }
 }

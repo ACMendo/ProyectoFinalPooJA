@@ -19,26 +19,33 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
         public CargoActualizarForm()
         {
             InitializeComponent();
-            txtCargo.Text = _cargoRepository.Consultar(CargoViewForm.ID)[0].Nombre;
+            txtCargoActualizar.Text = _cargoRepository.Consultar(CargoViewForm.ID)[0].Nombre;
 
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtCargo.Text)) MessageBox.Show("¡El campo es obligatorio!");
+            if (string.IsNullOrWhiteSpace(txtCargoActualizar.Text)) MessageBox.Show("¡El campo es obligatorio!");
             else
             {
                 var cargo = _cargoRepository.Consultar(CargoViewForm.ID)[0];
-                cargo.Nombre = txtCargo.Text;
+                cargo.Nombre = txtCargoActualizar.Text;
                 var resultado = _cargoRepository.Actualizar(cargo);
                 MessageBox.Show(resultado.Message);
                 if (resultado.Success)  this.Close();
             }
+            CargoViewForm cargoViewForm = new CargoViewForm();
+            this.Close();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtCargoActualizar.Clear();
         }
     }
 }

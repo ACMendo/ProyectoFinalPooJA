@@ -67,7 +67,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
 
         }
 
-        void Cargardgv()
+        public void Cargardgv()
         {
             dgvCargo.DataSource = _cargoRepository.Consultar(0);
             InvisibleColumn();

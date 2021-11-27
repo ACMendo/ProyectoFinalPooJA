@@ -49,8 +49,18 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             // 
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.Location = new System.Drawing.Point(299, 55);
+            this.label1.Size = new System.Drawing.Size(320, 29);
+            this.label1.Text = "Mantenimiento - Cargo";
+            // 
             // dgvCargo
             // 
+            this.dgvCargo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvCargo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCargo.Location = new System.Drawing.Point(34, 256);
             this.dgvCargo.Name = "dgvCargo";
@@ -69,9 +79,11 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.Name = "CargoViewForm";
             this.Text = "CargoViewForm";
             this.Load += new System.EventHandler(this.CargoViewForm_Load);
+            this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.dgvCargo, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCargo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

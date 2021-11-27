@@ -1,7 +1,7 @@
 ﻿
-namespace ProyectoFinalPooJA.Formularios.CargoUI
+namespace ProyectoFinalPooJA.Formularios.General
 {
-    partial class CargoCrearForm
+    partial class GeneralCrearForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtCargo = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtCargoCrear = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnLimpiar = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
@@ -41,57 +37,19 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(32, 103);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 20);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Cargo";
-            // 
-            // txtCargo
-            // 
-            this.txtCargo.Location = new System.Drawing.Point(0, 0);
-            this.txtCargo.Name = "txtCargo";
-            this.txtCargo.Size = new System.Drawing.Size(100, 22);
-            this.txtCargo.TabIndex = 0;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.txtCargoCrear);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnLimpiar);
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.btnAñadir);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(639, 263);
-            this.panel1.TabIndex = 0;
-            // 
-            // txtCargoCrear
-            // 
-            this.txtCargoCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCargoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.txtCargoCrear.Location = new System.Drawing.Point(122, 108);
-            this.txtCargoCrear.Multiline = true;
-            this.txtCargoCrear.Name = "txtCargoCrear";
-            this.txtCargoCrear.Size = new System.Drawing.Size(493, 28);
-            this.txtCargoCrear.TabIndex = 13;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(34, 116);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 20);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Cargo";
+            this.panel1.Size = new System.Drawing.Size(767, 454);
+            this.panel1.TabIndex = 1;
             // 
             // label1
             // 
@@ -99,11 +57,11 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(244, 39);
+            this.label1.Location = new System.Drawing.Point(289, 31);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 25);
-            this.label1.TabIndex = 11;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Formulario";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -119,16 +77,15 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.btnLimpiar.IconColor = System.Drawing.Color.White;
             this.btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiar.IconSize = 30;
-            this.btnLimpiar.Location = new System.Drawing.Point(314, 184);
+            this.btnLimpiar.Location = new System.Drawing.Point(431, 375);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(141, 47);
-            this.btnLimpiar.TabIndex = 10;
+            this.btnLimpiar.TabIndex = 7;
             this.btnLimpiar.Text = " Limpiar";
             this.btnLimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLimpiar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimpiar.UseVisualStyleBackColor = false;
-            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnSalir
             // 
@@ -142,16 +99,15 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(153, 184);
+            this.btnSalir.Location = new System.Drawing.Point(270, 375);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(141, 47);
-            this.btnSalir.TabIndex = 9;
+            this.btnSalir.TabIndex = 6;
             this.btnSalir.Text = " Cancelar";
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnAñadir
             // 
@@ -164,25 +120,23 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.btnAñadir.IconColor = System.Drawing.Color.White;
             this.btnAñadir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAñadir.IconSize = 30;
-            this.btnAñadir.Location = new System.Drawing.Point(474, 184);
+            this.btnAñadir.Location = new System.Drawing.Point(591, 375);
             this.btnAñadir.Margin = new System.Windows.Forms.Padding(4);
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(141, 47);
-            this.btnAñadir.TabIndex = 8;
+            this.btnAñadir.TabIndex = 5;
             this.btnAñadir.Text = " Añadir";
             this.btnAñadir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAñadir.UseVisualStyleBackColor = false;
-            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
-            // CargoCrearForm
+            // GeneralCrearForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 263);
+            this.ClientSize = new System.Drawing.Size(767, 454);
             this.Controls.Add(this.panel1);
-            this.Name = "CargoCrearForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CargoCrearForm";
+            this.Name = "GeneralCrearForm";
+            this.Text = "GeneralCrearForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -190,15 +144,10 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtCargo;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel1;
-        public FontAwesome.Sharp.IconButton btnLimpiar;
-        public FontAwesome.Sharp.IconButton btnSalir;
         public FontAwesome.Sharp.IconButton btnAñadir;
-        private System.Windows.Forms.TextBox txtCargoCrear;
-        private System.Windows.Forms.Label label3;
+        public FontAwesome.Sharp.IconButton btnSalir;
         public System.Windows.Forms.Label label1;
+        public FontAwesome.Sharp.IconButton btnLimpiar;
+        public System.Windows.Forms.Panel panel1;
     }
 }

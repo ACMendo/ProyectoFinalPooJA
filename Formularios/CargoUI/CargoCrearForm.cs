@@ -1,4 +1,5 @@
-﻿using ProyectoFinalPooJA.Datos.Entities;
+﻿using ProyectoFinalPooJA.Formularios.General;
+using ProyectoFinalPooJA.Datos.Entities;
 using ProyectoFinalPooJA.Repositories;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ProyectoFinalPooJA.Formularios.CargoUI
 {
     public partial class CargoCrearForm : Form
@@ -19,19 +21,18 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
         {
             InitializeComponent();
         }
-
         private void btnAñadir_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtCargo.Text))
+            if (string.IsNullOrWhiteSpace(txtCargoCrear.Text))
                 MessageBox.Show("¡El campo es obligatorio!");
             else
             {
                 Cargo cargo = new Cargo()
                 {
-                    Nombre = txtCargo.Text
+                    Nombre = txtCargoCrear.Text
                 };
 
-                var existencia = _cargoRepository.BuscarPorNombre(txtCargo.Text);
+                var existencia = _cargoRepository.BuscarPorNombre(txtCargoCrear.Text);
 
                 if (existencia.Count == 0 || existencia == null)
                 {
@@ -44,10 +45,19 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
                     MessageBox.Show("¡Ya existe ese cargo, favor de crear uno nuevo!");
                 }
             }
+
+
         }
-        public void ClearTxtBox()
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            txtCargo.Clear();
+            txtCargoCrear.Clear();
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
