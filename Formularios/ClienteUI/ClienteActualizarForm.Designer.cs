@@ -93,6 +93,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             this.btnEditar.Text = " Editar";
             this.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // txtDireccion
             // 
@@ -291,6 +292,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             this.Name = "ClienteActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ClienteActualizarForm";
+            this.Load += new System.EventHandler(this.ClienteActualizarForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);

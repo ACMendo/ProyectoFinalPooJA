@@ -37,6 +37,14 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             // 
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // btnEditar
             // 
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
@@ -60,6 +68,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             this.dgvCliente.RowTemplate.Height = 24;
             this.dgvCliente.Size = new System.Drawing.Size(922, 289);
             this.dgvCliente.TabIndex = 7;
+            this.dgvCliente.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCliente_CellClick);
             // 
             // ClienteViewForm
             // 
@@ -69,6 +78,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             this.Controls.Add(this.dgvCliente);
             this.Name = "ClienteViewForm";
             this.Text = "ClienteViewForm";
+            this.Load += new System.EventHandler(this.ClienteViewForm_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.dgvCliente, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).EndInit();

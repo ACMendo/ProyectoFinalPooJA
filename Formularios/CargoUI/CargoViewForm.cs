@@ -14,11 +14,12 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
 {
     public partial class CargoViewForm : GeneralSearchForm
     {
-        CargoRepository _cargoRepository = new CargoRepository();
+        CargoRepository _cargoRepository;
         public static int ID = 0;
         public CargoViewForm()
         {
             InitializeComponent();
+            _cargoRepository = new CargoRepository();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -57,14 +58,11 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
                 form.ShowDialog();
                 Cargardgv();
             }
-
         }
 
         private void CargoViewForm_Load(object sender, EventArgs e)
         {
-            //dgvCargo.DataSource = _cargoRepository.BuscarPorNombre();
             Cargardgv();
-
         }
 
         public void Cargardgv()
@@ -86,11 +84,9 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             if (string.IsNullOrWhiteSpace(txtFiltro.Text))
             {
                 MessageBox.Show("¡El campo es obligatorio!");
+                Cargardgv();
             }
-            else
-            {
-                dgvCargo.DataSource = _cargoRepository.BuscarPorNombre(txtFiltro.Text);
-            }
+            else dgvCargo.DataSource = _cargoRepository.BuscarPorNombre(txtFiltro.Text.ToUpper());
         }
 
         private void dgvCargo_CellClick(object sender, DataGridViewCellEventArgs e)

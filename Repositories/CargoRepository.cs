@@ -15,7 +15,22 @@ namespace ProyectoFinalPooJA.Repositories
         {
             using (_context = new AppDBContext())
             {
-                return _context.Cargos.Where(x => x.Nombre.Contains(nombre)).ToList();
+                return _context.Cargos.Where(x => x.Nombre.ToUpper().Contains(nombre) && x.Borrado==false).ToList();
+            }
+        }
+
+        public List<Cargo> ExisteCrear(string nombre)
+        {
+            using (_context = new AppDBContext())
+            {
+                return _context.Cargos.Where(x => x.Nombre.ToUpper() == nombre && x.Borrado == false).ToList();
+            }
+        }
+        public List<Cargo> ExisteEditar(string nombre, int id)
+        {
+            using (_context = new AppDBContext())
+            {
+                return _context.Cargos.Where(x => x.ID != id && x.Nombre.ToUpper() == nombre && x.Borrado == false).ToList();
             }
         }
     }

@@ -68,7 +68,7 @@ namespace ProyectoFinalPooJA.Repositories
         public OperationResult Actualizar(T entity)
         {
             try
-            {
+            {    
                 _context.Entry(entity).State = EntityState.Modified;
                 entity.Fecha_Modificacion = DateTime.Now;
                 _context.SaveChanges();

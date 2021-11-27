@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ProyectoFinalPooJA.Datos.Entities;
+using ProyectoFinalPooJA.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,15 +14,44 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
 {
     public partial class ClienteCrearForm : Form
     {
+        ClienteRepository _clienteRepository;
         public ClienteCrearForm()
         {
             InitializeComponent();
+            _clienteRepository = new ClienteRepository();
+            cbxTipo_Indentificacion.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
 
         private void btnAnadir_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(cbxTipo_Indentificacion.Text)
+                || string.IsNullOrWhiteSpace(txtIdentificacion.Text) || string.IsNullOrWhiteSpace(txtTelefono.Text)
+                || string.IsNullOrWhiteSpace(txtCorreo.Text) || string.IsNullOrWhiteSpace(txtDireccion.Text))
+                MessageBox.Show("¡Los campos son obligatorio!");
+            else
+            {
+                Cliente cliente = new Cliente()
+                {
+                    Nombre = txtNombre.Text,
+                    Correo = txtCorreo.Text,
+                    Direccion = txtDireccion.Text,
+                    Identificacion = txtIdentificacion.Text,
+                    Telefono = txtIdentificacion.Text,
+                    Tipo_Identificacion = cbxTipo_Indentificacion.Text
+                };
 
+                var existencia = _clienteRepository.ExisteCrear(txtIdentificacion.Text.ToUpper());
+
+                if (existencia.Any()) MessageBox.Show("¡Ya existe ese cliente, favor de crear uno nuevo!");
+                else
+                {
+                    _clienteRepository.Crear(cliente);
+                    MessageBox.Show("¡Cargo creado exitosamente!");
+                    this.Close();
+
+                }
+            }
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)

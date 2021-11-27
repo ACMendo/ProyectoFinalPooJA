@@ -28,11 +28,16 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             if (string.IsNullOrWhiteSpace(txtCargoActualizar.Text)) MessageBox.Show("¡El campo es obligatorio!");
             else
             {
-                var cargo = _cargoRepository.Consultar(CargoViewForm.ID)[0];
-                cargo.Nombre = txtCargoActualizar.Text;
-                var resultado = _cargoRepository.Actualizar(cargo);
-                MessageBox.Show(resultado.Message);
-                if (resultado.Success)  this.Close();
+                var existencia = _cargoRepository.ExisteEditar(txtCargoActualizar.Text.ToUpper(), CargoViewForm.ID);
+                if (existencia.Any()) MessageBox.Show("¡Ya existe otro cargo , favor de crear uno nuevo!");
+                else
+                {
+                    var cargo = _cargoRepository.Consultar(CargoViewForm.ID)[0];
+                    cargo.Nombre = txtCargoActualizar.Text;
+                    var resultado = _cargoRepository.Actualizar(cargo);
+                    MessageBox.Show(resultado.Message);
+                    if (resultado.Success) this.Close();
+                }
             }
             //CargoViewForm cargoViewForm = new CargoViewForm();
             //this.Close();

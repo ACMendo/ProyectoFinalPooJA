@@ -32,17 +32,14 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
                     Nombre = txtCargoCrear.Text
                 };
 
-                var existencia = _cargoRepository.BuscarPorNombre(txtCargoCrear.Text);
+                var existencia = _cargoRepository.ExisteCrear(txtCargoCrear.Text.ToUpper());
 
-                if (existencia.Count == 0 || existencia == null)
+                if (existencia.Any()) MessageBox.Show("¡Ya existe ese cargo, favor de crear uno nuevo!");
+                else
                 {
                     _cargoRepository.Crear(cargo);
                     MessageBox.Show("¡Cargo creado exitosamente!");
                     this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("¡Ya existe ese cargo, favor de crear uno nuevo!");
                 }
             }
 
