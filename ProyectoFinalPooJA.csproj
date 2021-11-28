@@ -197,6 +197,24 @@
     <Compile Include="Formularios\EmpleadoUI\EmpleadoViewForm.Designer.cs">
       <DependentUpon>EmpleadoViewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\EntregaUI\EntregaActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\EntregaUI\EntregaActualizarForm.Designer.cs">
+      <DependentUpon>EntregaActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EntregaUI\EntregaCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\EntregaUI\EntregaCrearForm.Designer.cs">
+      <DependentUpon>EntregaCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EntregaUI\EntregaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\EntregaUI\EntregaViewForm.Designer.cs">
+      <DependentUpon>EntregaViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\General\GeneralCrearForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -401,6 +419,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\EmpleadoUI\EmpleadoViewForm.resx">
       <DependentUpon>EmpleadoViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\EntregaUI\EntregaActualizarForm.resx">
+      <DependentUpon>EntregaActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\EntregaUI\EntregaCrearForm.resx">
+      <DependentUpon>EntregaCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\EntregaUI\EntregaViewForm.resx">
+      <DependentUpon>EntregaViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\General\GeneralCrearForm.resx">
       <DependentUpon>GeneralCrearForm.cs</DependentUpon>
