@@ -27,14 +27,14 @@ namespace ProyectoFinalPooJA.Repositories
         {
             using (_context = new AppDBContext())
             {
-                return _context.Clientes.Where(x => x.Identificacion == identificacion && x.Borrado == false).ToList();
+                return _context.Clientes.Where(x => x.Identificacion.ToUpper() == identificacion && x.Borrado == false).ToList();
             }
         }
         public List<Cliente> ExisteEditar(string identificacion, int id)
         {
             using (_context = new AppDBContext())
             {
-                return _context.Clientes.Where(x => x.ID != id && x.Identificacion == identificacion && x.Borrado == false).ToList();
+                return _context.Clientes.Where(x => x.ID != id && x.Identificacion.ToUpper() == identificacion && x.Borrado == false).ToList();
             }
         }
     }

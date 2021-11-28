@@ -31,25 +31,34 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
                 MessageBox.Show("¡Los campos son obligatorio!");
             else
             {
-                Cliente cliente = new Cliente()
-                {
-                    Nombre = txtNombre.Text,
-                    Correo = txtCorreo.Text,
-                    Direccion = txtDireccion.Text,
-                    Identificacion = txtIdentificacion.Text,
-                    Telefono = txtIdentificacion.Text,
-                    Tipo_Identificacion = cbxTipo_Indentificacion.Text
-                };
 
                 var existencia = _clienteRepository.ExisteCrear(txtIdentificacion.Text.ToUpper());
 
                 if (existencia.Any()) MessageBox.Show("¡Ya existe ese cliente, favor de crear uno nuevo!");
                 else
                 {
-                    _clienteRepository.Crear(cliente);
-                    MessageBox.Show("¡Cargo creado exitosamente!");
-                    this.Close();
 
+                    Cliente cliente = new Cliente()
+                    {
+                        Nombre = txtNombre.Text,
+                        Correo = txtCorreo.Text,
+                        Direccion = txtDireccion.Text,
+                        Identificacion = txtIdentificacion.Text,
+                        Telefono = txtIdentificacion.Text,
+                        Tipo_Identificacion = cbxTipo_Indentificacion.Text
+                    };
+                    try
+                    {
+                        _clienteRepository.Crear(cliente);
+                        MessageBox.Show("¡Cargo creado exitosamente!");
+                        this.Close();
+
+                    }
+                    catch (Exception ex)
+                    {
+
+                        MessageBox.Show("Error " + ex.Message);
+                    }
                 }
             }
         }

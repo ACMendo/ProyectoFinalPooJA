@@ -37,9 +37,17 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
                 if (existencia.Any()) MessageBox.Show("¡Ya existe ese cargo, favor de crear uno nuevo!");
                 else
                 {
-                    _cargoRepository.Crear(cargo);
-                    MessageBox.Show("¡Cargo creado exitosamente!");
-                    this.Close();
+                    try
+                    {
+                        _cargoRepository.Crear(cargo);
+                        MessageBox.Show("¡Cargo creado exitosamente!");
+                        this.Close();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error " +ex.Message);
+                    }
+                  
                 }
             }
 

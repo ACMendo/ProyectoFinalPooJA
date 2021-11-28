@@ -154,6 +154,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             this.btnAñadir.Text = " Añadir";
             this.btnAñadir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAñadir.UseVisualStyleBackColor = false;
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
             // ColorCrearForm
             // 

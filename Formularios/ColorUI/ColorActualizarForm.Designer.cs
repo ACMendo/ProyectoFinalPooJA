@@ -120,6 +120,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             this.btnEditar.Text = " Editar";
             this.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // txtColor
             // 
@@ -170,6 +171,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             this.Name = "ColorActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ColorActualizarForm";
+            this.Load += new System.EventHandler(this.ColorActualizarForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

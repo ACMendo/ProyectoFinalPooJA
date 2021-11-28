@@ -37,6 +37,14 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             // 
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // btnEditar
             // 
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
@@ -59,6 +67,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             this.dgvColor.RowTemplate.Height = 24;
             this.dgvColor.Size = new System.Drawing.Size(922, 289);
             this.dgvColor.TabIndex = 7;
+            this.dgvColor.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvColor_CellClick);
             // 
             // ColorViewForm
             // 
@@ -68,6 +77,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             this.Controls.Add(this.dgvColor);
             this.Name = "ColorViewForm";
             this.Text = "ColorViewForm";
+            this.Load += new System.EventHandler(this.ColorViewForm_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.dgvColor, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvColor)).EndInit();
