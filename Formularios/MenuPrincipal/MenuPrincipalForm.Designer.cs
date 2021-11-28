@@ -358,6 +358,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.Empleados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Empleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Empleados.UseVisualStyleBackColor = false;
+            this.Empleados.Click += new System.EventHandler(this.Empleados_Click);
             // 
             // btnDepartamento
             // 

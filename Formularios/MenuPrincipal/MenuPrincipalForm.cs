@@ -222,6 +222,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
+            this.panelDesktop.Controls.RemoveAt(0);
             ActivateButton(sender, RBColors.color1);
         }
 
@@ -299,10 +300,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         public void openSubMenuForm(object formSM)
         {
             if (panelDesktop.Controls.Count > 0)
-                this.pictureDesktop.Visible = false;
-
-            else
-                this.panelDesktop.Visible = true;
+                this.panelDesktop.Controls.RemoveAt(0);
 
             Form childForm = formSM as Form;
             childForm.TopLevel = false;
@@ -365,6 +363,10 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             openSubMenuForm(new ModelosUI.ModelosViewForm());
         }
 
+        private void Empleados_Click(object sender, EventArgs e)
+        {
+            openSubMenuForm(new EmpleadoUI.EmpleadoViewForm());
+            
         private void btnVehiculo_Click(object sender, EventArgs e)
         {
             openSubMenuForm(new VehiculoUI.VehiculoViewForm());
