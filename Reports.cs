@@ -43,6 +43,7 @@ namespace ProyectoFinalPooJA
                 detailsRow.CreateCell(5).SetCellValue(item.Empleado.Nombre);
                 detailsRow.CreateCell(6).SetCellValue(item.Cliente.Nombre);
                 detailsRow.CreateCell(7).SetCellValue(item.Prioridad.Nombre);
+                rowIndex++;
             }
             string FilePath = NombreArchivo;
             using (var fileData = new FileStream(FilePath, FileMode.Create))
