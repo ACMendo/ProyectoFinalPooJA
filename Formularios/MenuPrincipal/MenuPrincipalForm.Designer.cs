@@ -208,6 +208,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnVehiculo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVehiculo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVehiculo.UseVisualStyleBackColor = false;
+            this.btnVehiculo.Click += new System.EventHandler(this.btnVehiculo_Click);
             // 
             // btnTipo_Vehiculo
             // 

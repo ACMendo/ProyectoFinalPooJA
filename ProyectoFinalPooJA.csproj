@@ -293,6 +293,24 @@
     <Compile Include="Formularios\Tipo_VehiculoUI\TipoVehiculoViewForm.Designer.cs">
       <DependentUpon>TipoVehiculoViewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\VehiculoUI\VehiculoActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\VehiculoUI\VehiculoActualizarForm.Designer.cs">
+      <DependentUpon>VehiculoActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\VehiculoUI\VehiculoCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\VehiculoUI\VehiculoCrearForm.Designer.cs">
+      <DependentUpon>VehiculoCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\VehiculoUI\VehiculoViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\VehiculoUI\VehiculoViewForm.Designer.cs">
+      <DependentUpon>VehiculoViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Migrations\202111180119371_initial.cs" />
     <Compile Include="Migrations\202111180119371_initial.designer.cs">
@@ -412,6 +430,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Tipo_VehiculoUI\TipoVehiculoViewForm.resx">
       <DependentUpon>TipoVehiculoViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\VehiculoUI\VehiculoActualizarForm.resx">
+      <DependentUpon>VehiculoActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\VehiculoUI\VehiculoCrearForm.resx">
+      <DependentUpon>VehiculoCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\VehiculoUI\VehiculoViewForm.resx">
+      <DependentUpon>VehiculoViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111180119371_initial.resx">
       <DependentUpon>202111180119371_initial.cs</DependentUpon>
