@@ -31,21 +31,10 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         {
             this.components = new System.ComponentModel.Container();
             this.panelMenuPrincipal = new System.Windows.Forms.Panel();
-            this.panelSubMenuMantenimiento = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panelTituloMenu = new System.Windows.Forms.Panel();
-            this.lblFechaHora = new System.Windows.Forms.Label();
-            this.lblTituloActual = new System.Windows.Forms.Label();
-            this.panelDesktop = new System.Windows.Forms.Panel();
-            this.datetimeFn = new System.Windows.Forms.Timer(this.components);
-            this.pictureDesktop = new System.Windows.Forms.PictureBox();
-            this.iconFormActual = new FontAwesome.Sharp.IconPictureBox();
-            this.btnAmpliar = new FontAwesome.Sharp.IconButton();
-            this.btnMinimizar = new FontAwesome.Sharp.IconButton();
-            this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.btnReporte = new FontAwesome.Sharp.IconButton();
             this.btnIncidencia = new FontAwesome.Sharp.IconButton();
             this.btnEntrega = new FontAwesome.Sharp.IconButton();
+            this.panelSubMenuMantenimiento = new System.Windows.Forms.Panel();
             this.btnVehiculo = new FontAwesome.Sharp.IconButton();
             this.btnTipo_Vehiculo = new FontAwesome.Sharp.IconButton();
             this.btnTaller = new FontAwesome.Sharp.IconButton();
@@ -60,16 +49,27 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnSalirMenu = new FontAwesome.Sharp.IconButton();
             this.iconMantenimiento = new FontAwesome.Sharp.IconButton();
             this.btnInicio = new FontAwesome.Sharp.IconButton();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnMenu = new FontAwesome.Sharp.IconButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelTituloMenu = new System.Windows.Forms.Panel();
+            this.lblFechaHora = new System.Windows.Forms.Label();
+            this.lblTituloActual = new System.Windows.Forms.Label();
+            this.iconFormActual = new FontAwesome.Sharp.IconPictureBox();
+            this.btnAmpliar = new FontAwesome.Sharp.IconButton();
+            this.btnMinimizar = new FontAwesome.Sharp.IconButton();
+            this.btnSalir = new FontAwesome.Sharp.IconButton();
+            this.panelDesktop = new System.Windows.Forms.Panel();
+            this.pictureDesktop = new System.Windows.Forms.PictureBox();
+            this.datetimeFn = new System.Windows.Forms.Timer(this.components);
             this.panelMenuPrincipal.SuspendLayout();
             this.panelSubMenuMantenimiento.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTituloMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconFormActual)).BeginInit();
             this.panelDesktop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureDesktop)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconFormActual)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenuPrincipal
@@ -91,179 +91,6 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelMenuPrincipal.Name = "panelMenuPrincipal";
             this.panelMenuPrincipal.Size = new System.Drawing.Size(261, 656);
             this.panelMenuPrincipal.TabIndex = 0;
-            // 
-            // panelSubMenuMantenimiento
-            // 
-            this.panelSubMenuMantenimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnVehiculo);
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnTipo_Vehiculo);
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnTaller);
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnPrioridad);
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnModelo);
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnMarca);
-            this.panelSubMenuMantenimiento.Controls.Add(this.Empleados);
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnDepartamento);
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnColor);
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnCliente);
-            this.panelSubMenuMantenimiento.Controls.Add(this.btnCargo);
-            this.panelSubMenuMantenimiento.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuMantenimiento.Location = new System.Drawing.Point(0, 271);
-            this.panelSubMenuMantenimiento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelSubMenuMantenimiento.Name = "panelSubMenuMantenimiento";
-            this.panelSubMenuMantenimiento.Size = new System.Drawing.Size(240, 623);
-            this.panelSubMenuMantenimiento.TabIndex = 7;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.panel1.Controls.Add(this.btnMenu);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(240, 123);
-            this.panel1.TabIndex = 0;
-            // 
-            // panelTituloMenu
-            // 
-            this.panelTituloMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.panelTituloMenu.Controls.Add(this.lblFechaHora);
-            this.panelTituloMenu.Controls.Add(this.lblTituloActual);
-            this.panelTituloMenu.Controls.Add(this.iconFormActual);
-            this.panelTituloMenu.Controls.Add(this.btnAmpliar);
-            this.panelTituloMenu.Controls.Add(this.btnMinimizar);
-            this.panelTituloMenu.Controls.Add(this.btnSalir);
-            this.panelTituloMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTituloMenu.Location = new System.Drawing.Point(261, 0);
-            this.panelTituloMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelTituloMenu.Name = "panelTituloMenu";
-            this.panelTituloMenu.Size = new System.Drawing.Size(1000, 84);
-            this.panelTituloMenu.TabIndex = 1;
-            this.panelTituloMenu.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTituloMenu_MouseDown);
-            // 
-            // lblFechaHora
-            // 
-            this.lblFechaHora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblFechaHora.AutoSize = true;
-            this.lblFechaHora.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechaHora.ForeColor = System.Drawing.Color.Silver;
-            this.lblFechaHora.Location = new System.Drawing.Point(792, 53);
-            this.lblFechaHora.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblFechaHora.Name = "lblFechaHora";
-            this.lblFechaHora.Size = new System.Drawing.Size(51, 18);
-            this.lblFechaHora.TabIndex = 6;
-            this.lblFechaHora.Text = "label1";
-            // 
-            // lblTituloActual
-            // 
-            this.lblTituloActual.AutoSize = true;
-            this.lblTituloActual.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloActual.ForeColor = System.Drawing.Color.White;
-            this.lblTituloActual.Location = new System.Drawing.Point(83, 27);
-            this.lblTituloActual.Name = "lblTituloActual";
-            this.lblTituloActual.Size = new System.Drawing.Size(77, 25);
-            this.lblTituloActual.TabIndex = 5;
-            this.lblTituloActual.Text = "Inicio";
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
-            this.panelDesktop.Controls.Add(this.pictureDesktop);
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(261, 84);
-            this.panelDesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1000, 572);
-            this.panelDesktop.TabIndex = 2;
-            // 
-            // datetimeFn
-            // 
-            this.datetimeFn.Enabled = true;
-            this.datetimeFn.Tick += new System.EventHandler(this.datetimeFn_Tick);
-            // 
-            // pictureDesktop
-            // 
-            this.pictureDesktop.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureDesktop.BackColor = System.Drawing.Color.Transparent;
-            this.pictureDesktop.Image = global::ProyectoFinalPooJA.Properties.Resources.Logo_Principal;
-            this.pictureDesktop.Location = new System.Drawing.Point(184, 143);
-            this.pictureDesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureDesktop.Name = "pictureDesktop";
-            this.pictureDesktop.Size = new System.Drawing.Size(645, 283);
-            this.pictureDesktop.TabIndex = 9;
-            this.pictureDesktop.TabStop = false;
-            // 
-            // iconFormActual
-            // 
-            this.iconFormActual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.iconFormActual.IconChar = FontAwesome.Sharp.IconChar.Home;
-            this.iconFormActual.IconColor = System.Drawing.Color.White;
-            this.iconFormActual.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconFormActual.IconSize = 40;
-            this.iconFormActual.Location = new System.Drawing.Point(21, 27);
-            this.iconFormActual.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.iconFormActual.Name = "iconFormActual";
-            this.iconFormActual.Size = new System.Drawing.Size(40, 42);
-            this.iconFormActual.TabIndex = 4;
-            this.iconFormActual.TabStop = false;
-            // 
-            // btnAmpliar
-            // 
-            this.btnAmpliar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAmpliar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.btnAmpliar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnAmpliar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAmpliar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
-            this.btnAmpliar.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btnAmpliar.IconColor = System.Drawing.Color.White;
-            this.btnAmpliar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAmpliar.IconSize = 30;
-            this.btnAmpliar.Location = new System.Drawing.Point(863, 0);
-            this.btnAmpliar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnAmpliar.Name = "btnAmpliar";
-            this.btnAmpliar.Size = new System.Drawing.Size(69, 32);
-            this.btnAmpliar.TabIndex = 3;
-            this.btnAmpliar.UseVisualStyleBackColor = false;
-            this.btnAmpliar.Click += new System.EventHandler(this.btnAmpliar_Click);
-            // 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimizar.BackColor = System.Drawing.Color.Green;
-            this.btnMinimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
-            this.btnMinimizar.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.btnMinimizar.IconColor = System.Drawing.Color.White;
-            this.btnMinimizar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnMinimizar.IconSize = 30;
-            this.btnMinimizar.Location = new System.Drawing.Point(796, 0);
-            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(67, 32);
-            this.btnMinimizar.TabIndex = 2;
-            this.btnMinimizar.UseVisualStyleBackColor = false;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
-            this.btnSalir.IconChar = FontAwesome.Sharp.IconChar.Times;
-            this.btnSalir.IconColor = System.Drawing.Color.White;
-            this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(928, 0);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(72, 32);
-            this.btnSalir.TabIndex = 1;
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnReporte
             // 
@@ -336,6 +163,27 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnEntrega.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEntrega.UseVisualStyleBackColor = true;
             this.btnEntrega.Click += new System.EventHandler(this.btnEntrega_Click_1);
+            // 
+            // panelSubMenuMantenimiento
+            // 
+            this.panelSubMenuMantenimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(224)))));
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnVehiculo);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnTipo_Vehiculo);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnTaller);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnPrioridad);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnModelo);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnMarca);
+            this.panelSubMenuMantenimiento.Controls.Add(this.Empleados);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnDepartamento);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnColor);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnCliente);
+            this.panelSubMenuMantenimiento.Controls.Add(this.btnCargo);
+            this.panelSubMenuMantenimiento.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubMenuMantenimiento.Location = new System.Drawing.Point(0, 271);
+            this.panelSubMenuMantenimiento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelSubMenuMantenimiento.Name = "panelSubMenuMantenimiento";
+            this.panelSubMenuMantenimiento.Size = new System.Drawing.Size(240, 623);
+            this.panelSubMenuMantenimiento.TabIndex = 7;
             // 
             // btnVehiculo
             // 
@@ -480,6 +328,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnMarca.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMarca.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMarca.UseVisualStyleBackColor = false;
+            this.btnMarca.Click += new System.EventHandler(this.btnMarca_Click);
             // 
             // Empleados
             // 
@@ -677,6 +526,18 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnInicio.UseVisualStyleBackColor = true;
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.panel1.Controls.Add(this.btnMenu);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(240, 123);
+            this.panel1.TabIndex = 0;
+            // 
             // btnMenu
             // 
             this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
@@ -707,6 +568,146 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // panelTituloMenu
+            // 
+            this.panelTituloMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.panelTituloMenu.Controls.Add(this.lblFechaHora);
+            this.panelTituloMenu.Controls.Add(this.lblTituloActual);
+            this.panelTituloMenu.Controls.Add(this.iconFormActual);
+            this.panelTituloMenu.Controls.Add(this.btnAmpliar);
+            this.panelTituloMenu.Controls.Add(this.btnMinimizar);
+            this.panelTituloMenu.Controls.Add(this.btnSalir);
+            this.panelTituloMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTituloMenu.Location = new System.Drawing.Point(261, 0);
+            this.panelTituloMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelTituloMenu.Name = "panelTituloMenu";
+            this.panelTituloMenu.Size = new System.Drawing.Size(1000, 84);
+            this.panelTituloMenu.TabIndex = 1;
+            this.panelTituloMenu.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTituloMenu_MouseDown);
+            // 
+            // lblFechaHora
+            // 
+            this.lblFechaHora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblFechaHora.AutoSize = true;
+            this.lblFechaHora.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechaHora.ForeColor = System.Drawing.Color.Silver;
+            this.lblFechaHora.Location = new System.Drawing.Point(792, 53);
+            this.lblFechaHora.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFechaHora.Name = "lblFechaHora";
+            this.lblFechaHora.Size = new System.Drawing.Size(51, 18);
+            this.lblFechaHora.TabIndex = 6;
+            this.lblFechaHora.Text = "label1";
+            // 
+            // lblTituloActual
+            // 
+            this.lblTituloActual.AutoSize = true;
+            this.lblTituloActual.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituloActual.ForeColor = System.Drawing.Color.White;
+            this.lblTituloActual.Location = new System.Drawing.Point(83, 27);
+            this.lblTituloActual.Name = "lblTituloActual";
+            this.lblTituloActual.Size = new System.Drawing.Size(77, 25);
+            this.lblTituloActual.TabIndex = 5;
+            this.lblTituloActual.Text = "Inicio";
+            // 
+            // iconFormActual
+            // 
+            this.iconFormActual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.iconFormActual.IconChar = FontAwesome.Sharp.IconChar.Home;
+            this.iconFormActual.IconColor = System.Drawing.Color.White;
+            this.iconFormActual.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconFormActual.IconSize = 40;
+            this.iconFormActual.Location = new System.Drawing.Point(21, 27);
+            this.iconFormActual.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.iconFormActual.Name = "iconFormActual";
+            this.iconFormActual.Size = new System.Drawing.Size(40, 42);
+            this.iconFormActual.TabIndex = 4;
+            this.iconFormActual.TabStop = false;
+            // 
+            // btnAmpliar
+            // 
+            this.btnAmpliar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAmpliar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.btnAmpliar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnAmpliar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAmpliar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
+            this.btnAmpliar.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btnAmpliar.IconColor = System.Drawing.Color.White;
+            this.btnAmpliar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAmpliar.IconSize = 30;
+            this.btnAmpliar.Location = new System.Drawing.Point(863, 0);
+            this.btnAmpliar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAmpliar.Name = "btnAmpliar";
+            this.btnAmpliar.Size = new System.Drawing.Size(69, 32);
+            this.btnAmpliar.TabIndex = 3;
+            this.btnAmpliar.UseVisualStyleBackColor = false;
+            this.btnAmpliar.Click += new System.EventHandler(this.btnAmpliar_Click);
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimizar.BackColor = System.Drawing.Color.Green;
+            this.btnMinimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
+            this.btnMinimizar.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.btnMinimizar.IconColor = System.Drawing.Color.White;
+            this.btnMinimizar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnMinimizar.IconSize = 30;
+            this.btnMinimizar.Location = new System.Drawing.Point(796, 0);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(67, 32);
+            this.btnMinimizar.TabIndex = 2;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
+            this.btnSalir.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btnSalir.IconColor = System.Drawing.Color.White;
+            this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnSalir.IconSize = 30;
+            this.btnSalir.Location = new System.Drawing.Point(928, 0);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(72, 32);
+            this.btnSalir.TabIndex = 1;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
+            this.panelDesktop.Controls.Add(this.pictureDesktop);
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(261, 84);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(1000, 572);
+            this.panelDesktop.TabIndex = 2;
+            // 
+            // pictureDesktop
+            // 
+            this.pictureDesktop.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureDesktop.BackColor = System.Drawing.Color.Transparent;
+            this.pictureDesktop.Image = global::ProyectoFinalPooJA.Properties.Resources.Logo_Principal;
+            this.pictureDesktop.Location = new System.Drawing.Point(184, 143);
+            this.pictureDesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureDesktop.Name = "pictureDesktop";
+            this.pictureDesktop.Size = new System.Drawing.Size(645, 283);
+            this.pictureDesktop.TabIndex = 9;
+            this.pictureDesktop.TabStop = false;
+            // 
+            // datetimeFn
+            // 
+            this.datetimeFn.Enabled = true;
+            this.datetimeFn.Tick += new System.EventHandler(this.datetimeFn_Tick);
+            // 
             // MenuPrincipalForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -723,12 +724,12 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelMenuPrincipal.ResumeLayout(false);
             this.panelSubMenuMantenimiento.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTituloMenu.ResumeLayout(false);
             this.panelTituloMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconFormActual)).EndInit();
             this.panelDesktop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureDesktop)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconFormActual)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

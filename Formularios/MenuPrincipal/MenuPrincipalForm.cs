@@ -339,5 +339,10 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             openSubMenuForm(new DepartamentoUI.DepartamentoViewForm());
 
         }
+
+        private void btnMarca_Click(object sender, EventArgs e)
+        {
+            openSubMenuForm(new MarcaUI.MarcaViewForm());
+        }
     }
 }

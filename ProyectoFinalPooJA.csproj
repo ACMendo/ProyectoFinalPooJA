@@ -190,6 +190,24 @@
     <Compile Include="Formularios\General\GeneralSearchForm.Designer.cs">
       <DependentUpon>GeneralSearchForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\MarcaUI\MarcaActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\MarcaUI\MarcaActualizarForm.Designer.cs">
+      <DependentUpon>MarcaActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\MarcaUI\MarcaCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\MarcaUI\MarcaCrearForm.Designer.cs">
+      <DependentUpon>MarcaCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\MarcaUI\MarcaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\MarcaUI\MarcaViewForm.Designer.cs">
+      <DependentUpon>MarcaViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\MenuPrincipal\MenuPrincipalForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -271,6 +289,15 @@
     <EmbeddedResource Include="Formularios\General\GeneralSearchForm.resx">
       <DependentUpon>GeneralSearchForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\MarcaUI\MarcaActualizarForm.resx">
+      <DependentUpon>MarcaActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\MarcaUI\MarcaCrearForm.resx">
+      <DependentUpon>MarcaCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\MarcaUI\MarcaViewForm.resx">
+      <DependentUpon>MarcaViewForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MenuPrincipal\MenuPrincipalForm.resx">
       <DependentUpon>MenuPrincipalForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -319,9 +346,7 @@
   <ItemGroup>
     <None Include="Resources\Logo Principal.PNG" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Formularios\MarcaUI\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
