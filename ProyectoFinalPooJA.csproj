@@ -220,6 +220,24 @@
     <Compile Include="Formularios\ReportesUI\ReporteEntregas.Designer.cs">
       <DependentUpon>ReporteEntregas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\TallerUI\TallerActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\TallerUI\TallerActualizarForm.Designer.cs">
+      <DependentUpon>TallerActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\TallerUI\TallerCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\TallerUI\TallerCrearForm.Designer.cs">
+      <DependentUpon>TallerCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\TallerUI\TallerViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\TallerUI\TallerViewForm.Designer.cs">
+      <DependentUpon>TallerViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Tipo_VehiculoUI\TipoVehiculoActualizarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -321,6 +339,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ReportesUI\ReporteEntregas.resx">
       <DependentUpon>ReporteEntregas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\TallerUI\TallerActualizarForm.resx">
+      <DependentUpon>TallerActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\TallerUI\TallerCrearForm.resx">
+      <DependentUpon>TallerCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\TallerUI\TallerViewForm.resx">
+      <DependentUpon>TallerViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Tipo_VehiculoUI\TipoVehiculoActualizarForm.resx">
       <DependentUpon>TipoVehiculoActualizarForm.cs</DependentUpon>
