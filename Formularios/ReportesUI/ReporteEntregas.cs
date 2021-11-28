@@ -56,5 +56,10 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             string nombreArchivo = $"d:\\Reporte Entregas -{ DateTime.Now : dd-MM-yyyy_hhmmss tt}.xlsx";
             new Reports().GenerateExcelEntregas(entregas,nombreArchivo);
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

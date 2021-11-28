@@ -344,5 +344,10 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         {
             openSubMenuForm(new MarcaUI.MarcaViewForm());
         }
+
+        private void btnTipo_Vehiculo_Click(object sender, EventArgs e)
+        {
+            openSubMenuForm(new Tipo_VehiculoUI.TipoVehiculoViewForm());
+        }
     }
 }

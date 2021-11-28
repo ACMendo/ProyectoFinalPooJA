@@ -220,6 +220,24 @@
     <Compile Include="Formularios\ReportesUI\ReporteEntregas.Designer.cs">
       <DependentUpon>ReporteEntregas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Tipo_VehiculoUI\TipoVehiculoActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Tipo_VehiculoUI\TipoVehiculoActualizarForm.Designer.cs">
+      <DependentUpon>TipoVehiculoActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Tipo_VehiculoUI\TipoVehiculoCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Tipo_VehiculoUI\TipoVehiculoCrearForm.Designer.cs">
+      <DependentUpon>TipoVehiculoCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Tipo_VehiculoUI\TipoVehiculoViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Tipo_VehiculoUI\TipoVehiculoViewForm.Designer.cs">
+      <DependentUpon>TipoVehiculoViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Migrations\202111180119371_initial.cs" />
     <Compile Include="Migrations\202111180119371_initial.designer.cs">
@@ -303,6 +321,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ReportesUI\ReporteEntregas.resx">
       <DependentUpon>ReporteEntregas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Tipo_VehiculoUI\TipoVehiculoActualizarForm.resx">
+      <DependentUpon>TipoVehiculoActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Tipo_VehiculoUI\TipoVehiculoCrearForm.resx">
+      <DependentUpon>TipoVehiculoCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Tipo_VehiculoUI\TipoVehiculoViewForm.resx">
+      <DependentUpon>TipoVehiculoViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111180119371_initial.resx">
       <DependentUpon>202111180119371_initial.cs</DependentUpon>

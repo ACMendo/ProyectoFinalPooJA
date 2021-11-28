@@ -89,7 +89,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelMenuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.panelMenuPrincipal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelMenuPrincipal.Name = "panelMenuPrincipal";
-            this.panelMenuPrincipal.Size = new System.Drawing.Size(261, 656);
+            this.panelMenuPrincipal.Size = new System.Drawing.Size(261, 916);
             this.panelMenuPrincipal.TabIndex = 0;
             // 
             // btnReporte
@@ -104,11 +104,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnReporte.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnReporte.IconSize = 30;
             this.btnReporte.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReporte.Location = new System.Drawing.Point(0, 1042);
+            this.btnReporte.Location = new System.Drawing.Point(0, 681);
             this.btnReporte.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReporte.Name = "btnReporte";
             this.btnReporte.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnReporte.Size = new System.Drawing.Size(240, 74);
+            this.btnReporte.Size = new System.Drawing.Size(261, 48);
             this.btnReporte.TabIndex = 10;
             this.btnReporte.Tag = "Reportes";
             this.btnReporte.Text = "Reportes";
@@ -128,11 +128,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnIncidencia.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnIncidencia.IconSize = 30;
             this.btnIncidencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIncidencia.Location = new System.Drawing.Point(0, 968);
+            this.btnIncidencia.Location = new System.Drawing.Point(0, 640);
             this.btnIncidencia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnIncidencia.Name = "btnIncidencia";
             this.btnIncidencia.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnIncidencia.Size = new System.Drawing.Size(240, 74);
+            this.btnIncidencia.Size = new System.Drawing.Size(261, 41);
             this.btnIncidencia.TabIndex = 9;
             this.btnIncidencia.Tag = "Incidencias";
             this.btnIncidencia.Text = "Incidencias";
@@ -152,11 +152,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnEntrega.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnEntrega.IconSize = 30;
             this.btnEntrega.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEntrega.Location = new System.Drawing.Point(0, 894);
+            this.btnEntrega.Location = new System.Drawing.Point(0, 597);
             this.btnEntrega.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEntrega.Name = "btnEntrega";
             this.btnEntrega.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnEntrega.Size = new System.Drawing.Size(240, 74);
+            this.btnEntrega.Size = new System.Drawing.Size(261, 43);
             this.btnEntrega.TabIndex = 8;
             this.btnEntrega.Tag = "Entregas";
             this.btnEntrega.Text = "Entregas";
@@ -179,10 +179,10 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelSubMenuMantenimiento.Controls.Add(this.btnCliente);
             this.panelSubMenuMantenimiento.Controls.Add(this.btnCargo);
             this.panelSubMenuMantenimiento.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuMantenimiento.Location = new System.Drawing.Point(0, 271);
+            this.panelSubMenuMantenimiento.Location = new System.Drawing.Point(0, 176);
             this.panelSubMenuMantenimiento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelSubMenuMantenimiento.Name = "panelSubMenuMantenimiento";
-            this.panelSubMenuMantenimiento.Size = new System.Drawing.Size(240, 623);
+            this.panelSubMenuMantenimiento.Size = new System.Drawing.Size(261, 421);
             this.panelSubMenuMantenimiento.TabIndex = 7;
             // 
             // btnVehiculo
@@ -198,11 +198,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnVehiculo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnVehiculo.IconSize = 30;
             this.btnVehiculo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVehiculo.Location = new System.Drawing.Point(0, 700);
+            this.btnVehiculo.Location = new System.Drawing.Point(0, 378);
             this.btnVehiculo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnVehiculo.Name = "btnVehiculo";
             this.btnVehiculo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnVehiculo.Size = new System.Drawing.Size(240, 69);
+            this.btnVehiculo.Size = new System.Drawing.Size(261, 39);
             this.btnVehiculo.TabIndex = 10;
             this.btnVehiculo.Text = "Vehículos";
             this.btnVehiculo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -222,16 +222,17 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnTipo_Vehiculo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnTipo_Vehiculo.IconSize = 30;
             this.btnTipo_Vehiculo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTipo_Vehiculo.Location = new System.Drawing.Point(0, 631);
+            this.btnTipo_Vehiculo.Location = new System.Drawing.Point(0, 348);
             this.btnTipo_Vehiculo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTipo_Vehiculo.Name = "btnTipo_Vehiculo";
             this.btnTipo_Vehiculo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnTipo_Vehiculo.Size = new System.Drawing.Size(240, 69);
+            this.btnTipo_Vehiculo.Size = new System.Drawing.Size(261, 30);
             this.btnTipo_Vehiculo.TabIndex = 9;
             this.btnTipo_Vehiculo.Text = "Tipos de Vehículos";
             this.btnTipo_Vehiculo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTipo_Vehiculo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTipo_Vehiculo.UseVisualStyleBackColor = false;
+            this.btnTipo_Vehiculo.Click += new System.EventHandler(this.btnTipo_Vehiculo_Click);
             // 
             // btnTaller
             // 
@@ -246,11 +247,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnTaller.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnTaller.IconSize = 30;
             this.btnTaller.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTaller.Location = new System.Drawing.Point(0, 552);
+            this.btnTaller.Location = new System.Drawing.Point(0, 314);
             this.btnTaller.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTaller.Name = "btnTaller";
             this.btnTaller.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnTaller.Size = new System.Drawing.Size(240, 79);
+            this.btnTaller.Size = new System.Drawing.Size(261, 34);
             this.btnTaller.TabIndex = 8;
             this.btnTaller.Text = "Talleres";
             this.btnTaller.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -270,11 +271,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnPrioridad.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnPrioridad.IconSize = 30;
             this.btnPrioridad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPrioridad.Location = new System.Drawing.Point(0, 483);
+            this.btnPrioridad.Location = new System.Drawing.Point(0, 277);
             this.btnPrioridad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPrioridad.Name = "btnPrioridad";
             this.btnPrioridad.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnPrioridad.Size = new System.Drawing.Size(240, 69);
+            this.btnPrioridad.Size = new System.Drawing.Size(261, 37);
             this.btnPrioridad.TabIndex = 7;
             this.btnPrioridad.Text = "Prioridades";
             this.btnPrioridad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -294,11 +295,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnModelo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnModelo.IconSize = 30;
             this.btnModelo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModelo.Location = new System.Drawing.Point(0, 414);
+            this.btnModelo.Location = new System.Drawing.Point(0, 242);
             this.btnModelo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnModelo.Name = "btnModelo";
             this.btnModelo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnModelo.Size = new System.Drawing.Size(240, 69);
+            this.btnModelo.Size = new System.Drawing.Size(261, 35);
             this.btnModelo.TabIndex = 6;
             this.btnModelo.Text = "Modelos";
             this.btnModelo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -318,11 +319,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnMarca.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMarca.IconSize = 30;
             this.btnMarca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMarca.Location = new System.Drawing.Point(0, 345);
+            this.btnMarca.Location = new System.Drawing.Point(0, 207);
             this.btnMarca.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMarca.Name = "btnMarca";
             this.btnMarca.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnMarca.Size = new System.Drawing.Size(240, 69);
+            this.btnMarca.Size = new System.Drawing.Size(261, 35);
             this.btnMarca.TabIndex = 5;
             this.btnMarca.Text = "Marcas";
             this.btnMarca.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -343,11 +344,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.Empleados.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.Empleados.IconSize = 30;
             this.Empleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Empleados.Location = new System.Drawing.Point(0, 276);
+            this.Empleados.Location = new System.Drawing.Point(0, 166);
             this.Empleados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Empleados.Name = "Empleados";
             this.Empleados.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.Empleados.Size = new System.Drawing.Size(240, 69);
+            this.Empleados.Size = new System.Drawing.Size(261, 41);
             this.Empleados.TabIndex = 4;
             this.Empleados.Text = "Empleados";
             this.Empleados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -367,11 +368,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnDepartamento.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDepartamento.IconSize = 30;
             this.btnDepartamento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDepartamento.Location = new System.Drawing.Point(0, 207);
+            this.btnDepartamento.Location = new System.Drawing.Point(0, 131);
             this.btnDepartamento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDepartamento.Name = "btnDepartamento";
             this.btnDepartamento.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnDepartamento.Size = new System.Drawing.Size(240, 69);
+            this.btnDepartamento.Size = new System.Drawing.Size(261, 35);
             this.btnDepartamento.TabIndex = 3;
             this.btnDepartamento.Text = "Departamentos";
             this.btnDepartamento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -392,11 +393,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnColor.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnColor.IconSize = 30;
             this.btnColor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnColor.Location = new System.Drawing.Point(0, 138);
+            this.btnColor.Location = new System.Drawing.Point(0, 88);
             this.btnColor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnColor.Name = "btnColor";
             this.btnColor.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnColor.Size = new System.Drawing.Size(240, 69);
+            this.btnColor.Size = new System.Drawing.Size(261, 43);
             this.btnColor.TabIndex = 2;
             this.btnColor.Text = "Colores";
             this.btnColor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -417,11 +418,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCliente.IconSize = 30;
             this.btnCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCliente.Location = new System.Drawing.Point(0, 69);
+            this.btnCliente.Location = new System.Drawing.Point(0, 46);
             this.btnCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCliente.Name = "btnCliente";
             this.btnCliente.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnCliente.Size = new System.Drawing.Size(240, 69);
+            this.btnCliente.Size = new System.Drawing.Size(261, 42);
             this.btnCliente.TabIndex = 1;
             this.btnCliente.Text = "Clientes";
             this.btnCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -446,7 +447,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnCargo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCargo.Name = "btnCargo";
             this.btnCargo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnCargo.Size = new System.Drawing.Size(240, 69);
+            this.btnCargo.Size = new System.Drawing.Size(261, 46);
             this.btnCargo.TabIndex = 0;
             this.btnCargo.Text = "Cargos";
             this.btnCargo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -466,11 +467,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnSalirMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalirMenu.IconSize = 30;
             this.btnSalirMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalirMenu.Location = new System.Drawing.Point(0, 1116);
+            this.btnSalirMenu.Location = new System.Drawing.Point(0, 842);
             this.btnSalirMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSalirMenu.Name = "btnSalirMenu";
             this.btnSalirMenu.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnSalirMenu.Size = new System.Drawing.Size(240, 74);
+            this.btnSalirMenu.Size = new System.Drawing.Size(261, 74);
             this.btnSalirMenu.TabIndex = 5;
             this.btnSalirMenu.Tag = "Salir";
             this.btnSalirMenu.Text = "Salir";
@@ -490,11 +491,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.iconMantenimiento.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMantenimiento.IconSize = 30;
             this.iconMantenimiento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconMantenimiento.Location = new System.Drawing.Point(0, 197);
+            this.iconMantenimiento.Location = new System.Drawing.Point(0, 128);
             this.iconMantenimiento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconMantenimiento.Name = "iconMantenimiento";
             this.iconMantenimiento.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.iconMantenimiento.Size = new System.Drawing.Size(240, 74);
+            this.iconMantenimiento.Size = new System.Drawing.Size(261, 48);
             this.iconMantenimiento.TabIndex = 2;
             this.iconMantenimiento.Tag = "Mantenimientos";
             this.iconMantenimiento.Text = "Mantenimientos";
@@ -514,11 +515,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnInicio.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnInicio.IconSize = 30;
             this.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInicio.Location = new System.Drawing.Point(0, 123);
+            this.btnInicio.Location = new System.Drawing.Point(0, 84);
             this.btnInicio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnInicio.Size = new System.Drawing.Size(240, 74);
+            this.btnInicio.Size = new System.Drawing.Size(261, 44);
             this.btnInicio.TabIndex = 1;
             this.btnInicio.Tag = "Inicio";
             this.btnInicio.Text = "Inicio";
@@ -535,7 +536,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(240, 123);
+            this.panel1.Size = new System.Drawing.Size(261, 84);
             this.panel1.TabIndex = 0;
             // 
             // btnMenu
@@ -688,7 +689,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.panelDesktop.Location = new System.Drawing.Point(261, 84);
             this.panelDesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1000, 572);
+            this.panelDesktop.Size = new System.Drawing.Size(1000, 832);
             this.panelDesktop.TabIndex = 2;
             // 
             // pictureDesktop
@@ -696,7 +697,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.pictureDesktop.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureDesktop.BackColor = System.Drawing.Color.Transparent;
             this.pictureDesktop.Image = global::ProyectoFinalPooJA.Properties.Resources.Logo_Principal;
-            this.pictureDesktop.Location = new System.Drawing.Point(184, 143);
+            this.pictureDesktop.Location = new System.Drawing.Point(184, 273);
             this.pictureDesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureDesktop.Name = "pictureDesktop";
             this.pictureDesktop.Size = new System.Drawing.Size(645, 283);
@@ -712,7 +713,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1261, 656);
+            this.ClientSize = new System.Drawing.Size(1261, 916);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTituloMenu);
             this.Controls.Add(this.panelMenuPrincipal);

@@ -35,6 +35,7 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             this.label3 = new System.Windows.Forms.Label();
             this.lblTotalRegistros = new System.Windows.Forms.Label();
             this.btnActualizarDatos = new System.Windows.Forms.Button();
+            this.btnSalir = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEntregasReport)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,11 +105,33 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             this.btnActualizarDatos.UseVisualStyleBackColor = false;
             this.btnActualizarDatos.Click += new System.EventHandler(this.btnActualizarDatos_Click);
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(231)))), ((int)(((byte)(236)))));
+            this.btnSalir.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
+            this.btnSalir.IconColor = System.Drawing.Color.White;
+            this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnSalir.IconSize = 30;
+            this.btnSalir.Location = new System.Drawing.Point(32, 12);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(102, 42);
+            this.btnSalir.TabIndex = 21;
+            this.btnSalir.Text = "Cerrar";
+            this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // ReporteEntregas
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1172, 630);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnActualizarDatos);
             this.Controls.Add(this.lblTotalRegistros);
             this.Controls.Add(this.label3);
@@ -132,5 +155,6 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblTotalRegistros;
         private System.Windows.Forms.Button btnActualizarDatos;
+        private FontAwesome.Sharp.IconButton btnSalir;
     }
 }
