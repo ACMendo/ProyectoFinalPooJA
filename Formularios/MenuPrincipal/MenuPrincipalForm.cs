@@ -285,7 +285,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 
         private void btnIncidencia_Click_1(object sender, EventArgs e)
         {
-            
+            openSubMenuForm(new IncidenciaUI.IncidenciaViewForm());
             ActivateButton(sender, RBColors.color4);
             hideSubMenu();
 

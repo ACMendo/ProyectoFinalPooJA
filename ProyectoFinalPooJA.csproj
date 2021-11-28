@@ -227,6 +227,24 @@
     <Compile Include="Formularios\General\GeneralSearchForm.Designer.cs">
       <DependentUpon>GeneralSearchForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\IncidenciaUI\IncidenciaActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\IncidenciaUI\IncidenciaActualizarForm.Designer.cs">
+      <DependentUpon>IncidenciaActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\IncidenciaUI\IncidenciaCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\IncidenciaUI\IncidenciaCrearForm.Designer.cs">
+      <DependentUpon>IncidenciaCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\IncidenciaUI\IncidenciaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\IncidenciaUI\IncidenciaViewForm.Designer.cs">
+      <DependentUpon>IncidenciaViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\MarcaUI\MarcaActualizarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -434,6 +452,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\General\GeneralSearchForm.resx">
       <DependentUpon>GeneralSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\IncidenciaUI\IncidenciaActualizarForm.resx">
+      <DependentUpon>IncidenciaActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\IncidenciaUI\IncidenciaCrearForm.resx">
+      <DependentUpon>IncidenciaCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\IncidenciaUI\IncidenciaViewForm.resx">
+      <DependentUpon>IncidenciaViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MarcaUI\MarcaActualizarForm.resx">
       <DependentUpon>MarcaActualizarForm.cs</DependentUpon>
