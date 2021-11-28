@@ -214,6 +214,24 @@
     <Compile Include="Formularios\MenuPrincipal\MenuPrincipalForm.Designer.cs">
       <DependentUpon>MenuPrincipalForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\PrioridadUI\PrioridadActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PrioridadUI\PrioridadActualizarForm.Designer.cs">
+      <DependentUpon>PrioridadActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PrioridadUI\PrioridadCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PrioridadUI\PrioridadCrearForm.Designer.cs">
+      <DependentUpon>PrioridadCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PrioridadUI\PrioridadViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PrioridadUI\PrioridadViewForm.Designer.cs">
+      <DependentUpon>PrioridadViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ReportesUI\ReporteEntregas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -336,6 +354,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MenuPrincipal\MenuPrincipalForm.resx">
       <DependentUpon>MenuPrincipalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PrioridadUI\PrioridadActualizarForm.resx">
+      <DependentUpon>PrioridadActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PrioridadUI\PrioridadCrearForm.resx">
+      <DependentUpon>PrioridadCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PrioridadUI\PrioridadViewForm.resx">
+      <DependentUpon>PrioridadViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ReportesUI\ReporteEntregas.resx">
       <DependentUpon>ReporteEntregas.cs</DependentUpon>

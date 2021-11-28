@@ -282,6 +282,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnPrioridad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPrioridad.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPrioridad.UseVisualStyleBackColor = false;
+            this.btnPrioridad.Click += new System.EventHandler(this.btnPrioridad_Click);
             // 
             // btnModelo
             // 
