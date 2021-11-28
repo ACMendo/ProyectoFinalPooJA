@@ -178,6 +178,25 @@
     <Compile Include="Formularios\DepartamentoUI\DepartamentoViewForm.Designer.cs">
       <DependentUpon>DepartamentoViewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\EmpleadoUI\EmpleadoActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\EmpleadoUI\EmpleadoActualizarForm.Designer.cs">
+      <DependentUpon>EmpleadoActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EmpleadoUI\EmpleadoCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\EmpleadoUI\EmpleadoCrearForm.Designer.cs">
+      <DependentUpon>EmpleadoCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EmpleadoUI\EmpleadoView.cs" />
+    <Compile Include="Formularios\EmpleadoUI\EmpleadoViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\EmpleadoUI\EmpleadoViewForm.Designer.cs">
+      <DependentUpon>EmpleadoViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\General\GeneralCrearForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -355,6 +374,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\DepartamentoUI\DepartamentoViewForm.resx">
       <DependentUpon>DepartamentoViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\EmpleadoUI\EmpleadoActualizarForm.resx">
+      <DependentUpon>EmpleadoActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\EmpleadoUI\EmpleadoCrearForm.resx">
+      <DependentUpon>EmpleadoCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\EmpleadoUI\EmpleadoViewForm.resx">
+      <DependentUpon>EmpleadoViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\General\GeneralCrearForm.resx">
       <DependentUpon>GeneralCrearForm.cs</DependentUpon>
