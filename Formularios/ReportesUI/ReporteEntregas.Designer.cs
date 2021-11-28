@@ -45,7 +45,7 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             this.dgvEntregasReport.Name = "dgvEntregasReport";
             this.dgvEntregasReport.RowHeadersWidth = 51;
             this.dgvEntregasReport.RowTemplate.Height = 24;
-            this.dgvEntregasReport.Size = new System.Drawing.Size(1205, 150);
+            this.dgvEntregasReport.Size = new System.Drawing.Size(1146, 150);
             this.dgvEntregasReport.TabIndex = 14;
             // 
             // btnExcel
@@ -53,7 +53,7 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             this.btnExcel.BackColor = System.Drawing.Color.Green;
             this.btnExcel.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnExcel.Location = new System.Drawing.Point(562, 497);
+            this.btnExcel.Location = new System.Drawing.Point(472, 503);
             this.btnExcel.Name = "btnExcel";
             this.btnExcel.Size = new System.Drawing.Size(161, 58);
             this.btnExcel.TabIndex = 15;
@@ -65,7 +65,7 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(535, 67);
+            this.label1.Location = new System.Drawing.Point(430, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(240, 34);
             this.label1.TabIndex = 16;
@@ -75,7 +75,7 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(339, 421);
+            this.label3.Location = new System.Drawing.Point(239, 421);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(191, 25);
             this.label3.TabIndex = 18;
@@ -96,7 +96,7 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             this.btnActualizarDatos.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnActualizarDatos.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizarDatos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnActualizarDatos.Location = new System.Drawing.Point(562, 144);
+            this.btnActualizarDatos.Location = new System.Drawing.Point(472, 153);
             this.btnActualizarDatos.Name = "btnActualizarDatos";
             this.btnActualizarDatos.Size = new System.Drawing.Size(161, 58);
             this.btnActualizarDatos.TabIndex = 20;
@@ -106,15 +106,16 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             // 
             // ReporteEntregas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1229, 666);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1172, 630);
             this.Controls.Add(this.btnActualizarDatos);
             this.Controls.Add(this.lblTotalRegistros);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.dgvEntregasReport);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ReporteEntregas";
             this.Text = "ReporteEntregas";
             this.Load += new System.EventHandler(this.ReporteEntregas_Load);
