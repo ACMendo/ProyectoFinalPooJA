@@ -214,6 +214,25 @@
     <Compile Include="Formularios\MenuPrincipal\MenuPrincipalForm.Designer.cs">
       <DependentUpon>MenuPrincipalForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ModelosUI\ModeloActualizarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ModelosUI\ModeloActualizarForm.Designer.cs">
+      <DependentUpon>ModeloActualizarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ModelosUI\ModelosCrearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ModelosUI\ModelosCrearForm.Designer.cs">
+      <DependentUpon>ModelosCrearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ModelosUI\ModelosViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ModelosUI\ModelosViewForm.Designer.cs">
+      <DependentUpon>ModelosViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ModelosUI\ModeloView.cs" />
     <Compile Include="Formularios\PrioridadUI\PrioridadActualizarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -354,6 +373,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MenuPrincipal\MenuPrincipalForm.resx">
       <DependentUpon>MenuPrincipalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ModelosUI\ModeloActualizarForm.resx">
+      <DependentUpon>ModeloActualizarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ModelosUI\ModelosCrearForm.resx">
+      <DependentUpon>ModelosCrearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ModelosUI\ModelosViewForm.resx">
+      <DependentUpon>ModelosViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\PrioridadUI\PrioridadActualizarForm.resx">
       <DependentUpon>PrioridadActualizarForm.cs</DependentUpon>

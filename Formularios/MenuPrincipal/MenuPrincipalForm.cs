@@ -359,5 +359,10 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         {
             openSubMenuForm(new PrioridadUI.PrioridadViewForm());
         }
+
+        private void btnModelo_Click(object sender, EventArgs e)
+        {
+            openSubMenuForm(new ModelosUI.ModelosViewForm());
+        }
     }
 }

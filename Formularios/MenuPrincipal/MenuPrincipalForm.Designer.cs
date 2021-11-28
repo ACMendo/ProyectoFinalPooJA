@@ -307,6 +307,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
             this.btnModelo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnModelo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnModelo.UseVisualStyleBackColor = false;
+            this.btnModelo.Click += new System.EventHandler(this.btnModelo_Click);
             // 
             // btnMarca
             // 
