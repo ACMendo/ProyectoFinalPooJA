@@ -40,12 +40,14 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
                 ClienteActualizarForm form = new ClienteActualizarForm();
                 form.ShowDialog();
                 Cargardgv();
+                ID = 0;
             }         
         }
 
         public void Cargardgv()
         {
             dgvCliente.DataSource = _clienteRepository.Consultar(0);
+            dgvCliente.Columns["ID"].Visible = false;
             dgvCliente.Columns["Borrado"].Visible = false;
             dgvCliente.Columns["Estatus"].Visible = false;
             dgvCliente.Columns["Fecha_Registro"].Visible = false;
@@ -89,6 +91,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
                     MessageBox.Show(resultado.Message);
                     if (resultado.Success) Cargardgv();
                 }
+                ID = 0;
             }
         }
     }

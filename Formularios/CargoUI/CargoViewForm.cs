@@ -36,6 +36,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
                     MessageBox.Show(resultado.Message);
                     if (resultado.Success) Cargardgv();
                 }
+                ID = 0;
             }
         }
 
@@ -57,6 +58,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
                 CargoActualizarForm form = new CargoActualizarForm();
                 form.ShowDialog();
                 Cargardgv();
+                ID = 0;
             }
         }
 
@@ -68,11 +70,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
         public void Cargardgv()
         {
             dgvCargo.DataSource = _cargoRepository.Consultar(0);
-            InvisibleColumn();
-        }
-
-        public void InvisibleColumn()
-        {
+            dgvCargo.Columns["ID"].Visible = false;
             dgvCargo.Columns["Borrado"].Visible = false;
             dgvCargo.Columns["Estatus"].Visible = false;
             dgvCargo.Columns["Fecha_Registro"].Visible = false;

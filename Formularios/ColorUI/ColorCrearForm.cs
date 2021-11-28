@@ -54,5 +54,10 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
                 }
             }
         }
+
+        private void ColorCrearForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

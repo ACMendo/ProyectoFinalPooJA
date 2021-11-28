@@ -37,6 +37,14 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             // 
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // btnEditar
             // 
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
@@ -59,6 +67,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             this.dgvDepartamento.RowTemplate.Height = 24;
             this.dgvDepartamento.Size = new System.Drawing.Size(922, 289);
             this.dgvDepartamento.TabIndex = 7;
+            this.dgvDepartamento.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDepartamento_CellClick);
             // 
             // DepartamentoViewForm
             // 
@@ -68,6 +77,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             this.Controls.Add(this.dgvDepartamento);
             this.Name = "DepartamentoViewForm";
             this.Text = "DepartamentoViewForm";
+            this.Load += new System.EventHandler(this.DepartamentoViewForm_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.dgvDepartamento, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDepartamento)).EndInit();

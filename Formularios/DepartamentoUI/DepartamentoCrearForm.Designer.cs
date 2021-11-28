@@ -154,6 +154,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             this.btnAñadir.Text = " Añadir";
             this.btnAñadir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAñadir.UseVisualStyleBackColor = false;
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
             // DepartamentoCrearForm
             // 
@@ -164,6 +165,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             this.Name = "DepartamentoCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DepartamentoCrearForm";
+            this.Load += new System.EventHandler(this.DepartamentoCrearForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

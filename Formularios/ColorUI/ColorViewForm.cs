@@ -41,6 +41,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
                 ColorActualizarForm form = new ColorActualizarForm();
                 form.ShowDialog();
                 Cargardgv();
+                ID = 0;
             }
 
         }
@@ -53,6 +54,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
         public void Cargardgv()
         {
             dgvColor.DataSource = _colorRepository.Consultar(0);
+            dgvColor.Columns["ID"].Visible = false;
             dgvColor.Columns["Borrado"].Visible = false;
             dgvColor.Columns["Estatus"].Visible = false;
             dgvColor.Columns["Fecha_Registro"].Visible = false;
@@ -80,12 +82,13 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             }
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Cliente", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Color", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _colorRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);
                     if (resultado.Success) Cargardgv();
                 }
+                ID = 0;
             }
         }
 
