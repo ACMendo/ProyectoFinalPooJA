@@ -53,12 +53,14 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
 
         public void Cargardgv()
         {
+            _colorRepository = new ColorRepository();
             dgvColor.DataSource = _colorRepository.Consultar(0);
             dgvColor.Columns["ID"].Visible = false;
             dgvColor.Columns["Borrado"].Visible = false;
             dgvColor.Columns["Estatus"].Visible = false;
             dgvColor.Columns["Fecha_Registro"].Visible = false;
             dgvColor.Columns["Fecha_Modificacion"].Visible = false;
+
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

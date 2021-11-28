@@ -69,6 +69,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
 
         public void Cargardgv()
         {
+            _cargoRepository = new CargoRepository();
             dgvCargo.DataSource = _cargoRepository.Consultar(0);
             dgvCargo.Columns["ID"].Visible = false;
             dgvCargo.Columns["Borrado"].Visible = false;

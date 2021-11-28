@@ -46,6 +46,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
 
         public void Cargardgv()
         {
+            _clienteRepository = new ClienteRepository();
             dgvCliente.DataSource = _clienteRepository.Consultar(0);
             dgvCliente.Columns["ID"].Visible = false;
             dgvCliente.Columns["Borrado"].Visible = false;

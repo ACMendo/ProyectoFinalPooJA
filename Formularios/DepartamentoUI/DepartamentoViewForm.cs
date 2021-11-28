@@ -42,6 +42,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
         }
         public void Cargardgv()
         {
+            _departamentoRepository = new DepartamentoRepository();
             dgvDepartamento.DataSource = _departamentoRepository.Consultar(0);
             dgvDepartamento.Columns["ID"].Visible = false;
             dgvDepartamento.Columns["Borrado"].Visible = false;
