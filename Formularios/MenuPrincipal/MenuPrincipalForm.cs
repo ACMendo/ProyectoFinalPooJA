@@ -292,10 +292,8 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 
         private void btnReporte_Click_1(object sender, EventArgs e)
         {
-            
-            ActivateButton(sender, RBColors.color5);
-           // De ultimo siempre
-            hideSubMenu();
+
+            openSubMenuForm(new ReportesUI.ReporteEntregas());
 
         }
         public void openSubMenuForm(object formSM)

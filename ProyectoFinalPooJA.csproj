@@ -196,6 +196,12 @@
     <Compile Include="Formularios\MenuPrincipal\MenuPrincipalForm.Designer.cs">
       <DependentUpon>MenuPrincipalForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ReportesUI\ReporteEntregas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ReportesUI\ReporteEntregas.Designer.cs">
+      <DependentUpon>ReporteEntregas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Migrations\202111180119371_initial.cs" />
     <Compile Include="Migrations\202111180119371_initial.designer.cs">
@@ -267,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MenuPrincipal\MenuPrincipalForm.resx">
       <DependentUpon>MenuPrincipalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ReportesUI\ReporteEntregas.resx">
+      <DependentUpon>ReporteEntregas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111180119371_initial.resx">
       <DependentUpon>202111180119371_initial.cs</DependentUpon>
