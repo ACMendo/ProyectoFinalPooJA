@@ -32,10 +32,6 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.label9 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.gbVehiculo = new System.Windows.Forms.GroupBox();
-            this.gbAdicional = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.cbxEmpleado = new System.Windows.Forms.ComboBox();
-            this.checkMantenimiento = new System.Windows.Forms.CheckBox();
             this.cbxTipo_Vehiculo = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -52,6 +48,10 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.label6 = new System.Windows.Forms.Label();
             this.txtChasis = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.gbAdicional = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cbxEmpleado = new System.Windows.Forms.ComboBox();
+            this.checkMantenimiento = new System.Windows.Forms.CheckBox();
             this.btnLimpiar = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.btnAnadir = new FontAwesome.Sharp.IconButton();
@@ -119,69 +119,12 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.gbVehiculo.TabStop = false;
             this.gbVehiculo.Text = "Vehículo";
             // 
-            // gbAdicional
-            // 
-            this.gbAdicional.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gbAdicional.Controls.Add(this.label10);
-            this.gbAdicional.Controls.Add(this.cbxEmpleado);
-            this.gbAdicional.Controls.Add(this.checkMantenimiento);
-            this.gbAdicional.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.gbAdicional.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.gbAdicional.Location = new System.Drawing.Point(37, 431);
-            this.gbAdicional.Name = "gbAdicional";
-            this.gbAdicional.Size = new System.Drawing.Size(784, 87);
-            this.gbAdicional.TabIndex = 35;
-            this.gbAdicional.TabStop = false;
-            this.gbAdicional.Text = "Información Adicional";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(22, 41);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(103, 20);
-            this.label10.TabIndex = 37;
-            this.label10.Text = "Empleado";
-            // 
-            // cbxEmpleado
-            // 
-            this.cbxEmpleado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbxEmpleado.FormattingEnabled = true;
-            this.cbxEmpleado.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
-            this.cbxEmpleado.Location = new System.Drawing.Point(154, 41);
-            this.cbxEmpleado.Name = "cbxEmpleado";
-            this.cbxEmpleado.Size = new System.Drawing.Size(298, 28);
-            this.cbxEmpleado.TabIndex = 36;
-            // 
-            // checkMantenimiento
-            // 
-            this.checkMantenimiento.AutoSize = true;
-            this.checkMantenimiento.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.checkMantenimiento.ForeColor = System.Drawing.Color.Black;
-            this.checkMantenimiento.Location = new System.Drawing.Point(522, 43);
-            this.checkMantenimiento.Name = "checkMantenimiento";
-            this.checkMantenimiento.Size = new System.Drawing.Size(174, 24);
-            this.checkMantenimiento.TabIndex = 35;
-            this.checkMantenimiento.Text = "Mantenimiento";
-            this.checkMantenimiento.UseVisualStyleBackColor = true;
-            // 
             // cbxTipo_Vehiculo
             // 
             this.cbxTipo_Vehiculo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxTipo_Vehiculo.FormattingEnabled = true;
-            this.cbxTipo_Vehiculo.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
             this.cbxTipo_Vehiculo.Location = new System.Drawing.Point(201, 216);
             this.cbxTipo_Vehiculo.Name = "cbxTipo_Vehiculo";
             this.cbxTipo_Vehiculo.Size = new System.Drawing.Size(252, 28);
@@ -221,9 +164,6 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxColor.FormattingEnabled = true;
-            this.cbxColor.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
             this.cbxColor.Location = new System.Drawing.Point(482, 106);
             this.cbxColor.Name = "cbxColor";
             this.cbxColor.Size = new System.Drawing.Size(275, 28);
@@ -249,9 +189,6 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxModelo.FormattingEnabled = true;
-            this.cbxModelo.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
             this.cbxModelo.Location = new System.Drawing.Point(128, 106);
             this.cbxModelo.Name = "cbxModelo";
             this.cbxModelo.Size = new System.Drawing.Size(239, 28);
@@ -278,8 +215,8 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxCombustible.FormattingEnabled = true;
             this.cbxCombustible.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
+            "Disel",
+            "Gasolina"});
             this.cbxCombustible.Location = new System.Drawing.Point(549, 162);
             this.cbxCombustible.Name = "cbxCombustible";
             this.cbxCombustible.Size = new System.Drawing.Size(208, 28);
@@ -332,8 +269,9 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxTransmision.FormattingEnabled = true;
             this.cbxTransmision.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
+            "Manual",
+            "Automática",
+            "Mixta"});
             this.cbxTransmision.Location = new System.Drawing.Point(159, 162);
             this.cbxTransmision.Name = "cbxTransmision";
             this.cbxTransmision.Size = new System.Drawing.Size(208, 28);
@@ -346,10 +284,12 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAno.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
             this.txtAno.Location = new System.Drawing.Point(549, 213);
+            this.txtAno.MaxLength = 4;
             this.txtAno.Multiline = true;
             this.txtAno.Name = "txtAno";
             this.txtAno.Size = new System.Drawing.Size(208, 28);
             this.txtAno.TabIndex = 69;
+            this.txtAno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAno_KeyPress);
             // 
             // label6
             // 
@@ -390,6 +330,57 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.label8.Size = new System.Drawing.Size(70, 20);
             this.label8.TabIndex = 66;
             this.label8.Text = "Chasis";
+            // 
+            // gbAdicional
+            // 
+            this.gbAdicional.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbAdicional.Controls.Add(this.label10);
+            this.gbAdicional.Controls.Add(this.cbxEmpleado);
+            this.gbAdicional.Controls.Add(this.checkMantenimiento);
+            this.gbAdicional.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.gbAdicional.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.gbAdicional.Location = new System.Drawing.Point(37, 431);
+            this.gbAdicional.Name = "gbAdicional";
+            this.gbAdicional.Size = new System.Drawing.Size(784, 87);
+            this.gbAdicional.TabIndex = 35;
+            this.gbAdicional.TabStop = false;
+            this.gbAdicional.Text = "Información Adicional";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(22, 41);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(103, 20);
+            this.label10.TabIndex = 37;
+            this.label10.Text = "Empleado";
+            // 
+            // cbxEmpleado
+            // 
+            this.cbxEmpleado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbxEmpleado.FormattingEnabled = true;
+            this.cbxEmpleado.Location = new System.Drawing.Point(154, 41);
+            this.cbxEmpleado.Name = "cbxEmpleado";
+            this.cbxEmpleado.Size = new System.Drawing.Size(298, 28);
+            this.cbxEmpleado.TabIndex = 36;
+            // 
+            // checkMantenimiento
+            // 
+            this.checkMantenimiento.AutoSize = true;
+            this.checkMantenimiento.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.checkMantenimiento.ForeColor = System.Drawing.Color.Black;
+            this.checkMantenimiento.Location = new System.Drawing.Point(522, 43);
+            this.checkMantenimiento.Name = "checkMantenimiento";
+            this.checkMantenimiento.Size = new System.Drawing.Size(174, 24);
+            this.checkMantenimiento.TabIndex = 35;
+            this.checkMantenimiento.Text = "Mantenimiento";
+            this.checkMantenimiento.UseVisualStyleBackColor = true;
             // 
             // btnLimpiar
             // 
@@ -456,6 +447,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.btnAnadir.Text = " Añadir";
             this.btnAnadir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAnadir.UseVisualStyleBackColor = false;
+            this.btnAnadir.Click += new System.EventHandler(this.btnAnadir_Click);
             // 
             // VehiculoCrearForm
             // 
@@ -466,6 +458,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.Name = "VehiculoCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VehiculoCrearForm";
+            this.Load += new System.EventHandler(this.VehiculoCrearForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.gbVehiculo.ResumeLayout(false);

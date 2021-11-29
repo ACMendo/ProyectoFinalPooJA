@@ -360,6 +360,7 @@
     <Compile Include="Formularios\VehiculoUI\VehiculoCrearForm.Designer.cs">
       <DependentUpon>VehiculoCrearForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\VehiculoUI\VehiculoView.cs" />
     <Compile Include="Formularios\VehiculoUI\VehiculoViewForm.cs">
       <SubType>Form</SubType>
     </Compile>

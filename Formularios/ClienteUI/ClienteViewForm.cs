@@ -58,6 +58,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
         private void ClienteViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvCliente.ReadOnly = true;
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

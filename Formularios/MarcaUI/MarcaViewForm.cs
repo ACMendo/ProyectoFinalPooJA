@@ -25,6 +25,7 @@ namespace ProyectoFinalPooJA.Formularios.MarcaUI
         private void MarcaViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvMarca.ReadOnly = true;
         }
         public void Cargardgv()
         {

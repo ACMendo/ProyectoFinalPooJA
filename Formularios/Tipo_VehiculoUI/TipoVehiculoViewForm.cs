@@ -41,6 +41,7 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
         private void TipoVehiculoViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvTipoVehiculo.ReadOnly = true;
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

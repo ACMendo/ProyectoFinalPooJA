@@ -26,6 +26,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
         private void EmpleadoViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvEmpleado.ReadOnly = true;
         }
         public void Cargardgv()
         {

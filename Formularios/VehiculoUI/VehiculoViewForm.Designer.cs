@@ -37,6 +37,14 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             // 
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // btnEditar
             // 
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
@@ -59,6 +67,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.dgvVehiculo.RowTemplate.Height = 24;
             this.dgvVehiculo.Size = new System.Drawing.Size(922, 289);
             this.dgvVehiculo.TabIndex = 8;
+            this.dgvVehiculo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVehiculo_CellClick);
             // 
             // VehiculoViewForm
             // 
@@ -68,6 +77,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.Controls.Add(this.dgvVehiculo);
             this.Name = "VehiculoViewForm";
             this.Text = "VehiculoViewForm";
+            this.Load += new System.EventHandler(this.VehiculoViewForm_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.dgvVehiculo, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvVehiculo)).EndInit();

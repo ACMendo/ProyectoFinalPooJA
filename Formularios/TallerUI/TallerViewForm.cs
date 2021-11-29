@@ -35,6 +35,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
         private void TallerViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvTaller.ReadOnly = true;
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

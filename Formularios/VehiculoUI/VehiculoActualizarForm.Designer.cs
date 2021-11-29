@@ -94,6 +94,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.btnEditar.Text = " Editar";
             this.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnLimpiar
             // 
@@ -116,6 +117,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.btnLimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLimpiar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnSalir
             // 
@@ -138,6 +140,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // gbVehiculo
             // 
@@ -274,8 +277,8 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxCombustible.FormattingEnabled = true;
             this.cbxCombustible.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
+            "Disel",
+            "Gasolina"});
             this.cbxCombustible.Location = new System.Drawing.Point(549, 162);
             this.cbxCombustible.Name = "cbxCombustible";
             this.cbxCombustible.Size = new System.Drawing.Size(208, 28);
@@ -328,8 +331,9 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxTransmision.FormattingEnabled = true;
             this.cbxTransmision.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
+            "Manual",
+            "Automática",
+            "Mixta"});
             this.cbxTransmision.Location = new System.Drawing.Point(159, 162);
             this.cbxTransmision.Name = "cbxTransmision";
             this.cbxTransmision.Size = new System.Drawing.Size(208, 28);
@@ -464,6 +468,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.Name = "VehiculoActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VehiculoActualizarForm";
+            this.Load += new System.EventHandler(this.VehiculoActualizarForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.gbVehiculo.ResumeLayout(false);

@@ -67,6 +67,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
         private void DepartamentoViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvDepartamento.ReadOnly = true;
         }
 
         private void dgvDepartamento_CellClick(object sender, DataGridViewCellEventArgs e)

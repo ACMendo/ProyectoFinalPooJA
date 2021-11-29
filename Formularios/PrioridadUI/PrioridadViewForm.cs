@@ -25,6 +25,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
         private void PrioridadViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvPrioridad.ReadOnly = true;
         }
         void Cargardgv()
         {

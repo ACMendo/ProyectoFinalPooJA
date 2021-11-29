@@ -49,6 +49,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
         private void ColorViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvColor.ReadOnly = true;
         }
 
         public void Cargardgv()

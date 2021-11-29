@@ -29,7 +29,8 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
 
         private void ReporteEntregas_Load(object sender, EventArgs e)
         {
-            Consulta();           
+            Consulta();
+            dgvEntregasReport.ReadOnly = true;
         }
 
         void  Consulta()

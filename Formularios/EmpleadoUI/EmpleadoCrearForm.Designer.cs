@@ -121,6 +121,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             this.txtCodigoEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
             this.txtCodigoEmpleadoCrear.Location = new System.Drawing.Point(114, 180);
+            this.txtCodigoEmpleadoCrear.MaxLength = 6;
             this.txtCodigoEmpleadoCrear.Multiline = true;
             this.txtCodigoEmpleadoCrear.Name = "txtCodigoEmpleadoCrear";
             this.txtCodigoEmpleadoCrear.Size = new System.Drawing.Size(265, 28);

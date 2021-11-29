@@ -109,6 +109,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
         private void ModelosViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvModelo.ReadOnly = true;
         }
     }
 }

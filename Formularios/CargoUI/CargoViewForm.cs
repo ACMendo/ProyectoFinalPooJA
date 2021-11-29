@@ -65,6 +65,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
         private void CargoViewForm_Load(object sender, EventArgs e)
         {
             Cargardgv();
+            dgvCargo.ReadOnly = true;
         }
 
         public void Cargardgv()
