@@ -39,6 +39,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
                 form.ShowDialog();
                 Cargardgv();
             }
+            ID = 0;
         }
 
         private void VehiculoViewForm_Load(object sender, EventArgs e)

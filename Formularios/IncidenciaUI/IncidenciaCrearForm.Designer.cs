@@ -73,9 +73,6 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             // cbxVehiculo
             // 
             this.cbxVehiculo.FormattingEnabled = true;
-            this.cbxVehiculo.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
             this.cbxVehiculo.Location = new System.Drawing.Point(544, 176);
             this.cbxVehiculo.Name = "cbxVehiculo";
             this.cbxVehiculo.Size = new System.Drawing.Size(276, 24);
@@ -129,9 +126,6 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             // cbxTaller
             // 
             this.cbxTaller.FormattingEnabled = true;
-            this.cbxTaller.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
             this.cbxTaller.Location = new System.Drawing.Point(119, 172);
             this.cbxTaller.Name = "cbxTaller";
             this.cbxTaller.Size = new System.Drawing.Size(294, 24);
@@ -250,6 +244,7 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             this.btnAnadir.Text = " Añadir";
             this.btnAnadir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAnadir.UseVisualStyleBackColor = false;
+            this.btnAnadir.Click += new System.EventHandler(this.btnAnadir_Click);
             // 
             // IncidenciaCrearForm
             // 
@@ -260,6 +255,7 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             this.Name = "IncidenciaCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IncidenciaCrearForm";
+            this.Load += new System.EventHandler(this.IncidenciaCrearForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);

@@ -246,6 +246,7 @@
     <Compile Include="Formularios\IncidenciaUI\IncidenciaViewForm.Designer.cs">
       <DependentUpon>IncidenciaViewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\IncidenciaUI\InicidenciaView.cs" />
     <Compile Include="Formularios\MarcaUI\MarcaActualizarForm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -110,7 +110,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
                 try
                 {
                     _entregaRepository.Crear(empleado);
-                    MessageBox.Show("¡Empleado creado exitosamente!");
+                    MessageBox.Show("¡Entrega creada exitosamente!");
                     this.Close();
                 }
                 catch (Exception ex)
