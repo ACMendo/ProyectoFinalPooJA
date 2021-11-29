@@ -37,6 +37,14 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             // 
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // btnEditar
             // 
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
@@ -60,6 +68,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.dgvEntrega.RowTemplate.Height = 24;
             this.dgvEntrega.Size = new System.Drawing.Size(922, 289);
             this.dgvEntrega.TabIndex = 9;
+            this.dgvEntrega.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEntrega_CellClick);
             // 
             // EntregaViewForm
             // 
@@ -69,6 +78,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.Controls.Add(this.dgvEntrega);
             this.Name = "EntregaViewForm";
             this.Text = "EntregaViewForm";
+            this.Load += new System.EventHandler(this.EntregaViewForm_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.dgvEntrega, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEntrega)).EndInit();

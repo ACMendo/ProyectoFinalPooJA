@@ -101,6 +101,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.btnEditar.Text = " Editar";
             this.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // label3
             // 
@@ -115,9 +116,6 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             // cbxEmpleado
             // 
             this.cbxEmpleado.FormattingEnabled = true;
-            this.cbxEmpleado.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
             this.cbxEmpleado.Location = new System.Drawing.Point(171, 396);
             this.cbxEmpleado.Name = "cbxEmpleado";
             this.cbxEmpleado.Size = new System.Drawing.Size(327, 24);
@@ -136,9 +134,6 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             // cbxPrioridad
             // 
             this.cbxPrioridad.FormattingEnabled = true;
-            this.cbxPrioridad.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
             this.cbxPrioridad.Location = new System.Drawing.Point(628, 172);
             this.cbxPrioridad.Name = "cbxPrioridad";
             this.cbxPrioridad.Size = new System.Drawing.Size(193, 24);
@@ -213,9 +208,6 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             // cbxCliente
             // 
             this.cbxCliente.FormattingEnabled = true;
-            this.cbxCliente.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
             this.cbxCliente.Location = new System.Drawing.Point(171, 167);
             this.cbxCliente.Name = "cbxCliente";
             this.cbxCliente.Size = new System.Drawing.Size(327, 24);
@@ -333,6 +325,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.Name = "EntregaActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EntregaActualizarForm";
+            this.Load += new System.EventHandler(this.EntregaActualizarForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);

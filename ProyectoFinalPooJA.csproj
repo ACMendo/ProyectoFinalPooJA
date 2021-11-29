@@ -209,6 +209,7 @@
     <Compile Include="Formularios\EntregaUI\EntregaCrearForm.Designer.cs">
       <DependentUpon>EntregaCrearForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\EntregaUI\EntregaView.cs" />
     <Compile Include="Formularios\EntregaUI\EntregaViewForm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -30,6 +30,14 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cbxEmpleado = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cbxPrioridad = new System.Windows.Forms.ComboBox();
+            this.dtpFechaRegreso = new System.Windows.Forms.DateTimePicker();
+            this.dtpFechaSalida = new System.Windows.Forms.DateTimePicker();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.txtDestino = new System.Windows.Forms.TextBox();
             this.lblDireccion = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -39,14 +47,6 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dtpFechaSalida = new System.Windows.Forms.DateTimePicker();
-            this.dtpFechaRegreso = new System.Windows.Forms.DateTimePicker();
-            this.cbxPrioridad = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cbxEmpleado = new System.Windows.Forms.ComboBox();
             this.btnLimpiar = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.btnAnadir = new FontAwesome.Sharp.IconButton();
@@ -82,6 +82,77 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.panel2.Size = new System.Drawing.Size(858, 555);
             this.panel2.TabIndex = 23;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(28, 395);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(103, 20);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "Empleado";
+            // 
+            // cbxEmpleado
+            // 
+            this.cbxEmpleado.FormattingEnabled = true;
+            this.cbxEmpleado.Location = new System.Drawing.Point(171, 396);
+            this.cbxEmpleado.Name = "cbxEmpleado";
+            this.cbxEmpleado.Size = new System.Drawing.Size(327, 24);
+            this.cbxEmpleado.TabIndex = 30;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(523, 400);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(54, 20);
+            this.label2.TabIndex = 29;
+            this.label2.Text = "Peso";
+            // 
+            // cbxPrioridad
+            // 
+            this.cbxPrioridad.FormattingEnabled = true;
+            this.cbxPrioridad.Location = new System.Drawing.Point(628, 172);
+            this.cbxPrioridad.Name = "cbxPrioridad";
+            this.cbxPrioridad.Size = new System.Drawing.Size(193, 24);
+            this.cbxPrioridad.TabIndex = 28;
+            // 
+            // dtpFechaRegreso
+            // 
+            this.dtpFechaRegreso.Location = new System.Drawing.Point(592, 116);
+            this.dtpFechaRegreso.Name = "dtpFechaRegreso";
+            this.dtpFechaRegreso.Size = new System.Drawing.Size(229, 22);
+            this.dtpFechaRegreso.TabIndex = 27;
+            // 
+            // dtpFechaSalida
+            // 
+            this.dtpFechaSalida.Location = new System.Drawing.Point(171, 116);
+            this.dtpFechaSalida.Name = "dtpFechaSalida";
+            this.dtpFechaSalida.Size = new System.Drawing.Size(229, 22);
+            this.dtpFechaSalida.TabIndex = 26;
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtDescripcion.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtDescripcion.Location = new System.Drawing.Point(171, 311);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(650, 58);
+            this.txtDescripcion.TabIndex = 25;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(26, 314);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(120, 20);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Descripción";
+            // 
             // txtDestino
             // 
             this.txtDestino.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -116,9 +187,6 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             // cbxCliente
             // 
             this.cbxCliente.FormattingEnabled = true;
-            this.cbxCliente.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
             this.cbxCliente.Location = new System.Drawing.Point(171, 167);
             this.cbxCliente.Name = "cbxCliente";
             this.cbxCliente.Size = new System.Drawing.Size(327, 24);
@@ -144,6 +212,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Size = new System.Drawing.Size(229, 28);
             this.txtPeso.TabIndex = 17;
+            this.txtPeso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPeso_KeyPress);
             // 
             // label7
             // 
@@ -180,83 +249,6 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.label9.TabIndex = 11;
             this.label9.Text = "Formulario";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtDescripcion
-            // 
-            this.txtDescripcion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDescripcion.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.txtDescripcion.Location = new System.Drawing.Point(171, 311);
-            this.txtDescripcion.Multiline = true;
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(650, 58);
-            this.txtDescripcion.TabIndex = 25;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(26, 314);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 20);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Descripción";
-            // 
-            // dtpFechaSalida
-            // 
-            this.dtpFechaSalida.Location = new System.Drawing.Point(171, 116);
-            this.dtpFechaSalida.Name = "dtpFechaSalida";
-            this.dtpFechaSalida.Size = new System.Drawing.Size(229, 22);
-            this.dtpFechaSalida.TabIndex = 26;
-            // 
-            // dtpFechaRegreso
-            // 
-            this.dtpFechaRegreso.Location = new System.Drawing.Point(592, 116);
-            this.dtpFechaRegreso.Name = "dtpFechaRegreso";
-            this.dtpFechaRegreso.Size = new System.Drawing.Size(229, 22);
-            this.dtpFechaRegreso.TabIndex = 27;
-            // 
-            // cbxPrioridad
-            // 
-            this.cbxPrioridad.FormattingEnabled = true;
-            this.cbxPrioridad.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
-            this.cbxPrioridad.Location = new System.Drawing.Point(628, 172);
-            this.cbxPrioridad.Name = "cbxPrioridad";
-            this.cbxPrioridad.Size = new System.Drawing.Size(193, 24);
-            this.cbxPrioridad.TabIndex = 28;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(523, 400);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 20);
-            this.label2.TabIndex = 29;
-            this.label2.Text = "Peso";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(28, 395);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 20);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "Empleado";
-            // 
-            // cbxEmpleado
-            // 
-            this.cbxEmpleado.FormattingEnabled = true;
-            this.cbxEmpleado.Items.AddRange(new object[] {
-            "Cédula",
-            "RNC"});
-            this.cbxEmpleado.Location = new System.Drawing.Point(171, 396);
-            this.cbxEmpleado.Name = "cbxEmpleado";
-            this.cbxEmpleado.Size = new System.Drawing.Size(327, 24);
-            this.cbxEmpleado.TabIndex = 30;
             // 
             // btnLimpiar
             // 
@@ -323,16 +315,18 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.btnAnadir.Text = " Añadir";
             this.btnAnadir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAnadir.UseVisualStyleBackColor = false;
+            this.btnAnadir.Click += new System.EventHandler(this.btnAnadir_Click);
             // 
-            // EntregaCrearView
+            // EntregaCrearForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(858, 555);
             this.Controls.Add(this.panel2);
-            this.Name = "EntregaCrearView";
+            this.Name = "EntregaCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EntregaCrearView";
+            this.Load += new System.EventHandler(this.EntregaCrearForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
