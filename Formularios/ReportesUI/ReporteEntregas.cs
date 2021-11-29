@@ -37,14 +37,33 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
         {
             _entregaRepository = new EntregaRepository();
             var datos = _entregaRepository.ConsultarGenery(0, x => x.Cliente, x => x.Empleado, x => x.Prioridad).ToList();
-            dgvEntregasReport.DataSource = datos;
-            dgvEntregasReport.Columns["ID"].Visible = false;
-            dgvEntregasReport.Columns["Borrado"].Visible = false;
-            dgvEntregasReport.Columns["Estatus"].Visible = false;
-            dgvEntregasReport.Columns["Fecha_Registro"].Visible = false;
-            dgvEntregasReport.Columns["Fecha_Modificacion"].Visible = false;
             entregas = datos;
+            dgvEntregasReport.DataSource = MapeoReporte(datos);
+            //dgvEntregasReport.Columns["ID"].Visible = false;
+            //dgvEntregasReport.Columns["Borrado"].Visible = false;
+            //dgvEntregasReport.Columns["Estatus"].Visible = false;
+            //dgvEntregasReport.Columns["Fecha_Registro"].Visible = false;
+            //dgvEntregasReport.Columns["Fecha_Modificacion"].Visible = false;            
             lblTotalRegistros.Text = entregas.Count().ToString();
+        }
+        List<ReporteView> MapeoReporte(List<Entrega> datos)
+        {
+            var lista = new List<ReporteView>();
+            foreach (var item in datos)
+            {
+                lista.Add(new ReporteView
+                {
+                    Cliente = item.Cliente.Nombre,
+                    Descripcion = item.Descripcion,
+                    Destino = item.Destino,
+                    Fecha_Regreso = item.Fecha_Regreso,
+                    Empleado = item.Empleado.Nombre,
+                    Fecha_Salida = item.Fecha_Salida,
+                    Peso = item.Peso.ToString(),
+                    Prioridad = item.Prioridad.Nombre
+                });
+            }
+            return lista;
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

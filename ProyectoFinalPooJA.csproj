@@ -320,6 +320,7 @@
     <Compile Include="Formularios\ReportesUI\ReporteEntregas.Designer.cs">
       <DependentUpon>ReporteEntregas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ReportesUI\ReporteView.cs" />
     <Compile Include="Formularios\TallerUI\TallerActualizarForm.cs">
       <SubType>Form</SubType>
     </Compile>
