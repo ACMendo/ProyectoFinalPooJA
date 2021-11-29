@@ -224,6 +224,7 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         {
             this.panelDesktop.Controls.RemoveAt(0);
             ActivateButton(sender, RBColors.color1);
+            openSubMenuForm(new Inicio());
         }
 
         private void iconMantenimiento_Click(object sender, EventArgs e)
