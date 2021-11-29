@@ -52,9 +52,10 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.panel1.Controls.Add(this.btnLimpiar);
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.btnAñadir);
-            this.panel1.Location = new System.Drawing.Point(1, 0);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(615, 336);
+            this.panel1.Size = new System.Drawing.Size(548, 338);
             this.panel1.TabIndex = 3;
             // 
             // cbHoras
@@ -112,16 +113,16 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             "48",
             "49",
             "50"});
-            this.cbHoras.Location = new System.Drawing.Point(145, 177);
+            this.cbHoras.Location = new System.Drawing.Point(133, 177);
             this.cbHoras.Name = "cbHoras";
-            this.cbHoras.Size = new System.Drawing.Size(256, 24);
+            this.cbHoras.Size = new System.Drawing.Size(129, 24);
             this.cbHoras.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(63, 181);
+            this.label2.Location = new System.Drawing.Point(43, 176);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 20);
             this.label2.TabIndex = 14;
@@ -132,10 +133,10 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.txtNombrePrioridadCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNombrePrioridadCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.txtNombrePrioridadCrear.Location = new System.Drawing.Point(145, 108);
+            this.txtNombrePrioridadCrear.Location = new System.Drawing.Point(133, 113);
             this.txtNombrePrioridadCrear.Multiline = true;
             this.txtNombrePrioridadCrear.Name = "txtNombrePrioridadCrear";
-            this.txtNombrePrioridadCrear.Size = new System.Drawing.Size(256, 28);
+            this.txtNombrePrioridadCrear.Size = new System.Drawing.Size(367, 28);
             this.txtNombrePrioridadCrear.TabIndex = 13;
             // 
             // lblNombreCrearTipoVehiculo
@@ -154,7 +155,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(171, 51);
+            this.label1.Location = new System.Drawing.Point(206, 35);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 25);
@@ -174,7 +175,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.btnLimpiar.IconColor = System.Drawing.Color.White;
             this.btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiar.IconSize = 30;
-            this.btnLimpiar.Location = new System.Drawing.Point(205, 247);
+            this.btnLimpiar.Location = new System.Drawing.Point(217, 254);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(141, 47);
@@ -197,7 +198,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(44, 247);
+            this.btnSalir.Location = new System.Drawing.Point(56, 254);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(141, 47);
@@ -219,7 +220,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.btnAñadir.IconColor = System.Drawing.Color.White;
             this.btnAñadir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAñadir.IconSize = 30;
-            this.btnAñadir.Location = new System.Drawing.Point(365, 247);
+            this.btnAñadir.Location = new System.Drawing.Point(377, 254);
             this.btnAñadir.Margin = new System.Windows.Forms.Padding(4);
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(141, 47);
@@ -233,10 +234,11 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(613, 338);
+            this.ClientSize = new System.Drawing.Size(548, 338);
             this.Controls.Add(this.panel1);
             this.Name = "PrioridadCrearForm";
-            this.Text = "PrioridadCrearForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Prioridad - Crear";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

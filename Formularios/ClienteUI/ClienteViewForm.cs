@@ -87,7 +87,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             }
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Cliente", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Está seguro de borrar?", "Borrar Cliente", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _clienteRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);

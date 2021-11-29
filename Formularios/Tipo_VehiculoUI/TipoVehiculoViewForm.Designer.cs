@@ -51,16 +51,20 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(462, 29);
-            this.label1.Text = "Mantenimiento - Tipo de Vehiculo";
+            this.label1.Location = new System.Drawing.Point(187, 64);
+            this.label1.Size = new System.Drawing.Size(490, 29);
+            this.label1.Text = "Mantenimiento - Tipos de Vehículos";
             // 
             // dgvTipoVehiculo
             // 
             this.dgvTipoVehiculo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvTipoVehiculo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvTipoVehiculo.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvTipoVehiculo.BackgroundColor = System.Drawing.Color.White;
             this.dgvTipoVehiculo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTipoVehiculo.Location = new System.Drawing.Point(34, 255);
+            this.dgvTipoVehiculo.Location = new System.Drawing.Point(34, 256);
             this.dgvTipoVehiculo.Name = "dgvTipoVehiculo";
             this.dgvTipoVehiculo.RowHeadersWidth = 51;
             this.dgvTipoVehiculo.RowTemplate.Height = 24;
@@ -72,7 +76,7 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(999, 573);
+            this.ClientSize = new System.Drawing.Size(999, 572);
             this.Controls.Add(this.dgvTipoVehiculo);
             this.Name = "TipoVehiculoViewForm";
             this.Text = "TipoVehiculoViewForm";

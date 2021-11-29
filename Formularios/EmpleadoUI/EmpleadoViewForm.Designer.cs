@@ -51,7 +51,8 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(484, 36);
+            this.label1.Location = new System.Drawing.Point(258, 64);
+            this.label1.Size = new System.Drawing.Size(387, 29);
             this.label1.Text = "Mantenimiento - Empleados";
             // 
             // dgvEmpleado
@@ -59,12 +60,15 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             this.dgvEmpleado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvEmpleado.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvEmpleado.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvEmpleado.BackgroundColor = System.Drawing.Color.White;
             this.dgvEmpleado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEmpleado.Location = new System.Drawing.Point(34, 248);
+            this.dgvEmpleado.Location = new System.Drawing.Point(34, 256);
             this.dgvEmpleado.Name = "dgvEmpleado";
             this.dgvEmpleado.RowHeadersWidth = 51;
             this.dgvEmpleado.RowTemplate.Height = 24;
-            this.dgvEmpleado.Size = new System.Drawing.Size(922, 285);
+            this.dgvEmpleado.Size = new System.Drawing.Size(922, 289);
             this.dgvEmpleado.TabIndex = 8;
             this.dgvEmpleado.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmpleado_CellClick);
             // 
@@ -72,7 +76,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(983, 550);
+            this.ClientSize = new System.Drawing.Size(999, 572);
             this.Controls.Add(this.dgvEmpleado);
             this.Name = "EmpleadoViewForm";
             this.Text = "EmpleadoViewForm";

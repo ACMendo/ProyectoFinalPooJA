@@ -172,7 +172,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.MaximizeBox = false;
             this.Name = "CargoActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CargoActualizarForm";
+            this.Text = "Cargo - Actualizar";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

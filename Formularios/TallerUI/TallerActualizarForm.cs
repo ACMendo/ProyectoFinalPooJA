@@ -50,7 +50,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             else
             {
                 var existencia = _tallerRepository.ExisteEditar(txtNombreTallerModificar.Text.ToUpper(), TallerViewForm.ID);
-                if (existencia.Any()) MessageBox.Show("¡Ya existe otro tipo de vehiculo , favor de crear uno nuevo!");
+                if (existencia.Any()) MessageBox.Show("¡Ya existe ese taller, favor de crear uno nuevo!");
                 else
                 {
                     var taller = _tallerRepository.Consultar(TallerViewForm.ID)[0];

@@ -68,7 +68,7 @@ namespace ProyectoFinalPooJA.Formularios.MarcaUI
             }
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Marca", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Está seguro de borrar?", "Borrar Marca", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _marcaRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);

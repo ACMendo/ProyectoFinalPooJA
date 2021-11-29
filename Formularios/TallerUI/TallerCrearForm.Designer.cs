@@ -56,16 +56,17 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.panel1.Controls.Add(this.btnLimpiar);
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.btnAñadir);
-            this.panel1.Location = new System.Drawing.Point(0, 1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(738, 434);
+            this.panel1.Size = new System.Drawing.Size(675, 406);
             this.panel1.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(26, 296);
+            this.label3.Location = new System.Drawing.Point(26, 167);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 20);
             this.label3.TabIndex = 17;
@@ -76,10 +77,10 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.txtTelefonoTallerCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTelefonoTallerCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.txtTelefonoTallerCrear.Location = new System.Drawing.Point(145, 288);
+            this.txtTelefonoTallerCrear.Location = new System.Drawing.Point(145, 164);
             this.txtTelefonoTallerCrear.Multiline = true;
             this.txtTelefonoTallerCrear.Name = "txtTelefonoTallerCrear";
-            this.txtTelefonoTallerCrear.Size = new System.Drawing.Size(569, 28);
+            this.txtTelefonoTallerCrear.Size = new System.Drawing.Size(494, 28);
             this.txtTelefonoTallerCrear.TabIndex = 16;
             // 
             // txtDireccionCrear
@@ -87,17 +88,17 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.txtDireccionCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDireccionCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.txtDireccionCrear.Location = new System.Drawing.Point(145, 176);
+            this.txtDireccionCrear.Location = new System.Drawing.Point(145, 218);
             this.txtDireccionCrear.Multiline = true;
             this.txtDireccionCrear.Name = "txtDireccionCrear";
-            this.txtDireccionCrear.Size = new System.Drawing.Size(569, 67);
+            this.txtDireccionCrear.Size = new System.Drawing.Size(494, 67);
             this.txtDireccionCrear.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(26, 200);
+            this.label2.Location = new System.Drawing.Point(26, 221);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 20);
             this.label2.TabIndex = 14;
@@ -111,14 +112,14 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.txtNombreTallerCrear.Location = new System.Drawing.Point(145, 108);
             this.txtNombreTallerCrear.Multiline = true;
             this.txtNombreTallerCrear.Name = "txtNombreTallerCrear";
-            this.txtNombreTallerCrear.Size = new System.Drawing.Size(569, 28);
+            this.txtNombreTallerCrear.Size = new System.Drawing.Size(494, 28);
             this.txtNombreTallerCrear.TabIndex = 13;
             // 
             // lblNombreCrearTipoVehiculo
             // 
             this.lblNombreCrearTipoVehiculo.AutoSize = true;
             this.lblNombreCrearTipoVehiculo.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.lblNombreCrearTipoVehiculo.Location = new System.Drawing.Point(43, 111);
+            this.lblNombreCrearTipoVehiculo.Location = new System.Drawing.Point(26, 111);
             this.lblNombreCrearTipoVehiculo.Name = "lblNombreCrearTipoVehiculo";
             this.lblNombreCrearTipoVehiculo.Size = new System.Drawing.Size(84, 20);
             this.lblNombreCrearTipoVehiculo.TabIndex = 12;
@@ -130,7 +131,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(294, 39);
+            this.label1.Location = new System.Drawing.Point(262, 39);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 25);
@@ -150,7 +151,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.btnLimpiar.IconColor = System.Drawing.Color.White;
             this.btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiar.IconSize = 30;
-            this.btnLimpiar.Location = new System.Drawing.Point(365, 352);
+            this.btnLimpiar.Location = new System.Drawing.Point(338, 332);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(141, 47);
@@ -173,7 +174,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(204, 352);
+            this.btnSalir.Location = new System.Drawing.Point(177, 332);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(141, 47);
@@ -195,7 +196,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.btnAñadir.IconColor = System.Drawing.Color.White;
             this.btnAñadir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAñadir.IconSize = 30;
-            this.btnAñadir.Location = new System.Drawing.Point(525, 352);
+            this.btnAñadir.Location = new System.Drawing.Point(498, 332);
             this.btnAñadir.Margin = new System.Windows.Forms.Padding(4);
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(141, 47);
@@ -209,10 +210,12 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(750, 436);
+            this.ClientSize = new System.Drawing.Size(675, 406);
             this.Controls.Add(this.panel1);
             this.Name = "TallerCrearForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TallerCrearForm";
+            this.Load += new System.EventHandler(this.TallerCrearForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

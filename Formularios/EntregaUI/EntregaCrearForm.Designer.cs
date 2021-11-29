@@ -325,7 +325,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.Controls.Add(this.panel2);
             this.Name = "EntregaCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EntregaCrearView";
+            this.Text = "Entrega - Crear";
             this.Load += new System.EventHandler(this.EntregaCrearForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

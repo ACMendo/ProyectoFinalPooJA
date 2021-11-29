@@ -53,14 +53,17 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             // 
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(138)))), ((int)(((byte)(114)))));
             this.label1.Location = new System.Drawing.Point(394, 54);
-            this.label1.Size = new System.Drawing.Size(118, 29);
-            this.label1.Text = "Entrega";
+            this.label1.Size = new System.Drawing.Size(132, 29);
+            this.label1.Text = "Entregas";
             // 
             // dgvEntrega
             // 
             this.dgvEntrega.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvEntrega.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvEntrega.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvEntrega.BackgroundColor = System.Drawing.Color.White;
             this.dgvEntrega.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEntrega.Location = new System.Drawing.Point(34, 256);
             this.dgvEntrega.Name = "dgvEntrega";

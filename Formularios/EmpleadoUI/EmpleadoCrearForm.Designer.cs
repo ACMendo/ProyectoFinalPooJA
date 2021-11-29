@@ -84,9 +84,9 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             // dpNacimientoEmpleadoCrear
             // 
-            this.dpNacimientoEmpleadoCrear.Location = new System.Drawing.Point(363, 341);
+            this.dpNacimientoEmpleadoCrear.Location = new System.Drawing.Point(220, 345);
             this.dpNacimientoEmpleadoCrear.Name = "dpNacimientoEmpleadoCrear";
-            this.dpNacimientoEmpleadoCrear.Size = new System.Drawing.Size(234, 22);
+            this.dpNacimientoEmpleadoCrear.Size = new System.Drawing.Size(262, 22);
             this.dpNacimientoEmpleadoCrear.TabIndex = 31;
             // 
             // label3
@@ -95,7 +95,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(158, 343);
+            this.label3.Location = new System.Drawing.Point(33, 345);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(178, 20);
             this.label3.TabIndex = 30;
@@ -120,7 +120,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // txtCodigoEmpleadoCrear
             // 
             this.txtCodigoEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.txtCodigoEmpleadoCrear.Location = new System.Drawing.Point(114, 180);
+            this.txtCodigoEmpleadoCrear.Location = new System.Drawing.Point(114, 174);
             this.txtCodigoEmpleadoCrear.MaxLength = 6;
             this.txtCodigoEmpleadoCrear.Multiline = true;
             this.txtCodigoEmpleadoCrear.Name = "txtCodigoEmpleadoCrear";
@@ -134,7 +134,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(33, 188);
+            this.label1.Location = new System.Drawing.Point(33, 177);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 20);
             this.label1.TabIndex = 24;
@@ -144,7 +144,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             this.lblDireccion.AutoSize = true;
             this.lblDireccion.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.lblDireccion.Location = new System.Drawing.Point(36, 295);
+            this.lblDireccion.Location = new System.Drawing.Point(33, 290);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(72, 20);
             this.lblDireccion.TabIndex = 22;
@@ -165,7 +165,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             this.txtIdentificacionEmpleadoCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtIdentificacionEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.txtIdentificacionEmpleadoCrear.Location = new System.Drawing.Point(543, 182);
+            this.txtIdentificacionEmpleadoCrear.Location = new System.Drawing.Point(543, 176);
             this.txtIdentificacionEmpleadoCrear.Multiline = true;
             this.txtIdentificacionEmpleadoCrear.Name = "txtIdentificacionEmpleadoCrear";
             this.txtIdentificacionEmpleadoCrear.Size = new System.Drawing.Size(220, 28);
@@ -177,7 +177,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(396, 185);
+            this.label6.Location = new System.Drawing.Point(396, 179);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(141, 20);
             this.label6.TabIndex = 18;
@@ -219,7 +219,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(396, 240);
+            this.label4.Location = new System.Drawing.Point(396, 236);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 20);
             this.label4.TabIndex = 14;
@@ -334,7 +334,8 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             this.ClientSize = new System.Drawing.Size(800, 501);
             this.Controls.Add(this.panel2);
             this.Name = "EmpleadoCrearForm";
-            this.Text = "EmpleadoCrearForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Empleado - Crear";
             this.Load += new System.EventHandler(this.EmpleadoCrearForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

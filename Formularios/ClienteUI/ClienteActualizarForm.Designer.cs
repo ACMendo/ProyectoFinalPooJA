@@ -291,7 +291,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             this.Controls.Add(this.panel2);
             this.Name = "ClienteActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ClienteActualizarForm";
+            this.Text = "Cliente - Actualizar";
             this.Load += new System.EventHandler(this.ClienteActualizarForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

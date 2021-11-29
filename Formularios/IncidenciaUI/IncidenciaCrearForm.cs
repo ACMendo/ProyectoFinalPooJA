@@ -85,7 +85,7 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
                     try
                     {
                         _incidenciaRepository.Crear(incidencia);
-                        MessageBox.Show("¡Empleado creado exitosamente!");
+                        MessageBox.Show("¡Incidencia creada exitosamente!");
                         this.Close();
                     }
                     catch (Exception ex)

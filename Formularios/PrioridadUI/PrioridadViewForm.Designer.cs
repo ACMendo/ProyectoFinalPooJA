@@ -51,7 +51,8 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(495, 36);
+            this.label1.Location = new System.Drawing.Point(237, 64);
+            this.label1.Size = new System.Drawing.Size(396, 29);
             this.label1.Text = "Mantenimiento - Prioridades";
             // 
             // dgvPrioridad
@@ -59,8 +60,11 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.dgvPrioridad.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvPrioridad.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvPrioridad.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvPrioridad.BackgroundColor = System.Drawing.Color.White;
             this.dgvPrioridad.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPrioridad.Location = new System.Drawing.Point(34, 253);
+            this.dgvPrioridad.Location = new System.Drawing.Point(34, 256);
             this.dgvPrioridad.Name = "dgvPrioridad";
             this.dgvPrioridad.RowHeadersWidth = 51;
             this.dgvPrioridad.RowTemplate.Height = 24;
@@ -72,7 +76,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(998, 572);
+            this.ClientSize = new System.Drawing.Size(999, 572);
             this.Controls.Add(this.dgvPrioridad);
             this.Name = "PrioridadViewForm";
             this.Text = "PrioridadViewForm";

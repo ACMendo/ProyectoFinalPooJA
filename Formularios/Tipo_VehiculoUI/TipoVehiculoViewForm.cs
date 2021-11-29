@@ -69,7 +69,7 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
             }
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Tipo de Vehiculo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Está seguro de borrar?", "Borrar Tipo de Vehiculo", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _tipo_VehiculoRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);

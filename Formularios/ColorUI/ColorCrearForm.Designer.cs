@@ -164,7 +164,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             this.Controls.Add(this.panel1);
             this.Name = "ColorCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ColorCrearForm";
+            this.Text = "Color - Crear";
             this.Load += new System.EventHandler(this.ColorCrearForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

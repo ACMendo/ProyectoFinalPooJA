@@ -65,5 +65,10 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
                 }
             }
         }
+
+        private void TallerCrearForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

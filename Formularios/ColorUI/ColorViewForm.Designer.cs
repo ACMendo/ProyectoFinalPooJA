@@ -51,15 +51,18 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(299, 55);
-            this.label1.Size = new System.Drawing.Size(311, 29);
-            this.label1.Text = "Mantenimiento - Color";
+            this.label1.Location = new System.Drawing.Point(280, 64);
+            this.label1.Size = new System.Drawing.Size(341, 29);
+            this.label1.Text = "Mantenimiento - Colores";
             // 
             // dgvColor
             // 
             this.dgvColor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvColor.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvColor.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvColor.BackgroundColor = System.Drawing.Color.White;
             this.dgvColor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvColor.Location = new System.Drawing.Point(34, 256);
             this.dgvColor.Name = "dgvColor";

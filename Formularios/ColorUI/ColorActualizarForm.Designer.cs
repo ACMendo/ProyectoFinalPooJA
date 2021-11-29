@@ -170,7 +170,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             this.Controls.Add(this.panel1);
             this.Name = "ColorActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ColorActualizarForm";
+            this.Text = "Color - Actualizar";
             this.Load += new System.EventHandler(this.ColorActualizarForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

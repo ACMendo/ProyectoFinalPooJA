@@ -121,13 +121,13 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
 
                 var existencia = _vehiculoRepository.ExisteCrear(txtChasis.Text.ToUpper(), txtPlaca.Text.ToUpper());
 
-                if (existencia.Any()) MessageBox.Show("¡Ya existe ese vehiculo, favor de crear uno nuevo!");
+                if (existencia.Any()) MessageBox.Show("¡Ya existe ese vehículo, favor de crear uno nuevo!");
                 else
                 {
                     try
                     {
                         _vehiculoRepository.Crear(vehiculo);
-                        MessageBox.Show("¡Empleado creado exitosamente!");
+                        MessageBox.Show("¡Vehículo creado exitosamente!");
                         this.Close();
                     }
                     catch (Exception ex)

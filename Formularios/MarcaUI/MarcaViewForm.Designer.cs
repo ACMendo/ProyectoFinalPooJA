@@ -51,16 +51,21 @@ namespace ProyectoFinalPooJA.Formularios.MarcaUI
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(323, 29);
-            this.label1.Text = "Mantenimiento - Marca";
+            this.label1.AutoSize = false;
+            this.label1.Location = new System.Drawing.Point(279, 64);
+            this.label1.Size = new System.Drawing.Size(357, 29);
+            this.label1.Text = "Mantenimiento - Marcas";
             // 
             // dgvMarca
             // 
             this.dgvMarca.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvMarca.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvMarca.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvMarca.BackgroundColor = System.Drawing.Color.White;
             this.dgvMarca.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMarca.Location = new System.Drawing.Point(34, 258);
+            this.dgvMarca.Location = new System.Drawing.Point(34, 256);
             this.dgvMarca.Name = "dgvMarca";
             this.dgvMarca.RowHeadersWidth = 51;
             this.dgvMarca.RowTemplate.Height = 24;
@@ -81,7 +86,6 @@ namespace ProyectoFinalPooJA.Formularios.MarcaUI
             this.Controls.SetChildIndex(this.dgvMarca, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMarca)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

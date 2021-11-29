@@ -52,15 +52,18 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label1.Location = new System.Drawing.Point(267, 55);
-            this.label1.Size = new System.Drawing.Size(335, 29);
-            this.label1.Text = "Mantenimiento - Cliente";
+            this.label1.Location = new System.Drawing.Point(276, 64);
+            this.label1.Size = new System.Drawing.Size(349, 29);
+            this.label1.Text = "Mantenimiento - Clientes";
             // 
             // dgvCliente
             // 
             this.dgvCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvCliente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvCliente.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvCliente.BackgroundColor = System.Drawing.Color.White;
             this.dgvCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCliente.Location = new System.Drawing.Point(34, 256);
             this.dgvCliente.Name = "dgvCliente";

@@ -65,7 +65,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
                     cliente.Correo = txtCorreo.Text;
                     cliente.Direccion = txtDireccion.Text;
                     cliente.Identificacion = txtIdentificacion.Text;
-                    cliente.Telefono = txtIdentificacion.Text;
+                    cliente.Telefono = txtTelefono.Text;
                     cliente.Tipo_Identificacion = cbxTipo_Indentificacion.Text;
 
                     var resultado = _clienteRepository.Actualizar(cliente);

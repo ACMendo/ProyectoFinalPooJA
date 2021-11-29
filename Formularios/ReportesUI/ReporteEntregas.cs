@@ -47,12 +47,17 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             lblTotalRegistros.Text = entregas.Count().ToString();
         }
 
-        private void btnActualizarDatos_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnActualizarDatosReporte_Click(object sender, EventArgs e)
         {
             Consulta();
         }
 
-        private void btnExcel_Click(object sender, EventArgs e)
+        private void btnExcelData_Click(object sender, EventArgs e)
         {
             try
             {
@@ -63,12 +68,7 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             catch (Exception ex)
             {
                 MessageBox.Show("Error generando excel, Error: " + ex.Message);
-            }           
-        }
-
-        private void btnSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
+            }
         }
     }
 }

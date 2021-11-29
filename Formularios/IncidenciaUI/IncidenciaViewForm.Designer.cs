@@ -53,14 +53,17 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             // 
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(102)))), ((int)(((byte)(66)))));
             this.label1.Location = new System.Drawing.Point(383, 64);
-            this.label1.Size = new System.Drawing.Size(153, 29);
-            this.label1.Text = "Incidencia";
+            this.label1.Size = new System.Drawing.Size(167, 29);
+            this.label1.Text = "Incidencias";
             // 
             // dgvIncidencia
             // 
             this.dgvIncidencia.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvIncidencia.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvIncidencia.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvIncidencia.BackgroundColor = System.Drawing.Color.White;
             this.dgvIncidencia.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvIncidencia.Location = new System.Drawing.Point(34, 256);
             this.dgvIncidencia.Name = "dgvIncidencia";

@@ -87,7 +87,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(34, 116);
+            this.label3.Location = new System.Drawing.Point(32, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 20);
             this.label3.TabIndex = 12;
@@ -182,7 +182,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.Controls.Add(this.panel1);
             this.Name = "CargoCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CargoCrearForm";
+            this.Text = "Cargo - Crear";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

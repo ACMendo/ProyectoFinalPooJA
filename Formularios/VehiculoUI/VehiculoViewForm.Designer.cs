@@ -52,14 +52,17 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             // label1
             // 
             this.label1.Location = new System.Drawing.Point(263, 64);
-            this.label1.Size = new System.Drawing.Size(356, 29);
-            this.label1.Text = "Mantenimiento - Vehículo";
+            this.label1.Size = new System.Drawing.Size(370, 29);
+            this.label1.Text = "Mantenimiento - Vehículos";
             // 
             // dgvVehiculo
             // 
             this.dgvVehiculo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvVehiculo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvVehiculo.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvVehiculo.BackgroundColor = System.Drawing.Color.White;
             this.dgvVehiculo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvVehiculo.Location = new System.Drawing.Point(34, 256);
             this.dgvVehiculo.Name = "dgvVehiculo";

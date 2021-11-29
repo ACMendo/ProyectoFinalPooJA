@@ -56,7 +56,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(590, 345);
+            this.panel1.Size = new System.Drawing.Size(548, 338);
             this.panel1.TabIndex = 4;
             // 
             // cbHorasModificar
@@ -114,9 +114,9 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             "48",
             "49",
             "50"});
-            this.cbHorasModificar.Location = new System.Drawing.Point(176, 187);
+            this.cbHorasModificar.Location = new System.Drawing.Point(133, 177);
             this.cbHorasModificar.Name = "cbHorasModificar";
-            this.cbHorasModificar.Size = new System.Drawing.Size(256, 24);
+            this.cbHorasModificar.Size = new System.Drawing.Size(129, 24);
             this.cbHorasModificar.TabIndex = 16;
             // 
             // label3
@@ -126,7 +126,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(90, 193);
+            this.label3.Location = new System.Drawing.Point(43, 176);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 18);
@@ -145,7 +145,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.btnLimpiar.IconColor = System.Drawing.Color.White;
             this.btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiar.IconSize = 30;
-            this.btnLimpiar.Location = new System.Drawing.Point(255, 265);
+            this.btnLimpiar.Location = new System.Drawing.Point(218, 254);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(141, 47);
@@ -168,7 +168,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(93, 265);
+            this.btnSalir.Location = new System.Drawing.Point(56, 254);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(141, 47);
@@ -190,7 +190,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.btnEditar.IconColor = System.Drawing.Color.White;
             this.btnEditar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnEditar.IconSize = 30;
-            this.btnEditar.Location = new System.Drawing.Point(417, 265);
+            this.btnEditar.Location = new System.Drawing.Point(377, 254);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(141, 47);
@@ -206,10 +206,10 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNombrePrioridadModificar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombrePrioridadModificar.Location = new System.Drawing.Point(173, 108);
+            this.txtNombrePrioridadModificar.Location = new System.Drawing.Point(133, 113);
             this.txtNombrePrioridadModificar.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombrePrioridadModificar.Name = "txtNombrePrioridadModificar";
-            this.txtNombrePrioridadModificar.Size = new System.Drawing.Size(259, 26);
+            this.txtNombrePrioridadModificar.Size = new System.Drawing.Size(367, 26);
             this.txtNombrePrioridadModificar.TabIndex = 2;
             // 
             // label2
@@ -219,7 +219,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(78, 116);
+            this.label2.Location = new System.Drawing.Point(43, 116);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 18);
@@ -232,7 +232,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label1.Location = new System.Drawing.Point(220, 39);
+            this.label1.Location = new System.Drawing.Point(206, 35);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(127, 23);
@@ -244,10 +244,11 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(590, 345);
+            this.ClientSize = new System.Drawing.Size(548, 338);
             this.Controls.Add(this.panel1);
             this.Name = "PrioridadActualizarForm";
-            this.Text = "PrioridadActualizarForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Prioridad - Actualizar";
             this.Load += new System.EventHandler(this.PrioridadActualizarForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

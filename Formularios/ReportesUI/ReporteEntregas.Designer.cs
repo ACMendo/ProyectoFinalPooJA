@@ -30,53 +30,47 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
         private void InitializeComponent()
         {
             this.dgvEntregasReport = new System.Windows.Forms.DataGridView();
-            this.btnExcel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblTotalRegistros = new System.Windows.Forms.Label();
-            this.btnActualizarDatos = new System.Windows.Forms.Button();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
+            this.btnActualizarDatosReporte = new FontAwesome.Sharp.IconButton();
+            this.btnExcelData = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEntregasReport)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvEntregasReport
             // 
+            this.dgvEntregasReport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvEntregasReport.BackgroundColor = System.Drawing.Color.White;
             this.dgvEntregasReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEntregasReport.Location = new System.Drawing.Point(12, 249);
+            this.dgvEntregasReport.Location = new System.Drawing.Point(27, 248);
             this.dgvEntregasReport.Name = "dgvEntregasReport";
             this.dgvEntregasReport.RowHeadersWidth = 51;
             this.dgvEntregasReport.RowTemplate.Height = 24;
-            this.dgvEntregasReport.Size = new System.Drawing.Size(1146, 150);
+            this.dgvEntregasReport.Size = new System.Drawing.Size(945, 150);
             this.dgvEntregasReport.TabIndex = 14;
-            // 
-            // btnExcel
-            // 
-            this.btnExcel.BackColor = System.Drawing.Color.Green;
-            this.btnExcel.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExcel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnExcel.Location = new System.Drawing.Point(472, 503);
-            this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(161, 58);
-            this.btnExcel.TabIndex = 15;
-            this.btnExcel.Text = "Exportar Excel";
-            this.btnExcel.UseVisualStyleBackColor = false;
-            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(430, 79);
+            this.label1.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(88)))), ((int)(((byte)(155)))));
+            this.label1.Location = new System.Drawing.Point(386, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 34);
+            this.label1.Size = new System.Drawing.Size(203, 29);
             this.label1.TabIndex = 16;
             this.label1.Text = "Datos Entrega";
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(239, 421);
+            this.label3.Location = new System.Drawing.Point(20, 506);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(191, 25);
             this.label3.TabIndex = 18;
@@ -84,26 +78,14 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             // 
             // lblTotalRegistros
             // 
+            this.lblTotalRegistros.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblTotalRegistros.AutoSize = true;
             this.lblTotalRegistros.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalRegistros.Location = new System.Drawing.Point(536, 421);
+            this.lblTotalRegistros.Location = new System.Drawing.Point(217, 506);
             this.lblTotalRegistros.Name = "lblTotalRegistros";
             this.lblTotalRegistros.Size = new System.Drawing.Size(40, 25);
             this.lblTotalRegistros.TabIndex = 19;
             this.lblTotalRegistros.Text = "    ";
-            // 
-            // btnActualizarDatos
-            // 
-            this.btnActualizarDatos.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnActualizarDatos.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizarDatos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnActualizarDatos.Location = new System.Drawing.Point(472, 153);
-            this.btnActualizarDatos.Name = "btnActualizarDatos";
-            this.btnActualizarDatos.Size = new System.Drawing.Size(161, 58);
-            this.btnActualizarDatos.TabIndex = 20;
-            this.btnActualizarDatos.Text = "Actualizar Datos";
-            this.btnActualizarDatos.UseVisualStyleBackColor = false;
-            this.btnActualizarDatos.Click += new System.EventHandler(this.btnActualizarDatos_Click);
             // 
             // btnSalir
             // 
@@ -116,7 +98,7 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(32, 12);
+            this.btnSalir.Location = new System.Drawing.Point(12, 12);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(102, 42);
             this.btnSalir.TabIndex = 21;
@@ -126,17 +108,61 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // btnActualizarDatosReporte
+            // 
+            this.btnActualizarDatosReporte.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnActualizarDatosReporte.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnActualizarDatosReporte.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnActualizarDatosReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizarDatosReporte.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizarDatosReporte.ForeColor = System.Drawing.Color.White;
+            this.btnActualizarDatosReporte.IconChar = FontAwesome.Sharp.IconChar.Spinner;
+            this.btnActualizarDatosReporte.IconColor = System.Drawing.Color.White;
+            this.btnActualizarDatosReporte.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnActualizarDatosReporte.IconSize = 30;
+            this.btnActualizarDatosReporte.Location = new System.Drawing.Point(391, 149);
+            this.btnActualizarDatosReporte.Name = "btnActualizarDatosReporte";
+            this.btnActualizarDatosReporte.Size = new System.Drawing.Size(196, 54);
+            this.btnActualizarDatosReporte.TabIndex = 22;
+            this.btnActualizarDatosReporte.Text = " Actualizar Datos";
+            this.btnActualizarDatosReporte.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnActualizarDatosReporte.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnActualizarDatosReporte.UseVisualStyleBackColor = false;
+            this.btnActualizarDatosReporte.Click += new System.EventHandler(this.btnActualizarDatosReporte_Click);
+            // 
+            // btnExcelData
+            // 
+            this.btnExcelData.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExcelData.BackColor = System.Drawing.Color.Green;
+            this.btnExcelData.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnExcelData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcelData.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcelData.ForeColor = System.Drawing.Color.White;
+            this.btnExcelData.IconChar = FontAwesome.Sharp.IconChar.FileDownload;
+            this.btnExcelData.IconColor = System.Drawing.Color.White;
+            this.btnExcelData.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnExcelData.IconSize = 30;
+            this.btnExcelData.Location = new System.Drawing.Point(776, 494);
+            this.btnExcelData.Name = "btnExcelData";
+            this.btnExcelData.Size = new System.Drawing.Size(196, 54);
+            this.btnExcelData.TabIndex = 23;
+            this.btnExcelData.Text = " Exportar Excel";
+            this.btnExcelData.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExcelData.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnExcelData.UseVisualStyleBackColor = false;
+            this.btnExcelData.Click += new System.EventHandler(this.btnExcelData_Click);
+            // 
             // ReporteEntregas
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1172, 630);
+            this.ClientSize = new System.Drawing.Size(999, 572);
+            this.Controls.Add(this.btnExcelData);
+            this.Controls.Add(this.btnActualizarDatosReporte);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnActualizarDatos);
             this.Controls.Add(this.lblTotalRegistros);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.dgvEntregasReport);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ReporteEntregas";
@@ -150,11 +176,11 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
 
         #endregion
         private System.Windows.Forms.DataGridView dgvEntregasReport;
-        private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblTotalRegistros;
-        private System.Windows.Forms.Button btnActualizarDatos;
         private FontAwesome.Sharp.IconButton btnSalir;
+        private FontAwesome.Sharp.IconButton btnActualizarDatosReporte;
+        private FontAwesome.Sharp.IconButton btnExcelData;
     }
 }

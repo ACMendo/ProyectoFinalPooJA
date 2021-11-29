@@ -86,7 +86,7 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             if (ID == 0) MessageBox.Show("¡No selecciono registro!");
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Inicidencia", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Está seguro de borrar?", "Borrar Inicidencia", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _incidenciaRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);

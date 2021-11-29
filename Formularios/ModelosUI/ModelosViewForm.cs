@@ -52,7 +52,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             if (ID == 0) MessageBox.Show("¡No selecciono registro!");
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Modelo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Está seguro de borrar?", "Borrar Modelo", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _modeloRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);

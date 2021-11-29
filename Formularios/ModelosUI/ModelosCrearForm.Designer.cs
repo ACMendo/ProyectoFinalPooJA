@@ -52,9 +52,10 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             this.panel1.Controls.Add(this.btnLimpiar);
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.btnAñadir);
-            this.panel1.Location = new System.Drawing.Point(1, 1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(615, 336);
+            this.panel1.Size = new System.Drawing.Size(597, 336);
             this.panel1.TabIndex = 4;
             // 
             // cbMarcaCrear
@@ -114,16 +115,16 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             "50"});
             this.cbMarcaCrear.Location = new System.Drawing.Point(145, 177);
             this.cbMarcaCrear.Name = "cbMarcaCrear";
-            this.cbMarcaCrear.Size = new System.Drawing.Size(256, 24);
+            this.cbMarcaCrear.Size = new System.Drawing.Size(412, 24);
             this.cbMarcaCrear.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(63, 181);
+            this.label2.Location = new System.Drawing.Point(44, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 25);
+            this.label2.Size = new System.Drawing.Size(65, 20);
             this.label2.TabIndex = 14;
             this.label2.Text = "Marca";
             // 
@@ -135,14 +136,14 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             this.txtNombreModeloCrear.Location = new System.Drawing.Point(145, 108);
             this.txtNombreModeloCrear.Multiline = true;
             this.txtNombreModeloCrear.Name = "txtNombreModeloCrear";
-            this.txtNombreModeloCrear.Size = new System.Drawing.Size(256, 28);
+            this.txtNombreModeloCrear.Size = new System.Drawing.Size(412, 28);
             this.txtNombreModeloCrear.TabIndex = 13;
             // 
             // lblNombreCrearTipoVehiculo
             // 
             this.lblNombreCrearTipoVehiculo.AutoSize = true;
             this.lblNombreCrearTipoVehiculo.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.lblNombreCrearTipoVehiculo.Location = new System.Drawing.Point(43, 116);
+            this.lblNombreCrearTipoVehiculo.Location = new System.Drawing.Point(44, 111);
             this.lblNombreCrearTipoVehiculo.Name = "lblNombreCrearTipoVehiculo";
             this.lblNombreCrearTipoVehiculo.Size = new System.Drawing.Size(84, 20);
             this.lblNombreCrearTipoVehiculo.TabIndex = 12;
@@ -154,7 +155,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(171, 51);
+            this.label1.Location = new System.Drawing.Point(229, 34);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 25);
@@ -174,7 +175,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             this.btnLimpiar.IconColor = System.Drawing.Color.White;
             this.btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiar.IconSize = 30;
-            this.btnLimpiar.Location = new System.Drawing.Point(205, 247);
+            this.btnLimpiar.Location = new System.Drawing.Point(256, 250);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(141, 47);
@@ -197,7 +198,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(44, 247);
+            this.btnSalir.Location = new System.Drawing.Point(95, 250);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(141, 47);
@@ -219,7 +220,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             this.btnAñadir.IconColor = System.Drawing.Color.White;
             this.btnAñadir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAñadir.IconSize = 30;
-            this.btnAñadir.Location = new System.Drawing.Point(365, 247);
+            this.btnAñadir.Location = new System.Drawing.Point(416, 250);
             this.btnAñadir.Margin = new System.Windows.Forms.Padding(4);
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(141, 47);
@@ -233,10 +234,11 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 336);
+            this.ClientSize = new System.Drawing.Size(597, 336);
             this.Controls.Add(this.panel1);
             this.Name = "ModelosCrearForm";
-            this.Text = "ModelosCrearForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Modelo -Crear";
             this.Load += new System.EventHandler(this.ModelosCrearForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

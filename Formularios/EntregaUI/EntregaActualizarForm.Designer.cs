@@ -324,7 +324,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.Controls.Add(this.panel2);
             this.Name = "EntregaActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EntregaActualizarForm";
+            this.Text = "Entrega - Actualizar";
             this.Load += new System.EventHandler(this.EntregaActualizarForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

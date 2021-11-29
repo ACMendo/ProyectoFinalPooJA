@@ -51,16 +51,20 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(398, 36);
-            this.label1.Text = "Mantenimiento - Taller";
+            this.label1.Location = new System.Drawing.Point(288, 64);
+            this.label1.Size = new System.Drawing.Size(348, 29);
+            this.label1.Text = "Mantenimiento - Talleres";
             // 
             // dgvTaller
             // 
             this.dgvTaller.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvTaller.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvTaller.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvTaller.BackgroundColor = System.Drawing.Color.White;
             this.dgvTaller.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTaller.Location = new System.Drawing.Point(34, 265);
+            this.dgvTaller.Location = new System.Drawing.Point(34, 256);
             this.dgvTaller.Name = "dgvTaller";
             this.dgvTaller.RowHeadersWidth = 51;
             this.dgvTaller.RowTemplate.Height = 24;
@@ -72,7 +76,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(998, 572);
+            this.ClientSize = new System.Drawing.Size(999, 572);
             this.Controls.Add(this.dgvTaller);
             this.Name = "TallerViewForm";
             this.Text = "TallerViewForm";

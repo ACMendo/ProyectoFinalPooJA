@@ -69,7 +69,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(34, 116);
+            this.label3.Location = new System.Drawing.Point(35, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(145, 20);
             this.label3.TabIndex = 12;
@@ -164,7 +164,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             this.Controls.Add(this.panel1);
             this.Name = "DepartamentoCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DepartamentoCrearForm";
+            this.Text = "Departamento - Crear";
             this.Load += new System.EventHandler(this.DepartamentoCrearForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

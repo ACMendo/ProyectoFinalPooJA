@@ -93,7 +93,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             if (ID == 0) MessageBox.Show("¡No selecciono registro!");
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Entrega", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Está seguro de borrar?", "Borrar Entrega", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _entregaRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);

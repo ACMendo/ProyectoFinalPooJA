@@ -88,7 +88,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             if (ID == 0) MessageBox.Show("¡No selecciono registro!");
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Empleado", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Está seguro de borrar?", "Borrar Empleado", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _empleadoRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);

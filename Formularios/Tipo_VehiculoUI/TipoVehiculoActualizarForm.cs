@@ -37,7 +37,7 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
             else
             {
                 var existencia = _tipo_VehiculoRepository.ExisteEditar(txtNombreTipoModificar.Text.ToUpper(), TipoVehiculoViewForm.ID);
-                if (existencia.Any()) MessageBox.Show("¡Ya existe otro tipo de vehiculo , favor de crear uno nuevo!");
+                if (existencia.Any()) MessageBox.Show("¡Ya existe ese tipo de vehiculo, favor de crear uno nuevo!");
                 else
                 {
                     var tipo = _tipo_VehiculoRepository.Consultar(TipoVehiculoViewForm.ID)[0];

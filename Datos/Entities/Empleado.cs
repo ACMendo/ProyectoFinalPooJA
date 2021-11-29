@@ -22,7 +22,7 @@ namespace ProyectoFinalPooJA.Datos.Entities
         {
             get
             {
-                return DateTime.Now.Subtract(this.Fecha_Nacimiento).TotalDays / 365.25;
+                return Convert.ToInt32(DateTime.Now.Subtract(this.Fecha_Nacimiento).TotalDays / 365.25);
             }
         }
         public List<Vehiculo> Vehiculos { get; set; }

@@ -254,7 +254,7 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             this.Controls.Add(this.panel2);
             this.Name = "IncidenciaCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "IncidenciaCrearForm";
+            this.Text = "Incidencia - Crear";
             this.Load += new System.EventHandler(this.IncidenciaCrearForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

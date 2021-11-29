@@ -85,7 +85,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             }
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Color", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Está seguro de borrar?", "Borrar Color", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _colorRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);

@@ -98,7 +98,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             if (ID == 0) MessageBox.Show("¡No selecciono registro!");
             else
             {
-                if (MessageBox.Show("Esta seguro de Borrar?", "Borrar Vehiculo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Está seguro de borrar?", "Borrar Vehiculo", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     var resultado = _vehiculoRepository.Borrar(ID);
                     MessageBox.Show(resultado.Message);

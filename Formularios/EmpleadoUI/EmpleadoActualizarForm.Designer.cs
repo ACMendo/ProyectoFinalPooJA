@@ -79,14 +79,14 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(800, 450);
+            this.panel2.Size = new System.Drawing.Size(800, 471);
             this.panel2.TabIndex = 24;
             // 
             // dpNacimientoEmpleadoModificar
             // 
-            this.dpNacimientoEmpleadoModificar.Location = new System.Drawing.Point(365, 328);
+            this.dpNacimientoEmpleadoModificar.Location = new System.Drawing.Point(232, 335);
             this.dpNacimientoEmpleadoModificar.Name = "dpNacimientoEmpleadoModificar";
-            this.dpNacimientoEmpleadoModificar.Size = new System.Drawing.Size(234, 22);
+            this.dpNacimientoEmpleadoModificar.Size = new System.Drawing.Size(258, 22);
             this.dpNacimientoEmpleadoModificar.TabIndex = 47;
             // 
             // label3
@@ -95,7 +95,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(160, 330);
+            this.label3.Location = new System.Drawing.Point(36, 335);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(178, 20);
             this.label3.TabIndex = 46;
@@ -120,7 +120,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // txtCodigoCrearModificar
             // 
             this.txtCodigoCrearModificar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.txtCodigoCrearModificar.Location = new System.Drawing.Point(116, 167);
+            this.txtCodigoCrearModificar.Location = new System.Drawing.Point(116, 159);
             this.txtCodigoCrearModificar.MaxLength = 6;
             this.txtCodigoCrearModificar.Multiline = true;
             this.txtCodigoCrearModificar.Name = "txtCodigoCrearModificar";
@@ -134,7 +134,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(35, 175);
+            this.label1.Location = new System.Drawing.Point(35, 162);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 20);
             this.label1.TabIndex = 42;
@@ -165,7 +165,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             this.txtIdentificacionEmpleadoModificar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtIdentificacionEmpleadoModificar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.txtIdentificacionEmpleadoModificar.Location = new System.Drawing.Point(545, 169);
+            this.txtIdentificacionEmpleadoModificar.Location = new System.Drawing.Point(545, 161);
             this.txtIdentificacionEmpleadoModificar.Multiline = true;
             this.txtIdentificacionEmpleadoModificar.Name = "txtIdentificacionEmpleadoModificar";
             this.txtIdentificacionEmpleadoModificar.Size = new System.Drawing.Size(220, 28);
@@ -177,7 +177,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(398, 172);
+            this.label6.Location = new System.Drawing.Point(398, 164);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(141, 20);
             this.label6.TabIndex = 38;
@@ -219,7 +219,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(398, 227);
+            this.label4.Location = new System.Drawing.Point(398, 222);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 20);
             this.label4.TabIndex = 34;
@@ -257,7 +257,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             this.btnEditar.IconColor = System.Drawing.Color.White;
             this.btnEditar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnEditar.IconSize = 30;
-            this.btnEditar.Location = new System.Drawing.Point(621, 376);
+            this.btnEditar.Location = new System.Drawing.Point(621, 397);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(141, 47);
@@ -293,7 +293,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             this.btnLimpiar.IconColor = System.Drawing.Color.White;
             this.btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiar.IconSize = 30;
-            this.btnLimpiar.Location = new System.Drawing.Point(459, 376);
+            this.btnLimpiar.Location = new System.Drawing.Point(459, 397);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(141, 47);
@@ -316,7 +316,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 30;
-            this.btnSalir.Location = new System.Drawing.Point(298, 376);
+            this.btnSalir.Location = new System.Drawing.Point(298, 397);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(141, 47);
@@ -331,10 +331,11 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 471);
             this.Controls.Add(this.panel2);
             this.Name = "EmpleadoActualizarForm";
-            this.Text = "EmpleadoActualizarForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Empleado - Actualizar";
             this.Load += new System.EventHandler(this.EmpleadoActualizarForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

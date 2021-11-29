@@ -393,7 +393,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             this.Controls.Add(this.panel1);
             this.Name = "ClienteCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ClienteCrearForm";
+            this.Text = "Cliente - Crear";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

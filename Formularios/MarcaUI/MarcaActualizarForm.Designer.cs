@@ -141,7 +141,7 @@ namespace ProyectoFinalPooJA.Formularios.MarcaUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(34, 116);
+            this.label2.Location = new System.Drawing.Point(34, 119);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 18);
@@ -169,7 +169,8 @@ namespace ProyectoFinalPooJA.Formularios.MarcaUI
             this.ClientSize = new System.Drawing.Size(639, 263);
             this.Controls.Add(this.panel1);
             this.Name = "MarcaActualizarForm";
-            this.Text = "MarcaActualizarForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Marca - Actualizar";
             this.Load += new System.EventHandler(this.MarcaActualizarForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

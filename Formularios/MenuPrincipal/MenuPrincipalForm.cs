@@ -296,6 +296,8 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         {
 
             openSubMenuForm(new ReportesUI.ReporteEntregas());
+            ActivateButton(sender, RBColors.color5);
+            hideSubMenu();
 
         }
         public void openSubMenuForm(object formSM)
@@ -373,6 +375,11 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
         private void btnVehiculo_Click(object sender, EventArgs e)
         {
             openSubMenuForm(new VehiculoUI.VehiculoViewForm());
+        }
+
+        private void panelDesktop_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

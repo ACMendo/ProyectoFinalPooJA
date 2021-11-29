@@ -142,7 +142,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(168, 20);
             this.label7.TabIndex = 80;
-            this.label7.Text = "Tipo de Vehiculo";
+            this.label7.Text = "Tipo de Vehículo";
             // 
             // label3
             // 
@@ -457,7 +457,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.Controls.Add(this.panel2);
             this.Name = "VehiculoCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "VehiculoCrearForm";
+            this.Text = "Vehículo - Crear";
             this.Load += new System.EventHandler(this.VehiculoCrearForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

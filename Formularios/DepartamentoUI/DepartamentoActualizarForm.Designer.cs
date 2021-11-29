@@ -70,7 +70,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(26, 118);
+            this.label3.Location = new System.Drawing.Point(26, 113);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(145, 20);
             this.label3.TabIndex = 14;
@@ -165,7 +165,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             this.Controls.Add(this.panel1);
             this.Name = "DepartamentoActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DepartamentoActualizarForm";
+            this.Text = "Departamento - Actualizar";
             this.Load += new System.EventHandler(this.DepartamentoActualizarForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

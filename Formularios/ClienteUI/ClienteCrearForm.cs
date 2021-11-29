@@ -44,13 +44,13 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
                         Correo = txtCorreo.Text,
                         Direccion = txtDireccion.Text,
                         Identificacion = txtIdentificacion.Text,
-                        Telefono = txtIdentificacion.Text,
+                        Telefono = txtTelefono.Text,
                         Tipo_Identificacion = cbxTipo_Indentificacion.Text
                     };
                     try
                     {
                         _clienteRepository.Crear(cliente);
-                        MessageBox.Show("¡Cargo creado exitosamente!");
+                        MessageBox.Show("¡Cliente creado exitosamente!");
                         this.Close();
 
                     }

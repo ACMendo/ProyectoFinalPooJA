@@ -260,7 +260,7 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             this.Controls.Add(this.panel2);
             this.Name = "IncidenciaActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "IncidenciaActualizarForm";
+            this.Text = "Incidencia - Actualizar";
             this.Load += new System.EventHandler(this.IncidenciaActualizarForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
