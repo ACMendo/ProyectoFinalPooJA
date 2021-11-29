@@ -54,8 +54,16 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
 
         private void btnExcel_Click(object sender, EventArgs e)
         {
-            string nombreArchivo = $"d:\\Reporte Entregas -{ DateTime.Now : dd-MM-yyyy_hhmmss tt}.xlsx";
-            new Reports().GenerateExcelEntregas(entregas,nombreArchivo);
+            try
+            {
+                string nombreArchivo = $"d:\\Reporte Entregas -{ DateTime.Now: dd-MM-yyyy_hhmmss tt}.xlsx";
+                new Reports().GenerateExcelEntregas(entregas, nombreArchivo);
+                MessageBox.Show("Excel Generado en la ruta:  d:\\");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error generando excel, Error: " + ex.Message);
+            }           
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
