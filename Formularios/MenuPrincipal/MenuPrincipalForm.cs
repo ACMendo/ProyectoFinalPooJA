@@ -222,7 +222,8 @@ namespace ProyectoFinalPooJA.Formularios.MenuPrincipal
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
-            this.panelDesktop.Controls.RemoveAt(0);
+            if (panelDesktop.Controls.Count > 0)
+                this.panelDesktop.Controls.RemoveAt(0);
             ActivateButton(sender, RBColors.color1);
             openSubMenuForm(new Inicio());
         }
