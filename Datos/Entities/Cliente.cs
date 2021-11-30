@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ namespace ProyectoFinalPooJA.Datos.Entities
         public string Correo { get; set; }
         public string Telefono { get; set; }
         public string Identificacion { get; set; }
+        [DisplayName("Tipo Identificacion")]
         public string Tipo_Identificacion { get; set; }
         public List<Entrega> Entregas { get; set; }
         
