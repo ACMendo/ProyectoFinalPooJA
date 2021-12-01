@@ -323,6 +323,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(858, 555);
             this.Controls.Add(this.panel2);
+            this.MaximizeBox = false;
             this.Name = "EntregaCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Entrega - Crear";

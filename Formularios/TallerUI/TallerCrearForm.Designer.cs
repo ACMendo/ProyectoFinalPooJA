@@ -212,9 +212,10 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(675, 406);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "TallerCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TallerCrearForm";
+            this.Text = "Taller - Crear";
             this.Load += new System.EventHandler(this.TallerCrearForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

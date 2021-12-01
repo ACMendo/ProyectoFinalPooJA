@@ -333,6 +333,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 471);
             this.Controls.Add(this.panel2);
+            this.MaximizeBox = false;
             this.Name = "EmpleadoActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Empleado - Actualizar";

@@ -51,6 +51,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.Location = new System.Drawing.Point(280, 64);
             this.label1.Size = new System.Drawing.Size(341, 29);
             this.label1.Text = "Mantenimiento - Colores";

@@ -51,6 +51,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.Location = new System.Drawing.Point(258, 64);
             this.label1.Size = new System.Drawing.Size(387, 29);
             this.label1.Text = "Mantenimiento - Empleados";

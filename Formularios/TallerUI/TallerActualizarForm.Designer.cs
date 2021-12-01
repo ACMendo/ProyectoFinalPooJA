@@ -30,6 +30,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblNombreCrearTipoVehiculo = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtTelefonoTallerModificar = new System.Windows.Forms.TextBox();
             this.txtDireccionTallerModificar = new System.Windows.Forms.TextBox();
@@ -39,7 +40,6 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.btnEditar = new FontAwesome.Sharp.IconButton();
             this.txtNombreTallerModificar = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblNombreCrearTipoVehiculo = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,6 +62,16 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(675, 406);
             this.panel1.TabIndex = 4;
+            // 
+            // lblNombreCrearTipoVehiculo
+            // 
+            this.lblNombreCrearTipoVehiculo.AutoSize = true;
+            this.lblNombreCrearTipoVehiculo.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.lblNombreCrearTipoVehiculo.Location = new System.Drawing.Point(26, 109);
+            this.lblNombreCrearTipoVehiculo.Name = "lblNombreCrearTipoVehiculo";
+            this.lblNombreCrearTipoVehiculo.Size = new System.Drawing.Size(84, 20);
+            this.lblNombreCrearTipoVehiculo.TabIndex = 22;
+            this.lblNombreCrearTipoVehiculo.Text = "Nombre";
             // 
             // label3
             // 
@@ -198,25 +208,16 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.label1.Text = "Formulario";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblNombreCrearTipoVehiculo
-            // 
-            this.lblNombreCrearTipoVehiculo.AutoSize = true;
-            this.lblNombreCrearTipoVehiculo.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.lblNombreCrearTipoVehiculo.Location = new System.Drawing.Point(26, 109);
-            this.lblNombreCrearTipoVehiculo.Name = "lblNombreCrearTipoVehiculo";
-            this.lblNombreCrearTipoVehiculo.Size = new System.Drawing.Size(84, 20);
-            this.lblNombreCrearTipoVehiculo.TabIndex = 22;
-            this.lblNombreCrearTipoVehiculo.Text = "Nombre";
-            // 
             // TallerActualizarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(675, 406);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "TallerActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TallerActualizarForm";
+            this.Text = "Taller - Actualizar";
             this.Load += new System.EventHandler(this.TallerActualizarForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

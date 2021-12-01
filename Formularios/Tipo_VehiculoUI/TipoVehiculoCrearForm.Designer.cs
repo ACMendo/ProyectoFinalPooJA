@@ -195,6 +195,7 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 353);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "TipoVehiculoCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tipo de Vehículo - Crear";

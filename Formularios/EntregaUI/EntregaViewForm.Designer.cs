@@ -51,6 +51,7 @@ namespace ProyectoFinalPooJA.Formularios.EntregaUI
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(138)))), ((int)(((byte)(114)))));
             this.label1.Location = new System.Drawing.Point(394, 54);
             this.label1.Size = new System.Drawing.Size(132, 29);

@@ -455,6 +455,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(858, 648);
             this.Controls.Add(this.panel2);
+            this.MaximizeBox = false;
             this.Name = "VehiculoCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vehículo - Crear";

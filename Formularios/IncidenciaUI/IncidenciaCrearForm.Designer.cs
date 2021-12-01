@@ -252,6 +252,7 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(858, 429);
             this.Controls.Add(this.panel2);
+            this.MaximizeBox = false;
             this.Name = "IncidenciaCrearForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Incidencia - Crear";

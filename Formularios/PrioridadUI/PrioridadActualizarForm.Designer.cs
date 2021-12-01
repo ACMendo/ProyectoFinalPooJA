@@ -246,6 +246,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(548, 338);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "PrioridadActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Prioridad - Actualizar";

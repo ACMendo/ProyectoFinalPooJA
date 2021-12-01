@@ -168,6 +168,7 @@ namespace ProyectoFinalPooJA.Formularios.MarcaUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(639, 263);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "MarcaActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Marca - Actualizar";

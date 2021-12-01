@@ -289,6 +289,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel2);
+            this.MaximizeBox = false;
             this.Name = "ClienteActualizarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cliente - Actualizar";
