@@ -72,31 +72,36 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             // 
             // cbxVehiculo
             // 
+            this.cbxVehiculo.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbxVehiculo.FormattingEnabled = true;
             this.cbxVehiculo.Location = new System.Drawing.Point(544, 176);
             this.cbxVehiculo.Name = "cbxVehiculo";
-            this.cbxVehiculo.Size = new System.Drawing.Size(276, 24);
+            this.cbxVehiculo.Size = new System.Drawing.Size(276, 28);
             this.cbxVehiculo.TabIndex = 28;
             // 
             // dtpFechaSalida
             // 
+            this.dtpFechaSalida.CalendarFont = new System.Drawing.Font("Verdana", 10.2F);
+            this.dtpFechaSalida.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.dtpFechaSalida.Location = new System.Drawing.Point(592, 116);
             this.dtpFechaSalida.Name = "dtpFechaSalida";
-            this.dtpFechaSalida.Size = new System.Drawing.Size(229, 22);
+            this.dtpFechaSalida.Size = new System.Drawing.Size(229, 28);
             this.dtpFechaSalida.TabIndex = 27;
             // 
             // dtpFechaEntrada
             // 
+            this.dtpFechaEntrada.CalendarFont = new System.Drawing.Font("Verdana", 10.2F);
+            this.dtpFechaEntrada.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.dtpFechaEntrada.Location = new System.Drawing.Point(185, 116);
             this.dtpFechaEntrada.Name = "dtpFechaEntrada";
-            this.dtpFechaEntrada.Size = new System.Drawing.Size(229, 22);
+            this.dtpFechaEntrada.Size = new System.Drawing.Size(229, 28);
             this.dtpFechaEntrada.TabIndex = 26;
             // 
             // txtDescripcion
             // 
             this.txtDescripcion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDescripcion.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtDescripcion.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtDescripcion.Location = new System.Drawing.Point(185, 228);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
@@ -125,10 +130,11 @@ namespace ProyectoFinalPooJA.Formularios.IncidenciaUI
             // 
             // cbxTaller
             // 
+            this.cbxTaller.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbxTaller.FormattingEnabled = true;
             this.cbxTaller.Location = new System.Drawing.Point(119, 172);
             this.cbxTaller.Name = "cbxTaller";
-            this.cbxTaller.Size = new System.Drawing.Size(294, 24);
+            this.cbxTaller.Size = new System.Drawing.Size(294, 28);
             this.cbxTaller.TabIndex = 20;
             // 
             // label6

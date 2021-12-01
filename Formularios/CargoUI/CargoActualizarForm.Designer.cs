@@ -72,11 +72,11 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             this.txtCargoActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCargoActualizar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCargoActualizar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCargoActualizar.Location = new System.Drawing.Point(122, 116);
             this.txtCargoActualizar.Margin = new System.Windows.Forms.Padding(4);
             this.txtCargoActualizar.Name = "txtCargoActualizar";
-            this.txtCargoActualizar.Size = new System.Drawing.Size(485, 26);
+            this.txtCargoActualizar.Size = new System.Drawing.Size(485, 28);
             this.txtCargoActualizar.TabIndex = 2;
             // 
             // btnEditar

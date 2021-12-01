@@ -60,6 +60,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             // 
             // cbMarcaCrear
             // 
+            this.cbMarcaCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbMarcaCrear.FormattingEnabled = true;
             this.cbMarcaCrear.Items.AddRange(new object[] {
             "0",
@@ -115,7 +116,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             "50"});
             this.cbMarcaCrear.Location = new System.Drawing.Point(145, 177);
             this.cbMarcaCrear.Name = "cbMarcaCrear";
-            this.cbMarcaCrear.Size = new System.Drawing.Size(412, 24);
+            this.cbMarcaCrear.Size = new System.Drawing.Size(412, 28);
             this.cbMarcaCrear.TabIndex = 15;
             // 
             // label2
@@ -132,7 +133,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             // 
             this.txtNombreModeloCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombreModeloCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtNombreModeloCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtNombreModeloCrear.Location = new System.Drawing.Point(145, 108);
             this.txtNombreModeloCrear.Multiline = true;
             this.txtNombreModeloCrear.Name = "txtNombreModeloCrear";

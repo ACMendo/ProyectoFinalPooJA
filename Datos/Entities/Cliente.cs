@@ -10,11 +10,14 @@ namespace ProyectoFinalPooJA.Datos.Entities
     public class Cliente : BaseEntity
     {
         public string Nombre { get; set; }
+        [DisplayName("Dirección")]
         public string Direccion { get; set; }
         public string Correo { get; set; }
+        [DisplayName("Teléfono")]
         public string Telefono { get; set; }
+        [DisplayName("Identificación")]
         public string Identificacion { get; set; }
-        [DisplayName("Tipo Identificacion")]
+        [DisplayName("Tipo Identificación")]
         public string Tipo_Identificacion { get; set; }
         public List<Entrega> Entregas { get; set; }
         

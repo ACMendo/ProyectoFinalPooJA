@@ -87,7 +87,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             // 
             this.txtTelefonoTallerModificar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTelefonoTallerModificar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtTelefonoTallerModificar.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtTelefonoTallerModificar.Location = new System.Drawing.Point(145, 164);
             this.txtTelefonoTallerModificar.Multiline = true;
             this.txtTelefonoTallerModificar.Name = "txtTelefonoTallerModificar";
@@ -98,7 +98,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             // 
             this.txtDireccionTallerModificar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDireccionTallerModificar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtDireccionTallerModificar.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtDireccionTallerModificar.Location = new System.Drawing.Point(145, 218);
             this.txtDireccionTallerModificar.Multiline = true;
             this.txtDireccionTallerModificar.Name = "txtDireccionTallerModificar";
@@ -187,11 +187,11 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             this.txtNombreTallerModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombreTallerModificar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreTallerModificar.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtNombreTallerModificar.Location = new System.Drawing.Point(145, 108);
             this.txtNombreTallerModificar.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreTallerModificar.Name = "txtNombreTallerModificar";
-            this.txtNombreTallerModificar.Size = new System.Drawing.Size(494, 26);
+            this.txtNombreTallerModificar.Size = new System.Drawing.Size(494, 28);
             this.txtNombreTallerModificar.TabIndex = 2;
             // 
             // label1

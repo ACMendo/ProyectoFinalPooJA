@@ -60,6 +60,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             // 
             // cbHoras
             // 
+            this.cbHoras.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbHoras.FormattingEnabled = true;
             this.cbHoras.Items.AddRange(new object[] {
             "0",
@@ -115,7 +116,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             "50"});
             this.cbHoras.Location = new System.Drawing.Point(133, 177);
             this.cbHoras.Name = "cbHoras";
-            this.cbHoras.Size = new System.Drawing.Size(129, 24);
+            this.cbHoras.Size = new System.Drawing.Size(129, 28);
             this.cbHoras.TabIndex = 15;
             // 
             // label2
@@ -132,7 +133,7 @@ namespace ProyectoFinalPooJA.Formularios.PrioridadUI
             // 
             this.txtNombrePrioridadCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombrePrioridadCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtNombrePrioridadCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtNombrePrioridadCrear.Location = new System.Drawing.Point(133, 113);
             this.txtNombrePrioridadCrear.Multiline = true;
             this.txtNombrePrioridadCrear.Name = "txtNombrePrioridadCrear";

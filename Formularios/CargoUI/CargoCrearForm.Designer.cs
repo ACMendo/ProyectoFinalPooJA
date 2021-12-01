@@ -76,7 +76,7 @@ namespace ProyectoFinalPooJA.Formularios.CargoUI
             // 
             this.txtCargoCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCargoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtCargoCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtCargoCrear.Location = new System.Drawing.Point(122, 108);
             this.txtCargoCrear.Multiline = true;
             this.txtCargoCrear.Name = "txtCargoCrear";

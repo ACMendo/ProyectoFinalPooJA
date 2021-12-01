@@ -57,7 +57,7 @@ namespace ProyectoFinalPooJA.Formularios.MarcaUI
             // 
             this.txtMarcaCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMarcaCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtMarcaCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtMarcaCrear.Location = new System.Drawing.Point(122, 108);
             this.txtMarcaCrear.Multiline = true;
             this.txtMarcaCrear.Name = "txtMarcaCrear";

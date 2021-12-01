@@ -10,15 +10,14 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
     public class EmpleadoView
     {
         public int ID { get; set; }
+        [DisplayName("Código Empleado")]
+        public int Codigo_Empleado { get; set; }
 
         [DisplayName("Nombre Completo")]
         public string Nombre { get; set; }
 
         [DisplayName("Cédula")]
         public string Cedula { get; set; }
-
-        [DisplayName("Código Empleado")]
-        public int Codigo_Empleado { get; set; }
 
         public string Correo { get; set; }
 

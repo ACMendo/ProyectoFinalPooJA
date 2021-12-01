@@ -127,11 +127,11 @@ namespace ProyectoFinalPooJA.Formularios.MarcaUI
             this.txtMarcaActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMarcaActualizar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMarcaActualizar.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtMarcaActualizar.Location = new System.Drawing.Point(122, 116);
             this.txtMarcaActualizar.Margin = new System.Windows.Forms.Padding(4);
             this.txtMarcaActualizar.Name = "txtMarcaActualizar";
-            this.txtMarcaActualizar.Size = new System.Drawing.Size(485, 26);
+            this.txtMarcaActualizar.Size = new System.Drawing.Size(485, 28);
             this.txtMarcaActualizar.TabIndex = 2;
             // 
             // label2

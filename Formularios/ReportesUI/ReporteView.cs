@@ -14,6 +14,7 @@ namespace ProyectoFinalPooJA.Formularios.ReportesUI
         public DateTime Fecha_Salida { get; set; }
         [DisplayName("Fecha de Regreso")]
         public DateTime Fecha_Regreso { get; set; }
+        [DisplayName("Descripción")]
         public string Descripcion { get; set; }
         public string Peso { get; set; }
         public string Empleado { get; set; }

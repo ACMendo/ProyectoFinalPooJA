@@ -104,7 +104,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             // 
             this.txtDireccion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDireccion.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtDireccion.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtDireccion.Location = new System.Drawing.Point(154, 284);
             this.txtDireccion.Multiline = true;
             this.txtDireccion.Name = "txtDireccion";
@@ -133,20 +133,21 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             // 
             // cbxTipo_Indentificacion
             // 
+            this.cbxTipo_Indentificacion.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbxTipo_Indentificacion.FormattingEnabled = true;
             this.cbxTipo_Indentificacion.Items.AddRange(new object[] {
             "Cédula",
             "RNC"});
             this.cbxTipo_Indentificacion.Location = new System.Drawing.Point(154, 174);
             this.cbxTipo_Indentificacion.Name = "cbxTipo_Indentificacion";
-            this.cbxTipo_Indentificacion.Size = new System.Drawing.Size(195, 24);
+            this.cbxTipo_Indentificacion.Size = new System.Drawing.Size(195, 28);
             this.cbxTipo_Indentificacion.TabIndex = 20;
             // 
             // txtIdentificacion
             // 
             this.txtIdentificacion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtIdentificacion.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtIdentificacion.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtIdentificacion.Location = new System.Drawing.Point(524, 177);
             this.txtIdentificacion.Multiline = true;
             this.txtIdentificacion.Name = "txtIdentificacion";
@@ -167,7 +168,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtTelefono.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtTelefono.Location = new System.Drawing.Point(154, 229);
             this.txtTelefono.Multiline = true;
             this.txtTelefono.Name = "txtTelefono";
@@ -188,7 +189,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             // 
             this.txtCorreo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCorreo.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtCorreo.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtCorreo.Location = new System.Drawing.Point(462, 229);
             this.txtCorreo.Multiline = true;
             this.txtCorreo.Name = "txtCorreo";
@@ -211,7 +212,7 @@ namespace ProyectoFinalPooJA.Formularios.ClienteUI
             // 
             this.txtNombre.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombre.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtNombre.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtNombre.Location = new System.Drawing.Point(220, 113);
             this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";

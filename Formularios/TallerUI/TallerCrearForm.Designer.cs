@@ -76,7 +76,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             // 
             this.txtTelefonoTallerCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTelefonoTallerCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtTelefonoTallerCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtTelefonoTallerCrear.Location = new System.Drawing.Point(145, 164);
             this.txtTelefonoTallerCrear.Multiline = true;
             this.txtTelefonoTallerCrear.Name = "txtTelefonoTallerCrear";
@@ -87,7 +87,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             // 
             this.txtDireccionCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDireccionCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtDireccionCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtDireccionCrear.Location = new System.Drawing.Point(145, 218);
             this.txtDireccionCrear.Multiline = true;
             this.txtDireccionCrear.Name = "txtDireccionCrear";
@@ -108,7 +108,7 @@ namespace ProyectoFinalPooJA.Formularios.TallerUI
             // 
             this.txtNombreTallerCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombreTallerCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtNombreTallerCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtNombreTallerCrear.Location = new System.Drawing.Point(145, 108);
             this.txtNombreTallerCrear.Multiline = true;
             this.txtNombreTallerCrear.Name = "txtNombreTallerCrear";

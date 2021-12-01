@@ -78,7 +78,7 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
             this.txtDescripcionTipoModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDescripcionTipoModificar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescripcionTipoModificar.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtDescripcionTipoModificar.Location = new System.Drawing.Point(165, 170);
             this.txtDescripcionTipoModificar.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescripcionTipoModificar.Multiline = true;
@@ -158,11 +158,11 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
             this.txtNombreTipoModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombreTipoModificar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreTipoModificar.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtNombreTipoModificar.Location = new System.Drawing.Point(165, 108);
             this.txtNombreTipoModificar.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreTipoModificar.Name = "txtNombreTipoModificar";
-            this.txtNombreTipoModificar.Size = new System.Drawing.Size(466, 26);
+            this.txtNombreTipoModificar.Size = new System.Drawing.Size(466, 28);
             this.txtNombreTipoModificar.TabIndex = 2;
             // 
             // label2

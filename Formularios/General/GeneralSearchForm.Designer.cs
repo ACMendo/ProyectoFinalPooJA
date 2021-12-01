@@ -73,6 +73,7 @@ namespace ProyectoFinalPooJA.Formularios.General
             // 
             // txtFiltro
             // 
+            this.txtFiltro.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtFiltro.Location = new System.Drawing.Point(31, 32);
             this.txtFiltro.Name = "txtFiltro";
             this.txtFiltro.Size = new System.Drawing.Size(297, 28);

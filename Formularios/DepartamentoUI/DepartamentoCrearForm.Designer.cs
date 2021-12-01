@@ -58,7 +58,7 @@ namespace ProyectoFinalPooJA.Formularios.DepartamentoUI
             // 
             this.txtDepartamento.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDepartamento.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtDepartamento.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtDepartamento.Location = new System.Drawing.Point(201, 108);
             this.txtDepartamento.Multiline = true;
             this.txtDepartamento.Name = "txtDepartamento";

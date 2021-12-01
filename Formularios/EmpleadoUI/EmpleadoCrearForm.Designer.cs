@@ -84,9 +84,10 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             // dpNacimientoEmpleadoCrear
             // 
+            this.dpNacimientoEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.dpNacimientoEmpleadoCrear.Location = new System.Drawing.Point(220, 345);
             this.dpNacimientoEmpleadoCrear.Name = "dpNacimientoEmpleadoCrear";
-            this.dpNacimientoEmpleadoCrear.Size = new System.Drawing.Size(262, 22);
+            this.dpNacimientoEmpleadoCrear.Size = new System.Drawing.Size(262, 28);
             this.dpNacimientoEmpleadoCrear.TabIndex = 31;
             // 
             // label3
@@ -103,23 +104,25 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             // cbDepartamentoEmpeladoCrear
             // 
+            this.cbDepartamentoEmpeladoCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbDepartamentoEmpeladoCrear.FormattingEnabled = true;
             this.cbDepartamentoEmpeladoCrear.Location = new System.Drawing.Point(184, 235);
             this.cbDepartamentoEmpeladoCrear.Name = "cbDepartamentoEmpeladoCrear";
-            this.cbDepartamentoEmpeladoCrear.Size = new System.Drawing.Size(195, 24);
+            this.cbDepartamentoEmpeladoCrear.Size = new System.Drawing.Size(195, 28);
             this.cbDepartamentoEmpeladoCrear.TabIndex = 27;
             // 
             // cbCargoEmpeladoCrear
             // 
+            this.cbCargoEmpeladoCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbCargoEmpeladoCrear.FormattingEnabled = true;
             this.cbCargoEmpeladoCrear.Location = new System.Drawing.Point(466, 236);
             this.cbCargoEmpeladoCrear.Name = "cbCargoEmpeladoCrear";
-            this.cbCargoEmpeladoCrear.Size = new System.Drawing.Size(297, 24);
+            this.cbCargoEmpeladoCrear.Size = new System.Drawing.Size(297, 28);
             this.cbCargoEmpeladoCrear.TabIndex = 26;
             // 
             // txtCodigoEmpleadoCrear
             // 
-            this.txtCodigoEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtCodigoEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtCodigoEmpleadoCrear.Location = new System.Drawing.Point(114, 174);
             this.txtCodigoEmpleadoCrear.MaxLength = 6;
             this.txtCodigoEmpleadoCrear.Multiline = true;
@@ -164,7 +167,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             this.txtIdentificacionEmpleadoCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtIdentificacionEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtIdentificacionEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtIdentificacionEmpleadoCrear.Location = new System.Drawing.Point(543, 176);
             this.txtIdentificacionEmpleadoCrear.Multiline = true;
             this.txtIdentificacionEmpleadoCrear.Name = "txtIdentificacionEmpleadoCrear";
@@ -185,7 +188,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             // txtTelefonoEmpleadoCrear
             // 
-            this.txtTelefonoEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtTelefonoEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtTelefonoEmpleadoCrear.Location = new System.Drawing.Point(507, 292);
             this.txtTelefonoEmpleadoCrear.Multiline = true;
             this.txtTelefonoEmpleadoCrear.Name = "txtTelefonoEmpleadoCrear";
@@ -206,7 +209,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             this.txtCorreoEmpleadoCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCorreoEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtCorreoEmpleadoCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtCorreoEmpleadoCrear.Location = new System.Drawing.Point(114, 287);
             this.txtCorreoEmpleadoCrear.Multiline = true;
             this.txtCorreoEmpleadoCrear.Name = "txtCorreoEmpleadoCrear";
@@ -229,7 +232,7 @@ namespace ProyectoFinalPooJA.Formularios.EmpleadoUI
             // 
             this.txtNombreCrearEmpleado.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombreCrearEmpleado.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtNombreCrearEmpleado.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtNombreCrearEmpleado.Location = new System.Drawing.Point(220, 113);
             this.txtNombreCrearEmpleado.Multiline = true;
             this.txtNombreCrearEmpleado.Name = "txtNombreCrearEmpleado";

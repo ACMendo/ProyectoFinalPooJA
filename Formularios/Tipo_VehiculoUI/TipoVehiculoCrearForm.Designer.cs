@@ -126,7 +126,7 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
             // 
             this.txtNombreTipoVehicuoCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombreTipoVehicuoCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtNombreTipoVehicuoCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtNombreTipoVehicuoCrear.Location = new System.Drawing.Point(165, 108);
             this.txtNombreTipoVehicuoCrear.Multiline = true;
             this.txtNombreTipoVehicuoCrear.Name = "txtNombreTipoVehicuoCrear";
@@ -137,7 +137,7 @@ namespace ProyectoFinalPooJA.Formularios.Tipo_VehiculoUI
             // 
             this.txtDescricionCrear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDescricionCrear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtDescricionCrear.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtDescricionCrear.Location = new System.Drawing.Point(165, 170);
             this.txtDescricionCrear.Multiline = true;
             this.txtDescricionCrear.Name = "txtDescricionCrear";

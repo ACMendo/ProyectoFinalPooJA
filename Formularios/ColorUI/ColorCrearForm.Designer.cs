@@ -58,7 +58,7 @@ namespace ProyectoFinalPooJA.Formularios.ColorUI
             // 
             this.txtColor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtColor.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtColor.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtColor.Location = new System.Drawing.Point(122, 108);
             this.txtColor.Multiline = true;
             this.txtColor.Name = "txtColor";

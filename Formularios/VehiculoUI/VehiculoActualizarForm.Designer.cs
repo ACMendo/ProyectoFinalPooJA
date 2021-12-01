@@ -219,6 +219,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.cbxColor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbxColor.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbxColor.FormattingEnabled = true;
             this.cbxColor.Items.AddRange(new object[] {
             "Cédula",
@@ -247,6 +248,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.cbxModelo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbxModelo.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbxModelo.FormattingEnabled = true;
             this.cbxModelo.Items.AddRange(new object[] {
             "Cédula",
@@ -275,6 +277,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.cbxCombustible.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbxCombustible.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbxCombustible.FormattingEnabled = true;
             this.cbxCombustible.Items.AddRange(new object[] {
             "Disel",
@@ -289,7 +292,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.txtPlaca.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPlaca.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtPlaca.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtPlaca.Location = new System.Drawing.Point(482, 46);
             this.txtPlaca.Multiline = true;
             this.txtPlaca.Name = "txtPlaca";
@@ -329,6 +332,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.cbxTransmision.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbxTransmision.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbxTransmision.FormattingEnabled = true;
             this.cbxTransmision.Items.AddRange(new object[] {
             "Manual",
@@ -344,7 +348,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.txtAno.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAno.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtAno.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtAno.Location = new System.Drawing.Point(549, 213);
             this.txtAno.Multiline = true;
             this.txtAno.Name = "txtAno";
@@ -370,7 +374,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.txtChasis.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtChasis.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.txtChasis.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtChasis.Location = new System.Drawing.Point(128, 46);
             this.txtChasis.Multiline = true;
             this.txtChasis.Name = "txtChasis";
@@ -424,6 +428,7 @@ namespace ProyectoFinalPooJA.Formularios.VehiculoUI
             this.cbxEmpleado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbxEmpleado.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbxEmpleado.FormattingEnabled = true;
             this.cbxEmpleado.Items.AddRange(new object[] {
             "Cédula",

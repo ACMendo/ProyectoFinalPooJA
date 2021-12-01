@@ -61,6 +61,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             // 
             // cbMarcaModificar
             // 
+            this.cbMarcaModificar.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.cbMarcaModificar.FormattingEnabled = true;
             this.cbMarcaModificar.Items.AddRange(new object[] {
             "0",
@@ -116,7 +117,7 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             "50"});
             this.cbMarcaModificar.Location = new System.Drawing.Point(145, 177);
             this.cbMarcaModificar.Name = "cbMarcaModificar";
-            this.cbMarcaModificar.Size = new System.Drawing.Size(412, 24);
+            this.cbMarcaModificar.Size = new System.Drawing.Size(412, 28);
             this.cbMarcaModificar.TabIndex = 16;
             // 
             // label3
@@ -205,11 +206,11 @@ namespace ProyectoFinalPooJA.Formularios.ModelosUI
             this.txtNombrePrioridadModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombrePrioridadModificar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombrePrioridadModificar.Font = new System.Drawing.Font("Verdana", 10.2F);
             this.txtNombrePrioridadModificar.Location = new System.Drawing.Point(145, 108);
             this.txtNombrePrioridadModificar.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombrePrioridadModificar.Name = "txtNombrePrioridadModificar";
-            this.txtNombrePrioridadModificar.Size = new System.Drawing.Size(412, 26);
+            this.txtNombrePrioridadModificar.Size = new System.Drawing.Size(412, 28);
             this.txtNombrePrioridadModificar.TabIndex = 2;
             // 
             // label2
